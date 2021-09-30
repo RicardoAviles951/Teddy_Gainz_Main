@@ -1,2 +1,2 @@
-# Teddy_gainz_main
- Main branch for the Teddy Gainz project.
+# Teddy_Gainz_Main
+ Main branch for the Teddy Gainz project
