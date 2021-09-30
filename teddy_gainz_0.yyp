@@ -1,5 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"tile_level1","path":"tilesets/tile_level1/tile_level1.yy",},"order":0,},
+    {"id":{"name":"spr_enemy_strip4","path":"sprites/spr_enemy_strip4/spr_enemy_strip4.yy",},"order":1,},
+    {"id":{"name":"spr_level1Tiles","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
