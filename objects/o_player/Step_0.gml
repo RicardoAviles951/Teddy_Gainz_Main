@@ -5,3 +5,5 @@ if (state == states.normal){
 else if (state == states.dash){
 	dash_state();
 }
+
+
