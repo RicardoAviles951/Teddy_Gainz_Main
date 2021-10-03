@@ -3,7 +3,7 @@
 function check_jump(){
 var jump = false;
 
-if (key_jump) && place_meeting(x,y+vsp,o_wall)
+if (key_jump) && (tile_place_meeting(x,y+1,"Collision"))
 {
 	jump = true;
 }

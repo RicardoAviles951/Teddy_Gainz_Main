@@ -9,9 +9,9 @@ if (dashing){
 	x = x + hsp;
 }
 //Collisions
-if (place_meeting(x+hsp,y,o_wall))
+if (tile_place_meeting(x+hsp,y,"Collision"))
 {
-	while (!place_meeting(x+sign(hsp),y,o_wall))
+	while (!tile_place_meeting(x+sign(hsp),y,"Collision"))
 	{
 		x = x + sign(hsp);
 	}
