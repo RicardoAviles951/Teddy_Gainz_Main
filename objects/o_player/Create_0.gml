@@ -14,3 +14,6 @@ on_ground = false;
 dash_spd = 20;
 dashing = false;
 cooldown = 0;
+
+//For tile collisions
+tilemap = layer_tilemap_get_id("Collision");
