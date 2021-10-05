@@ -4,14 +4,14 @@ state = states.normal;
 //Movement Vars
 hsp = 0;
 vsp = 0;
-walk_spd = 8;
-acceleration =.6;
+walk_spd = 4;
+acceleration =.2;
 //Jumping and falling vars
 grv = .3;
 jump_spd = 6;
 on_ground = false;
 //Dashing vars
-dash_spd = 20;
+dash_spd = 10;
 dashing = false;
 cooldown = 0;
 

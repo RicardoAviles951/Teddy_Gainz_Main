@@ -1,10 +1,10 @@
 function normal_state(){
 get_input();
-calc_basic_movement();
+calc_smooth_movement();
 check_ground();
 check_jump();
 alt_tile_collisions();
-//anim;
+anim();
 	
 	if (key_dash)&& (cooldown <1){
 		state = states.dash;

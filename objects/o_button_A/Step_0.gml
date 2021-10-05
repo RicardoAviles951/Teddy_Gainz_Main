@@ -1,4 +1,4 @@
 
-y = y + sin(timer_A*.03) *.5;
+y = y + sin(timer_A*.05) *.2;
 
 timer_A++;

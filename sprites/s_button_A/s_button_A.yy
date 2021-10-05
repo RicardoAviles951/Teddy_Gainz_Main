@@ -25,8 +25,8 @@
   "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"e4d8f350-06eb-46d1-bd27-d68fd2dcd618","path":"sprites/s_button_A/s_button_A.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e4d8f350-06eb-46d1-bd27-d68fd2dcd618","path":"sprites/s_button_A/s_button_A.yy",},"LayerId":{"name":"b8a98c0c-7500-47af-a73d-d06873eff4a4","path":"sprites/s_button_A/s_button_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"e4d8f350-06eb-46d1-bd27-d68fd2dcd618","path":"sprites/s_button_A/s_button_A.yy",},"LayerId":{"name":"a8dafc5b-95d7-433e-8dda-ec187dc544f5","path":"sprites/s_button_A/s_button_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e4d8f350-06eb-46d1-bd27-d68fd2dcd618","path":"sprites/s_button_A/s_button_A.yy",},"LayerId":{"name":"b8a98c0c-7500-47af-a73d-d06873eff4a4","path":"sprites/s_button_A/s_button_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_button_A","path":"sprites/s_button_A/s_button_A.yy",},"resourceVersion":"1.0","name":"e4d8f350-06eb-46d1-bd27-d68fd2dcd618","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"0eb3c963-b281-4a33-9cfd-b833830931c1","path":"sprites/s_button_A/s_button_A.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0eb3c963-b281-4a33-9cfd-b833830931c1","path":"sprites/s_button_A/s_button_A.yy",},"LayerId":{"name":"a8dafc5b-95d7-433e-8dda-ec187dc544f5","path":"sprites/s_button_A/s_button_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -86,8 +86,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI Sprites",
+    "path": "folders/Sprites/UI Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_button_A",

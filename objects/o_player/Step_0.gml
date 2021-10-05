@@ -8,7 +8,7 @@ else if (state == states.dash){
 
 //Some temporary code to switch between levels quickly
 if (keyboard_check_pressed(ord("I"))) {
-	room_goto(1);
+	room_goto(Test_level);
 }
 if (keyboard_check_pressed(ord("O"))) {
 	room_goto(Tutorial);
