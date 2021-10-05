@@ -9,6 +9,7 @@
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},"order":0,},
     {"id":{"name":"s_button_A","path":"sprites/s_button_A/s_button_A.yy",},"order":0,},
     {"id":{"name":"normal_state","path":"scripts/normal_state/normal_state.yy",},"order":0,},
+    {"id":{"name":"snd_dash","path":"sounds/snd_dash/snd_dash.yy",},"order":0,},
     {"id":{"name":"tile_place_meeting","path":"scripts/tile_place_meeting/tile_place_meeting.yy",},"order":8,},
     {"id":{"name":"Lvl1","path":"rooms/Lvl1/Lvl1.yy",},"order":2,},
     {"id":{"name":"v1_tile_collisions","path":"scripts/v1_tile_collisions/v1_tile_collisions.yy",},"order":3,},
