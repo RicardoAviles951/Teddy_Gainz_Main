@@ -4,6 +4,7 @@ calc_smooth_movement();
 check_ground();
 check_jump();
 alt_tile_collisions();
+object_collisions();
 anim();
 	
 	if (key_dash)&& (cooldown <1){

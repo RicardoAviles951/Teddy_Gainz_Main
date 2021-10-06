@@ -5,11 +5,12 @@ if (state == states.normal){
 else if (state == states.dash){
 	dash_state();
 }
-
+show_debug_message(x);
+show_debug_message(y);
 //Some temporary code to switch between levels quickly
-if (keyboard_check_pressed(ord("I"))) {
-	room_goto(Test_level);
-}
 if (keyboard_check_pressed(ord("O"))) {
-	room_goto(Tutorial);
+	room_restart();
+	x=192;
+	y=256.30;
+	image_xscale = 1;
 }
