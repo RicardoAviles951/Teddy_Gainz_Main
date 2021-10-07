@@ -12,7 +12,7 @@
     {"id":{"name":"normal_state","path":"scripts/normal_state/normal_state.yy",},"order":0,},
     {"id":{"name":"snd_dash","path":"sounds/snd_dash/snd_dash.yy",},"order":0,},
     {"id":{"name":"tile_place_meeting","path":"scripts/tile_place_meeting/tile_place_meeting.yy",},"order":8,},
-    {"id":{"name":"Lvl1","path":"rooms/Lvl1/Lvl1.yy",},"order":2,},
+    {"id":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},"order":2,},
     {"id":{"name":"s_death_zone","path":"sprites/s_death_zone/s_death_zone.yy",},"order":8,},
     {"id":{"name":"v1_tile_collisions","path":"scripts/v1_tile_collisions/v1_tile_collisions.yy",},"order":3,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":2,},
@@ -53,7 +53,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
     {"roomId":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},},
-    {"roomId":{"name":"Lvl1","path":"rooms/Lvl1/Lvl1.yy",},},
+    {"roomId":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
