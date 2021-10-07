@@ -5,8 +5,8 @@ if (state == states.normal){
 else if (state == states.dash){
 	dash_state();
 }
-show_debug_message(x);
-show_debug_message(y);
+//show_debug_message(x);
+//show_debug_message(y);
 //Some temporary code to switch between levels quickly
 if (keyboard_check_pressed(ord("O"))) {
 	room_restart();
