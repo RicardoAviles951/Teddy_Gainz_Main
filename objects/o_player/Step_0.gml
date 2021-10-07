@@ -10,7 +10,7 @@ show_debug_message(y);
 //Some temporary code to switch between levels quickly
 if (keyboard_check_pressed(ord("O"))) {
 	room_restart();
-	x=192;
-	y=256.30;
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }

@@ -8,8 +8,8 @@ if (place_meeting(x+hsp,y,o_death_zone))
 	}
 	hsp = 0
 	room_restart();
-	x=192;
-	y=256.30;
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
 
@@ -24,8 +24,8 @@ if (place_meeting(x,y+vsp,o_death_zone))
 	}
 	vsp = 0;
 	room_restart();
-	x=192;
-	y=256.30;
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
 //y = y + vsp;
