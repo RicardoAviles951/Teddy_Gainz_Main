@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_level1Tiles",
-    "path": "sprites/spr_level1Tiles/spr_level1Tiles.yy",
+    "name": "s_level1Tiles",
+    "path": "sprites/s_level1Tiles/s_level1Tiles.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,

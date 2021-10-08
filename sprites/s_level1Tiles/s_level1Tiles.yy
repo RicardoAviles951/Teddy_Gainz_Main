@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"LayerId":{"name":"ebc415d1-a6df-4660-950c-8a0684b53c3c","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_level1Tiles","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"resourceVersion":"1.0","name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"LayerId":{"name":"ebc415d1-a6df-4660-950c-8a0684b53c3c","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_level1Tiles","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"resourceVersion":"1.0","name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_level1Tiles","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},
+    "spriteId": {"name":"s_level1Tiles","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fd8a0ed9-60b3-46b5-b659-4da63f5f7560","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"fd8a0ed9-60b3-46b5-b659-4da63f5f7560","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a9804aff-ec05-4748-8b59-7ad8d48784f7","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_level1Tiles","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},
+    "parent": {"name":"s_level1Tiles","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_level1Tiles",
+    "name": "s_level1Tiles",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_level1Tiles",
+  "name": "s_level1Tiles",
   "tags": [],
   "resourceType": "GMSprite",
 }

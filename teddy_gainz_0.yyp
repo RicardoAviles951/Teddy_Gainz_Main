@@ -36,7 +36,7 @@
     {"id":{"name":"o_status_ctr","path":"objects/o_status_ctr/o_status_ctr.yy",},"order":9,},
     {"id":{"name":"s_switch","path":"sprites/s_switch/s_switch.yy",},"order":10,},
     {"id":{"name":"s_button_Space","path":"sprites/s_button_Space/s_button_Space.yy",},"order":3,},
-    {"id":{"name":"spr_enemy_strip4","path":"sprites/spr_enemy_strip4/spr_enemy_strip4.yy",},"order":1,},
+    {"id":{"name":"s_enemy_strip4","path":"sprites/s_enemy_strip4/s_enemy_strip4.yy",},"order":1,},
     {"id":{"name":"s_warp","path":"sprites/s_warp/s_warp.yy",},"order":5,},
     {"id":{"name":"o_cameraTarget","path":"objects/o_cameraTarget/o_cameraTarget.yy",},"order":4,},
     {"id":{"name":"s_weakwall","path":"sprites/s_weakwall/s_weakwall.yy",},"order":4,},
@@ -46,7 +46,7 @@
     {"id":{"name":"o_object_ctr","path":"objects/o_object_ctr/o_object_ctr.yy",},"order":1,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":7,},
     {"id":{"name":"calc_smooth_movement","path":"scripts/calc_smooth_movement/calc_smooth_movement.yy",},"order":2,},
-    {"id":{"name":"spr_level1Tiles","path":"sprites/spr_level1Tiles/spr_level1Tiles.yy",},"order":0,},
+    {"id":{"name":"s_level1Tiles","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"order":0,},
     {"id":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},"order":0,},
   ],
   "Options": [
