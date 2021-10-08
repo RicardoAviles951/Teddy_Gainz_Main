@@ -5,3 +5,4 @@ enum states {
 	//balloon
 	//ghost
 }
+global.state = noone;

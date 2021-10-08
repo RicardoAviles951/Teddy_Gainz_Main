@@ -25,6 +25,6 @@ if (dashing == true) && (alarm[0] = -1){
 		show_debug_message("DASHING NOW")
 	}
 if (dashing == false){
-	state = states.normal;
+	global.state = states.normal;
 }
 }
