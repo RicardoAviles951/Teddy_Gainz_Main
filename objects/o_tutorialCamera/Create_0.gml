@@ -3,9 +3,9 @@
 #macro CameraWidth 640
 #macro CameraHeight 360
 #macro CameraScale 3
-global.camXSpeed = 0.05
-global.camYSpeed = 0.05
-global.speedModifier = 0.005
+global.camXSpeed = 0.5
+global.camYSpeed = 0.5
+global.speedModifier = 0.001
 global.Camera = camera_create_view(224,640, CameraWidth, CameraHeight);
 
 camera_set_view_border(global.Camera, CameraWidth, CameraHeight); //width and height of the view
