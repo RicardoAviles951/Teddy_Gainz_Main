@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"calc_basic_movement","path":"scripts/calc_basic_movement/calc_basic_movement.yy",},"order":1,},
     {"id":{"name":"object_collisions","path":"scripts/object_collisions/object_collisions.yy",},"order":5,},
+    {"id":{"name":"camer_test","path":"objects/camer_test/camer_test.yy",},"order":11,},
     {"id":{"name":"s_button_D","path":"sprites/s_button_D/s_button_D.yy",},"order":1,},
     {"id":{"name":"o_button_D","path":"objects/o_button_D/o_button_D.yy",},"order":1,},
     {"id":{"name":"o_death_zone","path":"objects/o_death_zone/o_death_zone.yy",},"order":0,},
@@ -30,6 +31,7 @@
     {"id":{"name":"anim","path":"scripts/anim/anim.yy",},"order":6,},
     {"id":{"name":"o_warp","path":"objects/o_warp/o_warp.yy",},"order":6,},
     {"id":{"name":"rm_Puzzle","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},"order":3,},
+    {"id":{"name":"o_wall_2","path":"objects/o_wall_2/o_wall_2.yy",},"order":12,},
     {"id":{"name":"s_spawn","path":"sprites/s_spawn/s_spawn.yy",},"order":9,},
     {"id":{"name":"o_status_ctr","path":"objects/o_status_ctr/o_status_ctr.yy",},"order":9,},
     {"id":{"name":"s_switch","path":"sprites/s_switch/s_switch.yy",},"order":10,},
