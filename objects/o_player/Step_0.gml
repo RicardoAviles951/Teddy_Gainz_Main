@@ -1,8 +1,8 @@
 /// @description Player code running every frame.
-if (state == states.normal){
+if (global.state == states.normal){
 	normal_state();
 }
-else if (state == states.dash){
+else if (global.state == states.dash){
 	dash_state();
 }
 //show_debug_message(x);

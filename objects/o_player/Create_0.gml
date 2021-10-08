@@ -1,6 +1,6 @@
 /// @description Player Variables
 //Initial player state
-state = states.normal;
+global.state = states.normal;
 //Movement Vars
 hsp = 0;
 vsp = 0;

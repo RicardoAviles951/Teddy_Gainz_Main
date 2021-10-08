@@ -8,7 +8,7 @@ object_collisions();
 anim();
 	
 	if (key_dash)&& (cooldown <1){
-		state = states.dash;
+		global.state = states.dash;
 		cooldown = 60;
 		audio_play_sound(snd_dash,1,false);
 	}
