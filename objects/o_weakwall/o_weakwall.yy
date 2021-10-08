@@ -3,7 +3,7 @@
     "name": "s_weakwall",
     "path": "sprites/s_weakwall/s_weakwall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
