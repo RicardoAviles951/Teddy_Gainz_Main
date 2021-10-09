@@ -15,3 +15,6 @@ if (keyboard_check_pressed(ord("O"))) {
 	image_xscale = 1;
 	global.cam_move_speed = 0;
 }
+if(keyboard_check_pressed(vk_down)){
+	room_goto_next();
+}
