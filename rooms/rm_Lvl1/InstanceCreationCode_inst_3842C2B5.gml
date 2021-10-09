@@ -1,3 +1,3 @@
 targetRoom = rm_Puzzle;
-targetX = 4;
-targetY = 160;
+targetX = 96;
+targetY = 128;
