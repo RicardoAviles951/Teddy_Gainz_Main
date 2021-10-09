@@ -1,6 +1,6 @@
 function normal_state(){
 get_input();
-calc_smooth_movement();
+calc_basic_movement();
 check_ground();
 check_jump();
 alt_tile_collisions();

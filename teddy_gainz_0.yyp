@@ -39,6 +39,7 @@
     {"id":{"name":"s_enemy_strip4","path":"sprites/s_enemy_strip4/s_enemy_strip4.yy",},"order":1,},
     {"id":{"name":"s_warp","path":"sprites/s_warp/s_warp.yy",},"order":5,},
     {"id":{"name":"o_cameraTarget","path":"objects/o_cameraTarget/o_cameraTarget.yy",},"order":4,},
+    {"id":{"name":"s_player_walk","path":"sprites/s_player_walk/s_player_walk.yy",},"order":11,},
     {"id":{"name":"s_weakwall","path":"sprites/s_weakwall/s_weakwall.yy",},"order":4,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":3,},
     {"id":{"name":"o_button_Space","path":"objects/o_button_Space/o_button_Space.yy",},"order":2,},
