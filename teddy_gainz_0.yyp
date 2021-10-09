@@ -44,6 +44,7 @@
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":3,},
     {"id":{"name":"o_button_Space","path":"objects/o_button_Space/o_button_Space.yy",},"order":2,},
     {"id":{"name":"f_gui","path":"fonts/f_gui/f_gui.yy",},"order":0,},
+    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},"order":4,},
     {"id":{"name":"o_object_ctr","path":"objects/o_object_ctr/o_object_ctr.yy",},"order":1,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":7,},
     {"id":{"name":"calc_smooth_movement","path":"scripts/calc_smooth_movement/calc_smooth_movement.yy",},"order":2,},
@@ -99,7 +100,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "teddy_gainz_0",
