@@ -11,6 +11,7 @@ if (place_meeting(x+hsp,y,o_death_zone))
 	x=o_tutorial_spawn.x;
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
+	global.cam_move_speed = 0;
 }
 
 //x = x + hsp;
@@ -27,6 +28,7 @@ if (place_meeting(x,y+vsp,o_death_zone))
 	x=o_tutorial_spawn.x;
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
+	global.cam_move_speed = 0;
 }
 //y = y + vsp;
 }

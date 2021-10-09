@@ -6,3 +6,5 @@ enum states {
 	//ghost
 }
 global.state = noone;
+global.cam_move_speed = 0;
+global.cam_hsp = 0;

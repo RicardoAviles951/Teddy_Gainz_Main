@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_wall",
+    "path": "sprites/s_wall/s_wall.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tutorial",
+    "path": "folders/Objects/Tutorial.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_cameraTarget",
+  "name": "o_cam_speed_collider_2",
   "tags": [],
   "resourceType": "GMObject",
 }
