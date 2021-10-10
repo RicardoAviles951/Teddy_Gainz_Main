@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
+    "name": "s_cam_speed_collider",
+    "path": "sprites/s_cam_speed_collider/s_cam_speed_collider.yy",
   },
   "solid": false,
   "visible": false,
