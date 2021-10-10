@@ -97,8 +97,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Character Sprites",
+    "path": "folders/Sprites/Character Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_player_walk",
