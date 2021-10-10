@@ -4,7 +4,7 @@
     "path": "sprites/s_cam_speed_collider/s_cam_speed_collider.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

@@ -4,10 +4,11 @@
 x = o_cameraTarget.x - 350
 y = o_cameraTarget.y - 144
 
-if (place_meeting(x,y, o_player))
-{
-	room_restart()
-}
+//if (place_meeting(x,y, o_player))
+//{
+	//room_restart();
+	//global.cam_move_speed = 0;
+//}
 
 
 
