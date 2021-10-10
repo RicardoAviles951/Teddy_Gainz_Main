@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"956071c5-59be-4a73-8aae-511b017f1363","path":"sprites/s_wall/s_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"956071c5-59be-4a73-8aae-511b017f1363","path":"sprites/s_wall/s_wall.yy",},"LayerId":{"name":"0d5e0156-9937-4908-91f5-03677aa645a7","path":"sprites/s_wall/s_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"resourceVersion":"1.0","name":"956071c5-59be-4a73-8aae-511b017f1363","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c926b9b8-c87c-453b-9dca-8abaa47d25e3","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c926b9b8-c87c-453b-9dca-8abaa47d25e3","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},"LayerId":{"name":"23471fa6-51b3-4196-960c-286543a3c4e3","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_cam_speed_collider","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},"resourceVersion":"1.0","name":"c926b9b8-c87c-453b-9dca-8abaa47d25e3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},
+    "spriteId": {"name":"s_cam_speed_collider","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9eb3d0cd-c7fd-49b1-ad58-336c8b28db05","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"956071c5-59be-4a73-8aae-511b017f1363","path":"sprites/s_wall/s_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9ff0563f-9333-4972-90eb-00a69f59ad98","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c926b9b8-c87c-453b-9dca-8abaa47d25e3","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},
+    "parent": {"name":"s_cam_speed_collider","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},
     "resourceVersion": "1.3",
-    "name": "s_wall",
+    "name": "s_cam_speed_collider",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0d5e0156-9937-4908-91f5-03677aa645a7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23471fa6-51b3-4196-960c-286543a3c4e3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_wall",
+  "name": "s_cam_speed_collider",
   "tags": [],
   "resourceType": "GMSprite",
 }

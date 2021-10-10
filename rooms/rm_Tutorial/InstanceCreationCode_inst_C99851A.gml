@@ -1,3 +1,3 @@
 targetRoom = rm_Lvl1;
-targetX = 32;
-targetY = 544;
+targetX = o_tutorial_spawn.x;
+targetY = o_tutorial_spawn.y;

@@ -1,12 +1,12 @@
 {
   "spriteId": {
-    "name": "s_weakwall",
-    "path": "sprites/s_weakwall/s_weakwall.yy",
+    "name": "s_enemy_strip4",
+    "path": "sprites/s_enemy_strip4/s_enemy_strip4.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_weakwall",
+  "name": "o_enemy",
   "tags": [],
   "resourceType": "GMObject",
 }
