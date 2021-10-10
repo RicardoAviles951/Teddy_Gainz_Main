@@ -3,12 +3,12 @@
 function check_jump(){
 var jump = false;
 
-if (key_jump) && (tile_place_meeting(x,y+1,"Collision"))
+if (key_jump) && (on_ground)
 {
 	jump = true;
 }
 
-if (jump==true)
+if (jump==true) 
 {
 vsp = -jump_spd;	
 }
