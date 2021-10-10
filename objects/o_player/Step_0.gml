@@ -8,6 +8,7 @@ else if (global.state == states.dash){
 //show_debug_message(x);
 //show_debug_message(y);
 //Some temporary code to switch between levels quickly
+//Restarts the level
 if (keyboard_check_pressed(ord("O"))) {
 	room_restart();
 	x=o_tutorial_spawn.x;
@@ -15,6 +16,11 @@ if (keyboard_check_pressed(ord("O"))) {
 	image_xscale = 1;
 	global.cam_move_speed = 0;
 }
+//Goes to the next room
 if(keyboard_check_pressed(vk_down)){
 	room_goto_next();
+}
+//Goes to previous room
+if(keyboard_check_pressed(vk_up)){
+	room_goto_previous();
 }

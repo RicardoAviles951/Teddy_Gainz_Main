@@ -15,5 +15,7 @@ dash_spd = 10;
 dashing = false;
 cooldown = 0;
 
-//For v1_tile_collisions
-tilemap = layer_tilemap_get_id("Collision");
+//Animations Array
+animations[0] = s_player_idle_blink;
+animations[1] = s_player_idle_pluck;
+animations[2] = s_player_walk;
