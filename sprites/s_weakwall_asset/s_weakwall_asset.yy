@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 95,
   "bbox_top": 0,
   "bbox_bottom": 128,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
+  "width": 96,
   "height": 129,
   "textureGroupId": {
     "name": "Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"09422e6a-8496-4652-978e-bf036f06d0e3","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"09422e6a-8496-4652-978e-bf036f06d0e3","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"LayerId":{"name":"9e5e6f54-d0d9-44e4-bd08-86c3a6dd4446","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_weakwall_asset","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"resourceVersion":"1.0","name":"09422e6a-8496-4652-978e-bf036f06d0e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"01ac5040-0810-435c-94c4-8338175cc5b8","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"01ac5040-0810-435c-94c4-8338175cc5b8","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"LayerId":{"name":"7df4d12f-c77b-4a90-80f9-79eaca1b836c","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_weakwall_asset","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"resourceVersion":"1.0","name":"01ac5040-0810-435c-94c4-8338175cc5b8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_weakwall_asset","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a70717c9-e8f5-4d18-9f24-9ad730981ec7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"09422e6a-8496-4652-978e-bf036f06d0e3","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5fe6a4dc-a495-4e2b-9805-935b63af91fc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01ac5040-0810-435c-94c4-8338175cc5b8","path":"sprites/s_weakwall_asset/s_weakwall_asset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e5e6f54-d0d9-44e4-bd08-86c3a6dd4446","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7df4d12f-c77b-4a90-80f9-79eaca1b836c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
