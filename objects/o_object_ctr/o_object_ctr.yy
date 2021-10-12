@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controller Objects",
-    "path": "folders/Objects/Controller Objects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_object_ctr",

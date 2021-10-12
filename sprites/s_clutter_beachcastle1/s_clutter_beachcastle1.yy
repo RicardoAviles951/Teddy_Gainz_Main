@@ -42,7 +42,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3a84e9f3-3698-4ce3-a0c5-be0a77fb24d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af1383e5-9031-4d25-9ff4-90864ff17a97","path":"sprites/s_clutter_beachcastle1/s_clutter_beachcastle1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ClutterObject Sprites",
-    "path": "folders/Sprites/ClutterObject Sprites.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_clutter_beachcastle1",
