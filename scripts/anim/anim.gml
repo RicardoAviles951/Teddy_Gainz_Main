@@ -24,8 +24,8 @@ switch( idleAnimState )
 	default: sprite_index = s_player_idle_blink;
 }
 }
-if(on_ground == false){
-	sprite_index = s_player;
+if(!on_ground){
+	sprite_index = s_player_jump;
 }
 if (hsp !=0) image_xscale = sign(hsp);
 }

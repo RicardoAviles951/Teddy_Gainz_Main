@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_weakwall_test",
+    "path": "sprites/s_weakwall_test/s_weakwall_test.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

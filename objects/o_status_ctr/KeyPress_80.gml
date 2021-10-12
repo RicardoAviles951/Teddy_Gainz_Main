@@ -6,4 +6,5 @@ if(game_is_paused == false) {
 else {
 	game_is_paused = false;
 	instance_activate_all();
+	exit;
 }

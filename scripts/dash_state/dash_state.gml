@@ -1,6 +1,6 @@
 function dash_state(){
 //only allowed if moving
-if (hsp !=0)or (vsp !=0){
+if (hsp !=0)or (vsp !=0) {
 	dashing = true;
 }
 if (dashing){
