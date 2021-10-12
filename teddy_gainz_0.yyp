@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_weakwall","path":"sprites/s_weakwall/s_weakwall.yy",},"order":8,},
+    {"id":{"name":"s_parallax_sky3","path":"sprites/s_parallax_sky3/s_parallax_sky3.yy",},"order":9,},
     {"id":{"name":"calc_basic_movement","path":"scripts/calc_basic_movement/calc_basic_movement.yy",},"order":1,},
     {"id":{"name":"object_collisions","path":"scripts/object_collisions/object_collisions.yy",},"order":5,},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":6,},
@@ -12,6 +13,7 @@
     {"id":{"name":"s_player_idle_pluck","path":"sprites/s_player_idle_pluck/s_player_idle_pluck.yy",},"order":4,},
     {"id":{"name":"s_background_finalboss","path":"sprites/s_background_finalboss/s_background_finalboss.yy",},"order":6,},
     {"id":{"name":"s_player_idle_blink","path":"sprites/s_player_idle_blink/s_player_idle_blink.yy",},"order":3,},
+    {"id":{"name":"s_parallax_sky1","path":"sprites/s_parallax_sky1/s_parallax_sky1.yy",},"order":7,},
     {"id":{"name":"check_jump","path":"scripts/check_jump/check_jump.yy",},"order":4,},
     {"id":{"name":"alt_tile_collisions","path":"scripts/alt_tile_collisions/alt_tile_collisions.yy",},"order":9,},
     {"id":{"name":"room_reset_true","path":"scripts/room_reset_true/room_reset_true.yy",},"order":3,},
@@ -59,6 +61,7 @@
     {"id":{"name":"s_button_Space","path":"sprites/s_button_Space/s_button_Space.yy",},"order":3,},
     {"id":{"name":"s_clutter_ball","path":"sprites/s_clutter_ball/s_clutter_ball.yy",},"order":12,},
     {"id":{"name":"s_enemy_strip4","path":"sprites/s_enemy_strip4/s_enemy_strip4.yy",},"order":2,},
+    {"id":{"name":"s_parallax_sky4","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"order":10,},
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":4,},
     {"id":{"name":"o_cam_speed_collider_5","path":"objects/o_cam_speed_collider_5/o_cam_speed_collider_5.yy",},"order":4,},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},"order":2,},
@@ -76,6 +79,8 @@
     {"id":{"name":"s_weakwall_broken","path":"sprites/s_weakwall_broken/s_weakwall_broken.yy",},"order":11,},
     {"id":{"name":"snd_menu_change","path":"sounds/snd_menu_change/snd_menu_change.yy",},"order":1,},
     {"id":{"name":"o_object_ctr","path":"objects/o_object_ctr/o_object_ctr.yy",},"order":9,},
+    {"id":{"name":"s_parallax_sky5","path":"sprites/s_parallax_sky5/s_parallax_sky5.yy",},"order":11,},
+    {"id":{"name":"s_parallax_sky2","path":"sprites/s_parallax_sky2/s_parallax_sky2.yy",},"order":8,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":7,},
     {"id":{"name":"calc_smooth_movement","path":"scripts/calc_smooth_movement/calc_smooth_movement.yy",},"order":2,},
     {"id":{"name":"o_cam_speed_collider_4","path":"objects/o_cam_speed_collider_4/o_cam_speed_collider_4.yy",},"order":3,},
@@ -138,7 +143,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "teddy_gainz_0",
