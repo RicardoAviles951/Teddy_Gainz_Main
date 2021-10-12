@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_weakwall_broken",
-    "path": "sprites/s_weakwall_broken/s_weakwall_broken.yy",
+    "name": "s_ghost_powerup",
+    "path": "sprites/s_ghost_powerup/s_ghost_powerup.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_wall",
+  "name": "o_ghost_powerup",
   "tags": [],
   "resourceType": "GMObject",
 }
