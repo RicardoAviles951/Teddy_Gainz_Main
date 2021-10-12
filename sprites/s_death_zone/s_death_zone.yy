@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Zones and Triggers",
+    "path": "folders/Sprites/Zones and Triggers.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_death_zone",

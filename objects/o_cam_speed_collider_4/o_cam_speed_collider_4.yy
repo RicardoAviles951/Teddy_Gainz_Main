@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tutorial",
-    "path": "folders/Objects/Tutorial.yy",
+    "name": "Zones and Triggers",
+    "path": "folders/Objects/Zones and Triggers.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_cam_speed_collider_4",

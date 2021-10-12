@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Zones and Triggers",
+    "path": "folders/Objects/Zones and Triggers.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_warp",
