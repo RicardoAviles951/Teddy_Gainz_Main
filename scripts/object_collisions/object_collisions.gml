@@ -1,11 +1,11 @@
 function object_collisions(){
 if (place_meeting(x+hsp,y,o_weakwall))
 {
-	while (!place_meeting(x+sign(hsp),y,o_weakwall))
-	{
-		x = x + sign(hsp);
-	}
-	hsp = 0
+	//while (!place_meeting(x+sign(hsp),y,o_weakwall))
+	//{
+	//	x = x + sign(hsp);
+	//}
+	hsp = 0;
 }
 
 //x = x + hsp;

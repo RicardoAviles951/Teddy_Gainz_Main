@@ -31,7 +31,7 @@
     "path": "folders/Objects/Tutorial.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_cam_speed_collider_2",
+  "name": "o_cam_speed_collider_3",
   "tags": [],
   "resourceType": "GMObject",
 }
