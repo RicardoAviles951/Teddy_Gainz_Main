@@ -5,6 +5,7 @@ if (global.state == states.normal){
 else if (global.state == states.dash){
 	dash_state();
 }
+show_debug_message(hsp);
 //show_debug_message(x);
 //show_debug_message(y);
 //Some temporary code to switch between levels quickly

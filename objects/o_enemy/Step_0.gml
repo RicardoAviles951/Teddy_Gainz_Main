@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x = o_cameraTarget.x - 350
+x = o_cameraTarget.x - 380;
 y = (o_cameraTarget.y - 144)+sin(timer_bug*.10)*10
 timer_bug++;
 

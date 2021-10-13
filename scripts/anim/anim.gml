@@ -1,8 +1,8 @@
 //Flips the sprite based the direction it is going.
 function anim(){
-if (on_ground) && (hsp !=0)
+if (on_ground) && (hsp !=0) && (hsp<4)
 {
-	sprite_index = animations[2]
+	sprite_index = s_player_walk;
 }
 else{
 if(alarm[1] <=0) && (on_ground==true)
@@ -23,6 +23,9 @@ switch( idleAnimState )
     break;
 	default: sprite_index = s_player_idle_blink;
 }
+}
+if(hsp>4) && (on_ground){ 
+sprite_index = s_player_run;
 }
 if(!on_ground){
 	sprite_index = s_player_jump;
