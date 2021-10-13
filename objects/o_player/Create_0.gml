@@ -4,7 +4,7 @@ global.state = states.normal;
 //Movement Vars
 hsp = 0;
 vsp = 0;
-walk_spd = 4;
+walk_spd = 4.5;
 acceleration =.2;
 //Jumping and falling vars
 grv = .3;
