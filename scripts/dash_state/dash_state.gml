@@ -7,6 +7,7 @@ if (dashing){
 	vsp = 0;
 	hsp = sign(hsp)*dash_spd;
 	x = x + hsp;
+	sprite_index = s_player_dash;
 }
 //Collisions
 if (tile_place_meeting(x+hsp,y,"Collision"))

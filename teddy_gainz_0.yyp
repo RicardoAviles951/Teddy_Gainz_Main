@@ -38,6 +38,7 @@
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"s_smallbug_strip4","path":"sprites/s_smallbug_strip4/s_smallbug_strip4.yy",},"order":1,},
     {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},"order":4,},
+    {"id":{"name":"s_player_dash","path":"sprites/s_player_dash/s_player_dash.yy",},"order":7,},
     {"id":{"name":"s_button_Shift","path":"sprites/s_button_Shift/s_button_Shift.yy",},"order":2,},
     {"id":{"name":"tile_level1","path":"tilesets/tile_level1/tile_level1.yy",},"order":0,},
     {"id":{"name":"o_tutorialCamera","path":"objects/o_tutorialCamera/o_tutorialCamera.yy",},"order":0,},
