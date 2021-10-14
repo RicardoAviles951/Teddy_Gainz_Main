@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_balloons",
-    "path": "sprites/s_balloons/s_balloons.yy",
+    "name": "s_ghost_wall",
+    "path": "sprites/s_ghost_wall/s_ghost_wall.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_balloons",
+  "name": "o_ghost_wall",
   "tags": [],
   "resourceType": "GMObject",
 }
