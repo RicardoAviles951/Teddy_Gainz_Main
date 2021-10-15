@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Menu Scripts",
+    "path": "folders/Scripts/Menu Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "unpause",

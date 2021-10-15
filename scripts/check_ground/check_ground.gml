@@ -4,7 +4,7 @@ function check_ground(){
 if (tile_place_meeting(x,y+1,"Collision"))
 {
 	on_ground = true
-	show_debug_message("GROUND")
+	//show_debug_message("GROUND")
 }
 else
 {

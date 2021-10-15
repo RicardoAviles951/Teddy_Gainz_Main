@@ -49,6 +49,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_ghost_wall","path":"objects/o_ghost_wall/o_ghost_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":10656.0,"y":608.0,"resourceVersion":"1.0","name":"inst_4253B28C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_ghost_wall","path":"objects/o_ghost_wall/o_ghost_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11744.0,"y":576.0,"resourceVersion":"1.0","name":"inst_44F9D045","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_ghost_wall","path":"objects/o_ghost_wall/o_ghost_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12896.0,"y":576.0,"resourceVersion":"1.0","name":"inst_20C5B1ED","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_inventory_ctr","path":"objects/o_inventory_ctr/o_inventory_ctr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":384.0,"resourceVersion":"1.0","name":"inst_1777F9A2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_death_zone","path":"objects/o_death_zone/o_death_zone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":70.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":704.0,"resourceVersion":"1.0","name":"inst_1468E87C","tags":[],"resourceType":"GMRInstance",},
@@ -151,6 +152,7 @@
     {"name":"inst_4253B28C","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
     {"name":"inst_44F9D045","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
     {"name":"inst_20C5B1ED","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
+    {"name":"inst_1777F9A2","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
