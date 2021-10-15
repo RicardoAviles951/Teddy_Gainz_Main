@@ -1,2 +1,2 @@
-/// @description Alarm for animations
+/// @description Alarm for idle anim
 

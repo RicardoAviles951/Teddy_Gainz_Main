@@ -1,6 +1,6 @@
 function dash_state(){
 //only allowed if moving
-if (hsp !=0)or (vsp !=0) {
+if (hsp !=0) && (global.state == states.dash){
 	dashing = true;
 }
 if (dashing){
@@ -17,6 +17,10 @@ if (tile_place_meeting(x+hsp,y,"Collision"))
 		x = x + sign(hsp);
 	}
 	dashing = false;
+}
+if (place_meeting(x+hsp,y,o_ghost_wall))
+{
+	hsp = 0;
 }
 if keyboard_check_pressed(ord("L")){
 	dashing = false
