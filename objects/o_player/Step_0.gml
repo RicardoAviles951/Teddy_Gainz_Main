@@ -5,10 +5,15 @@ if (global.state == states.normal){
 else if (global.state == states.dash){
 	dash_state();
 }
+else if (global.state == states.ghost){
+	ghost_state();
+}
+else if (global.state == states.g_dash){
+	g_dash_state();
+}
 //show_debug_message(hsp);
 //show_debug_message(x);
 //show_debug_message(y);
-//Some temporary code to switch between levels quickly
 //Restarts the level
 if (keyboard_check_pressed(ord("O"))) {
 	room_restart();
@@ -18,11 +23,3 @@ if (keyboard_check_pressed(ord("O"))) {
 	global.cam_move_speed = 0;
 	global.orb_counter = 0;
 }
-//Goes to the next room DOESN"T WORK PROPERLY
-//if(keyboard_check_pressed(vk_down)){
-	//room_goto_next();
-//}
-//Goes to previous room
-//if(keyboard_check_pressed(vk_up)){
-//	room_goto_previous();
-//}

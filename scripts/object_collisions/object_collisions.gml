@@ -20,6 +20,22 @@ if (place_meeting(x+hsp,y,o_weakwall))
 	//vsp = 0;
 //}
 //Horizontal Collision
+if (place_meeting(x+hsp,y,o_ghost_wall))
+{
+	//while (!place_meeting(x+sign(hsp),y,o_weakwall))
+	//{
+		//x = x + sign(hsp);
+	//}
+	hsp = 0;
+}
+if (place_meeting(x-5,y,o_ghost_wall))
+{
+	//while (!place_meeting(x+sign(hsp),y,o_weakwall))
+	//{
+	//	x = x + sign(hsp);
+	//}
+	hsp = 5;
+}
 if (place_meeting(x+hsp,y,o_death_zone))
 {
 	while (!place_meeting(x+sign(hsp),y,o_death_zone))
@@ -59,4 +75,5 @@ if (place_meeting(x,y,o_enemy))
 	global.cam_move_speed = 0;
 	global.orb_counter = 0;
 }
+
 }

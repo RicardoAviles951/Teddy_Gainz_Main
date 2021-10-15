@@ -14,6 +14,7 @@ on_ground = false;
 dash_spd = 10;
 dashing = false;
 cooldown = 0;
+g_dashing = false;
 
 //Animations Array
 animations[0] = s_player_idle_blink;

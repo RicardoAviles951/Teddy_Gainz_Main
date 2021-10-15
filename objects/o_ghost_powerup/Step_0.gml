@@ -5,4 +5,6 @@ else{
 	is_collectible = false;
 }
 
+y = y + sin(timer_orb*.05)*.2;
 
+timer_orb++;

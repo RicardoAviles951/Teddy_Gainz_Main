@@ -2,8 +2,9 @@
 enum states {
 	normal,
 	dash,
+	ghost,
+	g_dash
 	//balloon
-	//ghost
 }
 global.state = noone;
 global.cam_move_speed = 0;
@@ -21,6 +22,5 @@ global.key_left   = ord("A");
 global.key_right  = ord("D");
 global.key_up     = ord("W");
 global.key_down   = ord("S");
-global.key_ghost  = ord("G");
 
 global.orb_counter = 0;
