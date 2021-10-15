@@ -32,6 +32,7 @@ if (place_meeting(x+hsp,y,o_death_zone))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 	global.cam_move_speed = 0;
+	global.orb_counter = 0;
 }
 
 //Vertical Collision
@@ -47,6 +48,7 @@ if (place_meeting(x,y+vsp,o_death_zone))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 	global.cam_move_speed = 0;
+	global.orb_counter = 0;
 }
 if (place_meeting(x,y,o_enemy))
 {
@@ -55,5 +57,6 @@ if (place_meeting(x,y,o_enemy))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 	global.cam_move_speed = 0;
+	global.orb_counter = 0;
 }
 }
