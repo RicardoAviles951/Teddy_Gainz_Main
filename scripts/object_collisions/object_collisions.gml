@@ -76,4 +76,9 @@ if (place_meeting(x,y,o_enemy))
 	global.orb_counter = 0;
 }
 
+if (place_meeting(x,y,o_wall))
+{
+	hsp = 0;
+}
+
 }
