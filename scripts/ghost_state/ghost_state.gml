@@ -16,6 +16,7 @@ if (key_dash) && (cooldown <1) && (hsp != 0) && (global.state == states.ghost) {
 		cooldown = 60;
 		audio_play_sound(snd_dash,1,false);
 	}
+	cooldown = cooldown - 1;
 
 
 if(global.state = states.ghost) && (alarm[2] = -1) {
