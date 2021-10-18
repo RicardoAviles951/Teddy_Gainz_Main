@@ -15,16 +15,16 @@ enum menu_element_type {
 
 //CREATE MENU PAGES
 ds_menu_main = create_menu_page(
-	["NEW GAME",     menu_element_type.script_runner, new_game],
-	["LEVEL SELECT", menu_element_type.page_transfer, menu_page.level_select],
-	["EXIT GAME",    menu_element_type.script_runner, exit_game],
+	["NEW GAME",     menu_element_type.script_runner, new_game,s_pixel],
+	["LEVEL SELECT", menu_element_type.page_transfer, menu_page.level_select,s_pixel],
+	["EXIT GAME",    menu_element_type.script_runner, exit_game,s_pixel],
 );
 
 ds_level_select = create_menu_page(
-	["TUTORIAL", menu_element_type.script_runner, level_select],
-	["BEACH",    menu_element_type.script_runner, level_select],
-	["PUZZLE BOSS", menu_element_type.script_runner, level_select],
-	["CEMETARY", menu_element_type.script_runner, level_select],
+	["TUTORIAL", menu_element_type.script_runner, level_select,s_clutter_beachcastle1],
+	["BEACH",    menu_element_type.script_runner, level_select,s_background_sky],
+	["PUZZLE BOSS", menu_element_type.script_runner, level_select,s_clutter_foreshadowing],
+	["CEMETARY", menu_element_type.script_runner, level_select,s_background_finalboss_menu],
 	["BACK", menu_element_type.page_transfer, menu_page.main]
 );
 

@@ -36,3 +36,9 @@ var yy = 0; repeat(ds_height){
 draw_line(start_x, start_y, start_x, left_txt_y);
 
 //Draw elements on right side
+switch(ds_grid[# 1, menu_option[page]]) {
+		case menu_element_type.script_runner: draw_sprite(ds_grid[# 3, menu_option[page]],0,global.view_width*3/4, global.view_height*1/4) break;;
+		break;
+}
+
+//draw_sprite(s_background_sky, 0, global.view_width*3/4, global.view_height/2);
