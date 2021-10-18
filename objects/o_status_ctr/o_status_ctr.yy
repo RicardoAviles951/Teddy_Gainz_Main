@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_status_ctr",
+    "path": "sprites/s_status_ctr/s_status_ctr.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

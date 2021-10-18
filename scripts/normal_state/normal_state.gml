@@ -18,5 +18,7 @@ anim();
 	if(key_ghost) && (global.orb_counter > 0) {
 		global.orb_counter = global.orb_counter - 1;
 		global.state = states.ghost;
+		audio_sound_pitch(snd_ghost,1.5);
+		audio_play_sound(snd_ghost, 2, false);
 	}
 }

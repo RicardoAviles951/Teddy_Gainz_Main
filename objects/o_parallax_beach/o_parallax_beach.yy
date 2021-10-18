@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_parallax_ctr",
+    "path": "sprites/s_parallax_ctr/s_parallax_ctr.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

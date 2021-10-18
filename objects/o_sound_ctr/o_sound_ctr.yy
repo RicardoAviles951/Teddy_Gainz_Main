@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_sound_ctr",
+    "path": "sprites/s_sound_ctr/s_sound_ctr.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

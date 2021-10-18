@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_inventory_ctr",
+    "path": "sprites/s_inventory_ctr/s_inventory_ctr.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
