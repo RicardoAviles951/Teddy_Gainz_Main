@@ -16,10 +16,9 @@ else if (global.state == states.g_dash){
 //show_debug_message(y);
 //Restarts the level
 if (keyboard_check_pressed(ord("O"))) {
+	room_reset_true();
 	room_restart();
 	x=o_tutorial_spawn.x;
 	y=o_tutorial_spawn.y;
-	image_xscale = 1;
-	global.cam_move_speed = 0;
-	global.orb_counter = 0;
+	image_xscale = 1;	
 }

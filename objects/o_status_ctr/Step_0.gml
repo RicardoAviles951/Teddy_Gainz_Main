@@ -1,5 +1,5 @@
 /// @description Insert description here
-if(!game_is_paused) exit;
+if(!global.game_is_paused) exit;
 
 input_up_m    = keyboard_check_pressed(global.key_up);
 input_down_m  = keyboard_check_pressed(global.key_down);

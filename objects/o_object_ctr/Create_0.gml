@@ -14,6 +14,7 @@ global.cam_hsp = 0;
 global.pause = true;
 global.view_width = camera_get_view_width(view_camera[0]);
 global.view_height = camera_get_view_height(view_camera[0]);
+global.game_is_paused = false;
 
 //Match the keys in player object.
 global.key_revert = ord("X");

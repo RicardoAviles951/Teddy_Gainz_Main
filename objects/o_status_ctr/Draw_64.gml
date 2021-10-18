@@ -1,5 +1,5 @@
 //When the game is paused it text will be drawn at nearly the middle of the viewport.
-if(game_is_paused == true) {
+if(global.game_is_paused == true) {
 	
 var gwidth = global.view_width, gheight = global.view_height
 

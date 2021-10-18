@@ -1,5 +1,5 @@
 /// @description Variable that stores whehter paused is T/F
-game_is_paused = false;
+global.game_is_paused = false;
 
 enum pause_menu_page {
 	main_p,
