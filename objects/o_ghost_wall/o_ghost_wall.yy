@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_ghost_wall",
-    "path": "sprites/s_ghost_wall/s_ghost_wall.yy",
+    "name": "s_ghostwall1",
+    "path": "sprites/s_ghostwall1/s_ghostwall1.yy",
   },
   "solid": false,
   "visible": true,
