@@ -25,6 +25,7 @@ ds_level_select = create_menu_page(
 	["BEACH",    menu_element_type.script_runner, level_select,s_background_sky],
 	["PUZZLE BOSS", menu_element_type.script_runner, level_select,s_clutter_foreshadowing],
 	["CEMETARY", menu_element_type.script_runner, level_select,s_background_finalboss_menu],
+	["FINAL BOSS", menu_element_type.script_runner, level_select, s_background_finalboss_menu],
 	["BACK", menu_element_type.page_transfer, menu_page.main]
 );
 

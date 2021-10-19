@@ -4,7 +4,7 @@
     "path": "sprites/s_inventory_ctr/s_inventory_ctr.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
