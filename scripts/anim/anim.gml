@@ -24,7 +24,7 @@ switch( idleAnimState )
 	default: sprite_index = s_player_idle_blink;
 }
 }
-if(hsp>4) && (on_ground){ 
+if(abs(hsp)>4) && (on_ground) { 
 sprite_index = s_player_run;
 }
 if(!on_ground){

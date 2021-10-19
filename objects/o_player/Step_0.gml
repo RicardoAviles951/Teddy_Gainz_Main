@@ -11,7 +11,7 @@ else if (global.state == states.ghost){
 else if (global.state == states.g_dash){
 	g_dash_state();
 }
-//show_debug_message(hsp);
+show_debug_message(hsp);
 //show_debug_message(x);
 //show_debug_message(y);
 //Restarts the level
