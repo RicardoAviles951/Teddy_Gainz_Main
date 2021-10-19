@@ -92,6 +92,7 @@
     {"id":{"name":"s_button_Space","path":"sprites/s_button_Space/s_button_Space.yy",},"order":3,},
     {"id":{"name":"s_clutter_ball","path":"sprites/s_clutter_ball/s_clutter_ball.yy",},"order":0,},
     {"id":{"name":"s_pixel","path":"sprites/s_pixel/s_pixel.yy",},"order":9,},
+    {"id":{"name":"s_background_graveyard","path":"sprites/s_background_graveyard/s_background_graveyard.yy",},"order":10,},
     {"id":{"name":"o_inventory_ctr","path":"objects/o_inventory_ctr/o_inventory_ctr.yy",},"order":2,},
     {"id":{"name":"s_boss_placeholder","path":"sprites/s_boss_placeholder/s_boss_placeholder.yy",},"order":2,},
     {"id":{"name":"g_dash_state","path":"scripts/g_dash_state/g_dash_state.yy",},"order":3,},
@@ -199,7 +200,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "teddy_gainz_0",
