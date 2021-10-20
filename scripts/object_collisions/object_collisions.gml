@@ -78,4 +78,12 @@ if (place_meeting(x,y,o_wall))
 	hsp = 0;
 }
 
+//Trigger cutscene upon collision
+
+if(place_meeting(x,y, o_thicc)) && !instance_exists(o_cutscene_parent)
+{
+	instance_create_layer(x, y, "Instances", o_cutscene_trigger);
+	image_speed = 0;
+	image_index = 0;
+}
 }
