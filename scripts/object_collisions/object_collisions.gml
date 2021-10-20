@@ -72,10 +72,4 @@ if (place_meeting(x,y,o_enemy))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
-
-if (place_meeting(x,y,o_wall))
-{
-	hsp = 0;
-}
-
 }

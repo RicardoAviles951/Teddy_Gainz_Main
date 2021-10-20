@@ -4,7 +4,7 @@
     "path": "sprites/s_status_ctr/s_status_ctr.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

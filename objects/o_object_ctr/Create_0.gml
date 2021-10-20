@@ -6,7 +6,15 @@ enum states {
 	g_dash
 	//balloon
 }
+enum boss {
+	idle,
+	phase_1,
+	phase_2,
+	phase_3
+}
+	
 global.state = noone;
+global.boss_state = noone;
 global.cam_move_speed = 0;
 global.cam_hsp = 0;
 
@@ -25,3 +33,6 @@ global.key_up     = ord("W");
 global.key_down   = ord("S");
 
 global.orb_counter = 0;
+
+//Boss vars
+global.boss_health = 3;

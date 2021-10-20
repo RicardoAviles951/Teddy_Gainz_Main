@@ -1,5 +1,5 @@
 function normal_state(){
-show_debug_message("NORMAL")
+//show_debug_message("NORMAL")
 image_alpha = 1;
 get_input();
 calc_smooth_movement();

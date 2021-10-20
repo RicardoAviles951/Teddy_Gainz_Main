@@ -1,1 +1,0 @@
-path_start(pth_boss_phase2,4,path_action_reverse, true);
