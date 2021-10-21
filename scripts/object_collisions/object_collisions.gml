@@ -72,4 +72,13 @@ if (place_meeting(x,y,o_enemy))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
+
+if(place_meeting(x,y, o_thicc)) && !instance_exists(o_cutscene_parent)
+{
+	instance_create_layer(x, y, "Instances", o_cutscene_trigger);
+	hsp = 0;
 }
+
+}
+
+
