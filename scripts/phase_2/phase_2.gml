@@ -10,6 +10,38 @@ if point_distance(x, y, o_path_center.x,o_path_center.y ) > 5
     }
 else speed = 0;
 
+firing_delay -= 1;
+look = point_direction(x,y, o_player.x, o_player.y);
+
+if(alarm[2] = -1 && firing_delay <0)
+{
+	bullet_state = choose(1,2);
+	alarm[2] = 60;
+}
+
+switch( bullet_state )
+{
+	case 1: if(firing_delay <0) {
+	
+	firing_delay = random_range(10,60);
+	with(instance_create_layer(x,y,"Bullets", o_acid)) //The with function allows us to reference the o_acid object. 
+	{
+		speed = 10; //speed of projectile
+		direction = other.look; //sets the direction of projectile
+		image_angle = direction; //sets the angle to the direction.
+	}
+	} break;
+	case 2: if(firing_delay <0) {
+	
+	firing_delay = random_range(30,60);
+	with(instance_create_layer(x,y,"Bullets", o_acid_homing)) //The with function allows us to reference the o_acid object. 
+	{
+		image_angle = direction; //sets the angle to the direction.
+	} 
+	} break;
+}
+
+
 if(keyboard_check_pressed(vk_down)){
 global.boss_health-=1;	
 }
