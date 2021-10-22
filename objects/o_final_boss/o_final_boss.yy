@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_boss_placeholder",
-    "path": "sprites/s_boss_placeholder/s_boss_placeholder.yy",
+    "name": "s_boss",
+    "path": "sprites/s_boss/s_boss.yy",
   },
   "solid": false,
   "visible": true,

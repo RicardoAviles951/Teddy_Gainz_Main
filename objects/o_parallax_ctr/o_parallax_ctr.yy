@@ -30,7 +30,7 @@
     "path": "folders/Objects/Controller Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_parallax_beach",
+  "name": "o_parallax_ctr",
   "tags": [],
   "resourceType": "GMObject",
 }
