@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 581,
-  "bbox_top": 75,
-  "bbox_bottom": 719,
+  "bbox_right": 665,
+  "bbox_top": 0,
+  "bbox_bottom": 379,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 582,
-  "height": 720,
+  "width": 666,
+  "height": 380,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"54ed6008-2e42-405c-a814-fe58899d07e5","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54ed6008-2e42-405c-a814-fe58899d07e5","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"LayerId":{"name":"3a185915-41bd-43ec-ac88-4791f96c964f","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_parallax_sky4","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"resourceVersion":"1.0","name":"54ed6008-2e42-405c-a814-fe58899d07e5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2ef26f00-9f05-4722-bf03-d8fc56c2046d","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2ef26f00-9f05-4722-bf03-d8fc56c2046d","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},"LayerId":{"name":"e14829f8-7f01-4a5c-af2f-5c15b6eecc8a","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_parallax_graveyard4","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},"resourceVersion":"1.0","name":"2ef26f00-9f05-4722-bf03-d8fc56c2046d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_parallax_sky4","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},
+    "spriteId": {"name":"s_parallax_graveyard4","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e88cfc3b-e55d-4201-bcbb-10373a176ef2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54ed6008-2e42-405c-a814-fe58899d07e5","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0e786c1f-7009-46cb-9f9e-56a467c26ff0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ef26f00-9f05-4722-bf03-d8fc56c2046d","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_parallax_sky4","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},
+    "parent": {"name":"s_parallax_graveyard4","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},
     "resourceVersion": "1.3",
-    "name": "s_parallax_sky4",
+    "name": "s_parallax_graveyard4",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a185915-41bd-43ec-ac88-4791f96c964f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e14829f8-7f01-4a5c-af2f-5c15b6eecc8a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_parallax_sky4",
+  "name": "s_parallax_graveyard4",
   "tags": [],
   "resourceType": "GMSprite",
 }
