@@ -12,6 +12,16 @@ enum boss {
 	phase_2,
 	phase_3
 }
+
+enum rooms {
+	menu_room,
+	tutorial,
+	level1,
+	puzzleboss,
+	level3,
+	finalboss
+}
+global.room = noone;
 	
 global.state = noone;
 global.boss_state = noone;

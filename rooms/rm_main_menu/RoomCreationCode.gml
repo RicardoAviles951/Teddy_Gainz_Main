@@ -1,0 +1,1 @@
+global.room = rooms.menu_room;

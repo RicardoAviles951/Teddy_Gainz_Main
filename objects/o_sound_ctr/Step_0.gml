@@ -1,15 +1,37 @@
-if(room == rm_Tutorial) && (!audio_is_playing(snd_waves)){
-audio_play_sound(snd_waves, 1, true);	
-audio_sound_gain(snd_waves,.8, 5000);
+
+switch ( global.room ) {
+	case rooms.menu_room: if(!audio_is_playing(snd_teddylogo)) {
+		audio_play_sound(snd_teddylogo,1,true)
+		audio_sound_gain(snd_teddylogo,.35, 3000);
+		}break;
+	case rooms.tutorial: if(!audio_is_playing(snd_waves) && !audio_is_playing(snd_surfrock)){
+		audio_play_sound(snd_waves, 1, true);	
+		audio_sound_gain(snd_waves,.8, 5000);
+		//audio_play_sound(snd_surfrock,2, true);
+		//audio_sound_gain(snd_surfrock,.45, 5000);
+		} break;
+	case rooms.level1: if(!audio_is_playing(snd_waves)){
+		audio_play_sound(snd_waves, 1, true);	
+		audio_sound_gain(snd_waves,.8, 5000);
+		//audio_play_sound(snd_surfrock,2, true);
+		//audio_sound_gain(snd_surfrock,.45, 5000);
+		} break;
+	case rooms.level3: if(!audio_is_playing(snd_spookywind_ambient)){
+		audio_play_sound(snd_spookywind_ambient,2,true);
+		} break;	
 }
 
-else if(room == rm_Lvl1) && (!audio_is_playing(snd_waves)){
-audio_play_sound(snd_waves, 1, true);	
-audio_sound_gain(snd_waves,.8, 5000);
-}
-else if(room == rm_Lvl3) && (!audio_is_playing(snd_spookywind_ambient)){
-audio_play_sound(snd_spookywind_ambient,2,true);
-}
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
