@@ -9,8 +9,7 @@ if (g_dashing){
 	vsp = 0;
 	hsp = sign(hsp)*dash_spd;
 	x = x + hsp;
-	image_alpha = .5;
-	sprite_index = s_player_dash;
+	sprite_index = s_player_ghostdash;
 }
 //Collisions
 if (tile_place_meeting(x+hsp,y,"Collision"))
@@ -21,9 +20,7 @@ if (tile_place_meeting(x+hsp,y,"Collision"))
 	}
 	g_dashing = false;
 }
-if keyboard_check_pressed(ord("L")){
-	g_dashing = false
-}
+
 if (g_dashing == true) && (alarm[3] = -1){
 		alarm[3]= 10;
 		show_debug_message("G DASHING NOW")
