@@ -1,6 +1,6 @@
 function phase_1(){
 	show_debug_message("BOSS PHASE1");
-	if(global.boss_state == boss.phase_1 && (path_enabled == false))
+	if(global.boss_state == boss.phase_1 && path_enabled == false && global.boss_health == 3)
 {
     path_start(pth_boss_phase1,2,path_action_continue, false);
 	path_enabled = true;
@@ -25,14 +25,12 @@ if(firing_delay <0) {
 if(keyboard_check_pressed(vk_down)){
 global.boss_health-=1;	
 }
-show_debug_message("phase1:" + string(path_speed));
-if(keyboard_check_pressed(ord("H")) && global.boss_health = 2) {
+//show_debug_message("phase1:" + string(path_speed));
+//When the health is 2 the path ends and the phase 2 alarm is set.
+if(global.boss_health = 2 && alarm[0] = -1) {
+	alarm[0] = 60;
 	path_speed = 0;
 	path_end();
 	path_enabled = false;
-	//path_speed = 0;
-	//x = rest_x;
-	//y = rest_y;
-	global.boss_state = boss.phase_2;
 }
 }

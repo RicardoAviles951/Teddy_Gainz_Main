@@ -4,4 +4,5 @@ function room_reset_true(){
 audio_stop_all();
 global.cam_move_speed = 0;
 global.orb_counter = 0;
+global.boss_health = 3;
 }
