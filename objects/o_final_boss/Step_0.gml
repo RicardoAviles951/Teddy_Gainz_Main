@@ -10,7 +10,7 @@ else if (global.boss_state == boss.phase_2){
 else if (global.boss_state == boss.phase_3){
 	phase_3();
 }
-
+show_debug_message(global.boss_health);
 /*
 
 //In the future, this logic will be tied to enemy states.

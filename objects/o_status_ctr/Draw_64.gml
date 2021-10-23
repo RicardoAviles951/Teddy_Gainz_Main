@@ -14,7 +14,7 @@ draw_rectangle_color(gwidth*3/8,gheight/4,gwidth*5/8, gheight*3/4,c,c,c,c,false)
 
 
 //Draw elements on left side
-draw_set_font(f_gui);
+draw_set_font(f_main_menu);
 draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
 
