@@ -228,6 +228,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
+    {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},},
     {"roomId":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},},
@@ -235,7 +236,6 @@
     {"roomId":{"name":"rm_Lvl3","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},},
     {"roomId":{"name":"rm_finalboss","path":"rooms/rm_finalboss/rm_finalboss.yy",},},
     {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
-    {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

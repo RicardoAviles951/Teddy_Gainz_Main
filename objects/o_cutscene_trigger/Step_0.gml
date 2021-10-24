@@ -177,31 +177,15 @@ if(currentState == cutSceneStates.Active)
 		
 		case 8: //Teddy and Thicc run right into the level warp to start the tutorial level
 		
-		o_player.sprite_index = s_player_run;
-			if(o_player.x != 608)
-			{
-				++o_player.x;
-				o_player.image_speed = 1;
-			}
-			
-			else
-			
-			{
-				o_player.image_speed = 0;
-			}
-			
-			o_thicc.sprite_index = s_thicc_run;
-			if(o_thicc.x != 608)
-			{
-				++o_thicc.x;
-				o_thicc.image_speed = 1;
-			}
-			
-			else
-			
-			{
-				o_thicc.image_speed = 0;
-			}
+		if(o_player.y != 544)
+		{
+			++o_player.y;
+		}
+		
+		else
+		{
+			++currentStep;
+		}
 			
 			break;
 	}
