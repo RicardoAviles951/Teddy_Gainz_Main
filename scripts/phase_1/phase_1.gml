@@ -16,6 +16,7 @@ if(firing_delay <0) {
 	firing_delay = random_range(10,60);
 	with(instance_create_layer(x,y,"Bullets", o_acid)) //The with function allows us to reference the o_acid object. 
 	{
+		show_debug_message("PEWWWWWW");
 		speed = 10; //speed of projectile
 		direction = other.look; //sets the direction of projectile
 		image_angle = direction; //sets the angle to the direction.

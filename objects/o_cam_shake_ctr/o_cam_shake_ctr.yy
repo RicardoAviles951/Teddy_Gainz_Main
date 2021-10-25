@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_ghostwall1",
-    "path": "sprites/s_ghostwall1/s_ghostwall1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,15 +20,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environement",
-    "path": "folders/Objects/Environement.yy",
+    "name": "Controller Objects",
+    "path": "folders/Objects/Controller Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_ghost_wall",
+  "name": "o_cam_shake_ctr",
   "tags": [],
   "resourceType": "GMObject",
 }

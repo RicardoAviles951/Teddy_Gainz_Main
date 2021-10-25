@@ -46,4 +46,5 @@ global.orb_counter = 0;
 
 //Boss vars
 global.boss_health = 3;
-global.hittable = true;
+global.hittable = true; 
+global.cam_shake = false;
