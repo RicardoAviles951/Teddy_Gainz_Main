@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Player States",
+    "path": "folders/Scripts/States/Player States.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sounds_music",
+  "name": "Idle_state",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -11,7 +11,7 @@ function phase_1(){
 	look = point_direction(x,y, o_player.x, o_player.y);
 
 //Creates an instance of a bullet if the delay counter is less than zero. Sets it to 30. 
-if(firing_delay <0) {
+if(firing_delay <0) and global.boss_health == 3 {
 	
 	firing_delay = random_range(10,60);
 	with(instance_create_layer(x,y,"Bullets", o_acid)) //The with function allows us to reference the o_acid object. 

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ghost_state(){
 show_debug_message("GHOST");
-image_alpha = .5;
+//image_alpha = .5;
 get_input();
 calc_smooth_movement();
 check_ground();

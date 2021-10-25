@@ -23,6 +23,7 @@ switch( idleAnimState )
     break;
 	default: sprite_index = s_player_idle_blink;
 }
+show_debug_message("anim" + string(idleAnimState));
 }
 if(abs(hsp)>4) && (on_ground) { 
 sprite_index = s_player_run;

@@ -1,7 +1,9 @@
 /// @description Initializing Global Vars
 enum states {
+	player_idle,
 	normal,
 	dash,
+	death,
 	ghost,
 	g_dash
 	//balloon

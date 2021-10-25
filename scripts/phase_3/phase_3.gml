@@ -11,7 +11,7 @@ if(global.boss_health == 1 && path_enabled == false && alarm[4] = -1)
 	show_debug_message("PATH3 ACITVATED");
 	 alarm [4] = 120;
 	path_enabled = true;
-}
+} 
 //Spiral bullets code
 spiral++;
 
@@ -22,7 +22,7 @@ if(spiral>360)
 countdown_bullet--;
 
 
-if(countdown_bullet<0){
+if(countdown_bullet<0 && global.boss_health ==1) {
 countdown_bullet = 5;
 var controlbullet = instance_create_layer(x,y,"Bullets", o_acid_spiral);
 controlbullet.direction = spiral;

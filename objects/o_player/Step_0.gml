@@ -5,6 +5,12 @@ if (global.state == states.normal){
 else if (global.state == states.dash){
 	dash_state();
 }
+else if (global.state == states.death) {
+	death_state();
+}
+else if (global.state == states.player_idle) {
+	Idle_state();
+}
 else if (global.state == states.ghost){
 	ghost_state();
 }

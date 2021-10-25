@@ -15,7 +15,7 @@ firing_delay -= 1;
 //Aims in the direction of the player.
 look = point_direction(x,y, o_player.x, o_player.y);
 //Checks firing delay timer and sets the bullet state variable to either 1 or 2. Runs this every 1 second.
-if(alarm[2] = -1 && firing_delay <0)
+if(alarm[2] = -1 && firing_delay <0 && global.boss_health ==2)
 {
 	bullet_state = choose(1,2);
 	alarm[2] = 60;

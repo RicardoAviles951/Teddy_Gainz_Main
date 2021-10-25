@@ -8,7 +8,8 @@
 //}
 if(is_broken == false) sprite_index = s_weakwall;
 if(is_broken == true) sprite_index = s_weakwall_broken;
-if(place_meeting(x,y, o_player)) && (global.state == states.dash) {
+if(place_meeting(x,y, o_player)) && (global.state == states.dash) && !audio_is_playing(snd_web) && is_broken == false {
+	audio_play_sound(snd_web,2,false);
 	is_broken = true;
 	image_index = 0;
 	image_speed = 1;
