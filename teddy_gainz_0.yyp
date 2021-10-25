@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"f_dialogue","path":"fonts/f_dialogue/f_dialogue.yy",},"order":3,},
     {"id":{"name":"s_weakwall","path":"sprites/s_weakwall/s_weakwall.yy",},"order":5,},
     {"id":{"name":"s_parallax_sky3","path":"sprites/s_parallax_sky3/s_parallax_sky3.yy",},"order":8,},
     {"id":{"name":"phase_2","path":"scripts/phase_2/phase_2.yy",},"order":2,},
@@ -150,7 +151,6 @@
     {"id":{"name":"s_boat_bottom","path":"sprites/s_boat_bottom/s_boat_bottom.yy",},"order":21,},
     {"id":{"name":"s_ok","path":"sprites/s_ok/s_ok.yy",},"order":9,},
     {"id":{"name":"s_spawn","path":"sprites/s_spawn/s_spawn.yy",},"order":2,},
-    {"id":{"name":"f_dialogue","path":"fonts/f_dialogue/f_dialogue.yy",},"order":3,},
     {"id":{"name":"o_ball","path":"objects/o_ball/o_ball.yy",},"order":0,},
     {"id":{"name":"o_skull","path":"objects/o_skull/o_skull.yy",},"order":13,},
     {"id":{"name":"level_select","path":"scripts/level_select/level_select.yy",},"order":3,},
@@ -304,7 +304,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "teddy_gainz_0",
