@@ -8,7 +8,8 @@ switch(type) {
 	room_reset_true(); break;
 	case 1: room_goto(rm_Lvl1);
 	room_reset_true(); break;
-	case 2: room_goto(rm_Puzzle); break;
+	case 2: room_goto(rm_Puzzle);
+	room_reset_true(); break;
 	case 3: room_goto(rm_Lvl3); 
 	room_reset_true(); break; 
 	case 4: room_goto(rm_finalboss);

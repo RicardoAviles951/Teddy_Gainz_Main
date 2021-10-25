@@ -9,7 +9,7 @@ function idle(){
 	//show_debug_message(y);
 y = y + sin(timer_boss*.08)*.5;
 timer_boss++;
-if(keyboard_check_pressed(ord("H"))){
-	global.boss_state = boss.phase_1;
+if(alarm[5] = -1) {
+	alarm[5] = 60;
 }
 }
