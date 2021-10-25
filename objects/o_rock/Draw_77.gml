@@ -1,3 +1,3 @@
-if(place_meeting(x,y, o_final_boss)) {
+if (tile_place_meeting(x, y, "Collision")) {
 	instance_destroy();
 }

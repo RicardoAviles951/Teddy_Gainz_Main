@@ -26,15 +26,7 @@ if (place_meeting(x+hsp,y,o_ghost_wall))
 	//{
 		//x = x + sign(hsp);
 	//}
-	hsp = 0;
-}
-if (place_meeting(x-5,y,o_ghost_wall))
-{
-	//while (!place_meeting(x+sign(hsp),y,o_weakwall))
-	//{
-	//	x = x + sign(hsp);
-	//}
-	hsp = 5;
+	hsp = 2*-sign(hsp);
 }
 if (place_meeting(x+hsp,y,o_death_zone))
 {
