@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_crystalglow",
-    "path": "sprites/s_crystalglow/s_crystalglow.yy",
+    "name": "s_mama_idle",
+    "path": "sprites/s_mama_idle/s_mama_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Characters",
+    "path": "folders/Objects/Characters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_crystal",
+  "name": "o_mama",
   "tags": [],
   "resourceType": "GMObject",
 }

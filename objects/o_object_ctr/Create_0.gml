@@ -12,7 +12,8 @@ enum boss {
 	idle,
 	phase_1,
 	phase_2,
-	phase_3
+	phase_3,
+	boss_death
 }
 
 enum rooms {
