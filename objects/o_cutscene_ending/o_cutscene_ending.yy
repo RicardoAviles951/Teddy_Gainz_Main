@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "s_crystalglow",
-    "path": "sprites/s_crystalglow/s_crystalglow.yy",
+    "name": "s_ghost_wall",
+    "path": "sprites/s_ghost_wall/s_ghost_wall.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_cutscene_parent",
+    "path": "objects/o_cutscene_parent/o_cutscene_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cutscene",
+    "path": "folders/Objects/Cutscene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_crystal",
+  "name": "o_cutscene_ending",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_crystalglow",
-    "path": "sprites/s_crystalglow/s_crystalglow.yy",
+    "name": "s_weakwall_test",
+    "path": "sprites/s_weakwall_test/s_weakwall_test.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_crystal",
+  "name": "o_cutscene_cam",
   "tags": [],
   "resourceType": "GMObject",
 }

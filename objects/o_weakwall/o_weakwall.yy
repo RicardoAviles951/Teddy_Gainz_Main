@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environement",
-    "path": "folders/Objects/Environement.yy",
+    "name": "UI Objects",
+    "path": "folders/Objects/UI Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_weakwall",
