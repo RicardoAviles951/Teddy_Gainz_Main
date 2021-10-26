@@ -3,7 +3,7 @@
     "name": "s_lever",
     "path": "sprites/s_lever/s_lever.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Zones and Triggers",
-    "path": "folders/Objects/Zones and Triggers.yy",
+    "name": "Environement",
+    "path": "folders/Objects/Environement.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_switch",
+  "name": "o_lever",
   "tags": [],
   "resourceType": "GMObject",
 }
