@@ -65,6 +65,7 @@ if (place_meeting(x,y,o_enemy))
 	image_xscale = 1;
 }
 
+//triggers cutscene lvl 1, on the beach
 if(place_meeting(x,y, o_thicc)) && !instance_exists(o_cutscene_parent)
 {
 	instance_create_layer(x, y, "Instances", o_cutscene_trigger);
