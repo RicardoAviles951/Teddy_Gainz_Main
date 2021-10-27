@@ -18,11 +18,15 @@ enum boss {
 
 enum rooms {
 	menu_room,
+	cut_map,
+	cut_intro,
 	tutorial,
 	level1,
 	puzzleboss,
+	cut_lv3,
 	level3,
-	finalboss
+	finalboss,
+	cut_ending
 }
 global.room = noone;
 	

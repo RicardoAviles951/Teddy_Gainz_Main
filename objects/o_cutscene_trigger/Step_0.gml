@@ -8,7 +8,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 0: //play background music,  create dialogue box above Thicc
 		
-			audio_is_playing(bgMusic) //play background music			
+			//audio_is_playing(bgMusic) //play background music			
 					
 			if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(160, 416,"Instances", o_dialogue_box); //create the dialogue box and pick its position
