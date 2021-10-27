@@ -131,7 +131,7 @@ if(currentState == cutSceneStates.Active)
 		}
 		
 		
-	     if(counter == 180)
+	     if(counter == 60)
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -145,7 +145,63 @@ if(currentState == cutSceneStates.Active)
 		
 		break;
 		
-		case 6: instance_destroy(o_cutscene_trigger, true);
+		case 6: 
+		global.cam_shake = true;
+		with (o_thicc)
+		{
+			if(path_activated == false)
+			{
+				image_xscale = -1;
+				sprite_index = s_thicc_run;
+				path_start(pth_thicc,5,path_action_stop,true);
+				path_activated = true;
+			}
+			if(path_position==1)
+			{
+				path_end();
+				sprite_index = s_thicc_idle;
+			}
+			
+		}
+		
+		 if(counter == 60)
+			{
+			 counter = 0;
+		 	 ++currentStep;
+			}
+			
+		else
+			{
+			 ++counter;
+			}
+		
+		break;
+		
+		case 7: 
+		target = o_thicc; 
+		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
+		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
+			if(!instance_exists(o_dialogue_box))
+					dB = instance_create_layer(center_x, center_y,"Instances_1", o_dialogue_box);
+					dB.myText = "Matey! Need some assistance with helping your Mum?";
+		
+		
+			if(counter == 180)
+				{
+					 instance_destroy(o_dialogue_box, true);
+					 counter = 0;
+		 			 ++currentStep;
+				}
+			
+			else
+				{
+					++counter;
+				}
+		
+		break;
+		
+		
+		case 8: instance_destroy(o_cutscene_trigger, true);
 				
 		break;
 		
