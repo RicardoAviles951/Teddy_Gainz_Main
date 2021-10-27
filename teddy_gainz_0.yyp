@@ -102,6 +102,7 @@
     {"id":{"name":"tile_level1","path":"tilesets/tile_level1/tile_level1.yy",},"order":0,},
     {"id":{"name":"o_tutorialCamera","path":"objects/o_tutorialCamera/o_tutorialCamera.yy",},"order":0,},
     {"id":{"name":"dash_state","path":"scripts/dash_state/dash_state.yy",},"order":1,},
+    {"id":{"name":"pth_thicc","path":"paths/pth_thicc/pth_thicc.yy",},"order":3,},
     {"id":{"name":"s_background_finalboss_menu","path":"sprites/s_background_finalboss_menu/s_background_finalboss_menu.yy",},"order":8,},
     {"id":{"name":"o_ok","path":"objects/o_ok/o_ok.yy",},"order":9,},
     {"id":{"name":"o_thicc","path":"objects/o_thicc/o_thicc.yy",},"order":3,},
@@ -125,6 +126,7 @@
     {"id":{"name":"o_cutscene3","path":"objects/o_cutscene3/o_cutscene3.yy",},"order":8,},
     {"id":{"name":"phase_3","path":"scripts/phase_3/phase_3.yy",},"order":3,},
     {"id":{"name":"o_transition","path":"objects/o_transition/o_transition.yy",},"order":4,},
+    {"id":{"name":"snd_eeriepiano","path":"sounds/snd_eeriepiano/snd_eeriepiano.yy",},"order":14,},
     {"id":{"name":"o_final_boss","path":"objects/o_final_boss/o_final_boss.yy",},"order":2,},
     {"id":{"name":"o_cutscene_parent","path":"objects/o_cutscene_parent/o_cutscene_parent.yy",},"order":0,},
     {"id":{"name":"snd_ghost","path":"sounds/snd_ghost/snd_ghost.yy",},"order":5,},
@@ -265,6 +267,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
+    {"roomId":{"name":"rm_cutscene_ending","path":"rooms/rm_cutscene_ending/rm_cutscene_ending.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
     {"roomId":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},},
@@ -273,7 +276,6 @@
     {"roomId":{"name":"rm_cutscene_lvl3","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},},
     {"roomId":{"name":"rm_Lvl3","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},},
     {"roomId":{"name":"rm_finalboss","path":"rooms/rm_finalboss/rm_finalboss.yy",},},
-    {"roomId":{"name":"rm_cutscene_ending","path":"rooms/rm_cutscene_ending/rm_cutscene_ending.yy",},},
     {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
   ],
   "Folders": [
