@@ -69,11 +69,13 @@ if(currentState == cutSceneStates.Active)
 		
 		case 3: //Letter appears 
 		
-		if(!instance_exists(o_let
+		if(!instance_exists(o_let))
 			
-	}
+	{
 }
 
 else if (currentState == cutSceneStates.Paused) {
 	
+}
+	}
 }
