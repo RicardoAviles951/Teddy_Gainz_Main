@@ -213,6 +213,7 @@
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":1,},
     {"id":{"name":"s_weakwall_test","path":"sprites/s_weakwall_test/s_weakwall_test.yy",},"order":0,},
     {"id":{"name":"s_player_ghostjump","path":"sprites/s_player_ghostjump/s_player_ghostjump.yy",},"order":10,},
+    {"id":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},"order":11,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":2,},
     {"id":{"name":"s_parallax_graveyard4","path":"sprites/s_parallax_graveyard4/s_parallax_graveyard4.yy",},"order":17,},
     {"id":{"name":"o_acid_homing","path":"objects/o_acid_homing/o_acid_homing.yy",},"order":8,},
@@ -276,6 +277,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+    {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
     {"roomId":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},},
     {"roomId":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},},
