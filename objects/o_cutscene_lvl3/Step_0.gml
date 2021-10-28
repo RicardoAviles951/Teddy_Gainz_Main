@@ -54,7 +54,18 @@ if(currentState == cutSceneStates.Active)
 		if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(center_x, center_y,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.myText = "???: Teddy... Teddy... Do you hear us? "; //dialogue that will draw in the dialogue box
-								
+				
+			with (o_ghost_powerup)
+			{
+				if(path_on == false)
+					{
+						audio_play_sound(snd_ghost,2,false);
+						image_alpha = .65;
+						path_start(pth_ghost1, 1,path_action_reverse, true);
+						path_on = true;
+					}
+			}
+			
 			if(counter == 180) //if the counter reaches 180 steps/3 seconds, destroy objects and move to next case
 			{
 				instance_destroy(o_dialogue_box, true); //destroy the dialogue box
@@ -377,6 +388,17 @@ if(currentState == cutSceneStates.Active)
 			if(!instance_exists(o_dialogue_box))
 				dB = instance_create_layer(center_x, center_y,"Instances", o_dialogue_box); 
 				dB.myText = "Bug ghosts: Teddy... You are our only hope..."; 
+				
+			with (o_ghost_powerup)
+			{
+				audio_play_sound(snd_ghost,2,false);
+				audio_sound_gain(snd_ghost,0,500);
+				image_alpha -=.01;
+				if(image_alpha <= 0) 
+					{
+						instance_destroy();
+					}
+			}
 								
 			if(counter == 180) 
 			{
@@ -473,7 +495,7 @@ if(currentState == cutSceneStates.Active)
 			break;
 			
 			case 23: //Load the next room
-			
+			audio_stop_all();
 			room_goto_next();
 			
 			break;

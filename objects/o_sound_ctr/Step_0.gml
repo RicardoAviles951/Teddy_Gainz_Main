@@ -37,7 +37,10 @@ if(instance_exists(o_rock) && !audio_is_playing(snd_rock_fall)){
 	audio_play_sound(snd_rock_fall,2, false);
 	audio_sound_gain(snd_rock_fall,0,3000);
 }
-
+if(global.cam_shake == true && !audio_is_playing(snd_rumble))
+{
+		audio_play_sound(snd_rumble, 2, false);
+}
 
 
 

@@ -8,6 +8,8 @@ draw_sprite_ext(s_ghost_powerup,0, (x_offset-64), y_offset+32,2,2,0,c_white, 1);
 //if(global.orb_counter >0){
 draw_set_color(c_black);
 draw_set_font(f_main_menu);
+draw_set_valign(fa_center);
+draw_set_halign(fa_right);
 draw_text(x_offset+16, y_offset+48, string(global.orb_counter));
 //}
 var x_top = (global.view_width*20/24);
@@ -24,7 +26,7 @@ var g_cooldown = clamp(ghost_timer,0,300)/300;
 
 
 clamp(ghost_timer,0,300);
-if(global.state == states.ghost) {
+if(global.state == states.ghost or global.state == states.g_dash) {
 	ghost_timer++;
 }
 else {
