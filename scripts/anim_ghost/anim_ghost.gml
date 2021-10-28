@@ -8,12 +8,12 @@ else{
 if(on_ground==true && hsp = 0) {
 	sprite_index = s_player_ghost;
 }
-if(hsp>4) && (on_ground){ 
+}
+if(abs(hsp)>4) && (on_ground){ 
 sprite_index = s_player_ghostrun;
 }
 if(!on_ground){
 	sprite_index = s_player_ghostjump;
-}
 }
 if (hsp !=0) image_xscale = sign(hsp);
 }

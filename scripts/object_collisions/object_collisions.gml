@@ -19,21 +19,15 @@ if (place_meeting(x+hsp,y,o_weakwall))
 	//}
 	//vsp = 0;
 //}
-//Offsets
-var sprite_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_index);
-var sprite_bbox_right = sprite_get_bbox_right(sprite_index) - sprite_get_xoffset(sprite_index);
-var sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index);
-//Horizontal collisions
 
-//Snap
-if place_meeting(x+sign(hsp),y,o_ghost_wall) {
-    var wall = instance_place(x+sign(hsp),y,o_ghost_wall);
-    if hsp > 0 { //right
-        x = (wall.bbox_left-1)-sprite_bbox_right;
-    } else if hsp < 0 { //left
-        x = (wall.bbox_right+1)-sprite_bbox_left;
-    }
-    hsp = 0;
+//Horizontal collisions
+if (place_meeting(x+hsp,y,o_ghost_wall))
+{
+	while (!place_meeting(x+sign(hsp),y,o_ghost_wall))
+	{
+	x = x + sign(hsp);
+	}
+	hsp = 0;
 }
 
 //Horizontal Collision
