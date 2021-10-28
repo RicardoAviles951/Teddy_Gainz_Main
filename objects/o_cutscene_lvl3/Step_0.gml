@@ -199,14 +199,14 @@ if(currentState == cutSceneStates.Active)
 				dB.myText = "Teddy: 1) The Bad Bug? 2) You're scary is what you are."; 
 								
 			
-			if(keyboard_check_pressed(vk_numpad1)) || (counter == 480)
+			if(keyboard_check_pressed(vk_numpad1)) || (keyboard_check(1)) 
 			
 			{
 				instance_destroy(o_dialogue_box, true);
 				++currentStep;
 			}
 			
-			if(keyboard_check_pressed(vk_numpad2)) || (counter = 480)
+			if(keyboard_check_pressed(vk_numpad2)) || (keyboard_check(2))
 			{
 				instance_destroy(o_dialogue_box, true);
 				++currentStep;
