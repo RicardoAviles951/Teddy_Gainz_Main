@@ -19,6 +19,7 @@ anim();
 		global.orb_counter = global.orb_counter - 1;
 		global.state = states.ghost;
 		audio_sound_pitch(snd_ghost,1.5);
+		audio_sound_gain(snd_ghost,.45,0);
 		audio_play_sound(snd_ghost, 2, false);
 	}
 }

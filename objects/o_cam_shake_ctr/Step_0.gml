@@ -1,7 +1,6 @@
 
-if(global.cam_shake == true) {
+if(global.cam_shake == true){
 	var shake = random_range(-3,3);
-	
 	camera_set_view_pos(view_camera[0], view_x + shake, view_y + shake);
 }
 else {
