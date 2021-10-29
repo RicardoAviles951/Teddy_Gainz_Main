@@ -1,5 +1,6 @@
 
 switch ( global.room ) {
+	case rooms.cut_map: break;
 	case rooms.cut_intro: if(!audio_is_playing(snd_waves)){
 		audio_play_sound(snd_waves, 1, true);	
 		audio_sound_gain(snd_waves,.7, 1000);
