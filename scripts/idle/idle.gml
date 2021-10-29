@@ -9,7 +9,7 @@ function idle(){
 	//show_debug_message(y);
 y = y + sin(timer_boss*.08)*.5;
 timer_boss++;
-if(alarm[5] = -1) {
+if(room != rm_cutscene_ending2 && room != rm_cutscene_ending && alarm[5] = -1) {
 	alarm[5] = 60;
 }
 }
