@@ -1,3 +1,8 @@
+if(place_meeting(x,y,o_player) && room == rm_cutscene1 && !audio_is_playing(snd_intro_friendly))
+{
+	audio_play_sound(snd_intro_friendly,2,true);
+}
+
 if(place_meeting(x,y,o_player) && room == rm_Tutorial && !audio_is_playing(snd_surfrock))
 {
 	audio_play_sound(snd_surfrock,2,true);
