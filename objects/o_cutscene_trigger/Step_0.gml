@@ -426,6 +426,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 18: //Load the tutorial level and destroy the cutscene object
+		audio_stop_all();
 		
 		instance_destroy(o_cutscene_trigger, true);
 		instance_destroy(o_cutscene_parent, true);

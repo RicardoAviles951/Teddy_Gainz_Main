@@ -249,6 +249,7 @@ if(currentState == cutSceneStates.Active)
 				}
 				
 			case 13: // Load the next room
+			audio_stop_all();
 			
 			room_goto_next();
 			
