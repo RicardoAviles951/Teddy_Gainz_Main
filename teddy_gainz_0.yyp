@@ -169,6 +169,7 @@
     {"id":{"name":"rm_Lvl3","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},"order":5,},
     {"id":{"name":"s_player_jump","path":"sprites/s_player_jump/s_player_jump.yy",},"order":4,},
     {"id":{"name":"new_game","path":"scripts/new_game/new_game.yy",},"order":4,},
+    {"id":{"name":"rm_Puzzle2","path":"rooms/rm_Puzzle2/rm_Puzzle2.yy",},"order":12,},
     {"id":{"name":"o_beach_ball","path":"objects/o_beach_ball/o_beach_ball.yy",},"order":1,},
     {"id":{"name":"s_status_ctr","path":"sprites/s_status_ctr/s_status_ctr.yy",},"order":3,},
     {"id":{"name":"s_player_ghostdash","path":"sprites/s_player_ghostdash/s_player_ghostdash.yy",},"order":7,},
@@ -286,6 +287,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
+    {"roomId":{"name":"rm_Puzzle2","path":"rooms/rm_Puzzle2/rm_Puzzle2.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
