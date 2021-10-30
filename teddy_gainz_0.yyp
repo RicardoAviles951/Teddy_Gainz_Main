@@ -211,6 +211,7 @@
     {"id":{"name":"s_boat_sail","path":"sprites/s_boat_sail/s_boat_sail.yy",},"order":22,},
     {"id":{"name":"s_boss_placeholder","path":"sprites/s_boss_placeholder/s_boss_placeholder.yy",},"order":2,},
     {"id":{"name":"g_dash_state","path":"scripts/g_dash_state/g_dash_state.yy",},"order":3,},
+    {"id":{"name":"s_smallbug_animated","path":"sprites/s_smallbug_animated/s_smallbug_animated.yy",},"order":4,},
     {"id":{"name":"s_enemy_strip4","path":"sprites/s_enemy_strip4/s_enemy_strip4.yy",},"order":0,},
     {"id":{"name":"s_parallax_sky4","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"order":9,},
     {"id":{"name":"s_wrong","path":"sprites/s_wrong/s_wrong.yy",},"order":14,},
@@ -370,7 +371,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "teddy_gainz_0",
