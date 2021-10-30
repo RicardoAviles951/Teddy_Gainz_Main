@@ -2,12 +2,12 @@
 // You can write your code in this editor
 
 draw_self();
-
+draw_set_color(c_black); // Sets text color to be black. 
 //Aligns the text relative to the origin of the sprite. For the dialgoue box, the origin is set to top left. 
 draw_set_font(f_dialogue);//Sets the font to the dialogue font.
 draw_set_halign(fa_left);//Sets the text to be to the right of the origin. (weird it's called fa_left)
 draw_set_valign(fa_top); //Sets the vertical alignment to be below the origin. 
-draw_set_color(c_black); // Sets text color to be black. 
+
 var wantSize = 20; // height of text I want
 var currSize = string_height(myText); //Grabs the size of the font. 48
 var scale = wantSize / currSize; //Creates a scale to achieve the desired size.
