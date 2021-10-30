@@ -103,6 +103,7 @@
     {"id":{"name":"s_gate","path":"sprites/s_gate/s_gate.yy",},"order":25,},
     {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},"order":4,},
     {"id":{"name":"s_player_dash","path":"sprites/s_player_dash/s_player_dash.yy",},"order":6,},
+    {"id":{"name":"Emote_create","path":"scripts/Emote_create/Emote_create.yy",},"order":8,},
     {"id":{"name":"o_map","path":"objects/o_map/o_map.yy",},"order":5,},
     {"id":{"name":"s_button_Shift","path":"sprites/s_button_Shift/s_button_Shift.yy",},"order":2,},
     {"id":{"name":"s_dialogue_box","path":"sprites/s_dialogue_box/s_dialogue_box.yy",},"order":2,},

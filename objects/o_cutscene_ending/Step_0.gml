@@ -46,8 +46,10 @@ if(currentState == cutSceneStates.Active)
 		#region More dialogue before shake.
 			if(instance_exists(o_dialogue_box))
 					dB.myText = "But something doesn't feel right.";
+			Emote_create(o_dumbfounded,o_player,16, -64);
 		if(counter == 120 || keyboard_check_pressed(vk_space))
 				{
+					instance_destroy(o_dumbfounded,true);
 					 counter = 0;
 		 			++currentStep;
 				}
@@ -63,7 +65,7 @@ if(currentState == cutSceneStates.Active)
 		#region Room shakes and rocks fall. Teddy dialogue.
 		
 		global.cam_shake = true;
-		
+		Emote_create(o_double_exclamation,o_player,16, -64);
 			if(!instance_exists(o_rock))
 				{
 				instance_create_layer(560,random_range(70,90), "Instances",o_rock);
@@ -76,6 +78,7 @@ if(currentState == cutSceneStates.Active)
 			if(counter == 120)
 				{
 					 instance_destroy(o_dialogue_box, true);
+					 instance_destroy(o_double_exclamation, true);
 					 counter = 0;
 		 			++currentStep;
 				}
@@ -123,13 +126,14 @@ if(currentState == cutSceneStates.Active)
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(center_x, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Teddy!";
+			
 		with (o_player) 
 		{
 			image_xscale = -1;
 		}
 		
 		
-	     if(counter == 60)
+	     if(counter == 120)
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -148,11 +152,12 @@ if(currentState == cutSceneStates.Active)
 		target = o_player; 
 		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
 		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
+		Emote_create(o_exclamation,o_player,-32, -64);
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(center_x-100, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Mum! Are you okay?";
 		
-	     if(counter == 180 || (keyboard_check_pressed(vk_space)))
+	     if(counter == 1200 || (keyboard_check_pressed(vk_space)))
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -172,13 +177,16 @@ if(currentState == cutSceneStates.Active)
 		target = o_mama; 
 		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
 		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
+		Emote_create(o_double_exclamation,o_mama,16, -64);
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(center_x, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Yes, I am perfectly fine. I am more worried about you, my darling. My my oh my, you have turned so FIERCE! Facing that darn scary moth like that!";
 		
-	     if(counter == 180 || (keyboard_check_pressed(vk_space)))
+	     if(counter == 1200 || (keyboard_check_pressed(vk_space)))
 			{
 			 instance_destroy(o_dialogue_box, true);
+			 instance_destroy(o_exclamation, true);
+			 instance_destroy(o_double_exclamation, true);
 			 counter = 0;
 		 	 ++currentStep;
 			}
@@ -199,7 +207,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(center_x-100, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Haha, well, there was a lot that happened on the way.";
 		
-	     if(counter == 180 || (keyboard_check_pressed(vk_space)))
+	     if(counter == 1200 || (keyboard_check_pressed(vk_space)))
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -279,17 +287,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(center_x-100, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Thicc! Thank you so much.";
 		
-	     if(counter == 180 || (keyboard_check_pressed(vk_space)))
-			{
-			 instance_destroy(o_dialogue_box, true);
-			 counter = 0;
-		 	 ++currentStep;
-			}
-			
-		else
-			{
-			 ++counter;
-			}
+	     case_switch_120();
 		break;
 		#endregion
 		
@@ -298,7 +296,7 @@ if(currentState == cutSceneStates.Active)
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Mum, let's continue talking after we evacuate. It's not safe if we stay here.";
 		global.cam_shake = true;
-	     if(counter == 240 || (keyboard_check_pressed(vk_space)))
+	     if(counter == 1200 || (keyboard_check_pressed(vk_space)))
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -383,17 +381,18 @@ if(currentState == cutSceneStates.Active)
 		
 			if(!instance_exists(o_double_exclamation))
 			instance_create_layer(o_player.x-32,o_player.y-64,"Instances",o_double_exclamation)
+		if(counter == 240)
+		{
+			counter = 0;
+			++currentStep;
+		}
+		else
+		{
+			++counter;
+		}
 		
-			if(counter == 180)
-				{
-					 counter = 0;
-		 			 ++currentStep;
-				}
+		break;
 			
-			else
-				{
-					++counter;
-				}
 		
 		break;
 		#endregion
@@ -437,7 +436,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(center_x-100, center_y,"Instances", o_dialogue_box);
 			dB.myText = "...I know that it's dangerous, but...";
 			
-			 if(counter == 180 || (keyboard_check_pressed(vk_space)))
+			 if(counter == 1200 || (keyboard_check_pressed(vk_space)))
 			{
 			 //instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -515,12 +514,14 @@ if(currentState == cutSceneStates.Active)
 		target = o_thicc; 
 		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
 		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
+		Emote_create(o_shocked_question,o_thicc,8,-64);
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(center_x+100, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Hey, where are you going?!";
 		if(counter == 180 || (keyboard_check_pressed(vk_space)))
 			{
 			 instance_destroy(o_dialogue_box, true);
+			 instance_destroy(o_shocked_question, true);
 			 counter = 0;
 		 	++currentStep;
 			}
@@ -559,12 +560,14 @@ if(currentState == cutSceneStates.Active)
 		target = o_thicc; 
 		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
 		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
+		Emote_create(o_double_exclamation,o_thicc,16,-64);
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(center_x+100, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Matey!! It's dangerous!!";
 		if(counter == 180 || (keyboard_check_pressed(vk_space)))
 			{
-			 counter = 0;
+			instance_destroy(o_double_exclamation, true);
+			counter = 0;
 		 	++currentStep;
 			}
 			
@@ -697,7 +700,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(center_x-150, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Mama: What... just happened?";
 			
-		if(counter == 300 || keyboard_check_pressed(vk_space))
+		if(counter == 1200 || keyboard_check_pressed(vk_space))
 			{
 			 counter = 0;
 		 	 ++currentStep;
@@ -715,7 +718,7 @@ if(currentState == cutSceneStates.Active)
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Thicc: There was a huge flash and then, the building... isn't collapsing anymore..?";
 			
-			if(counter == 300 || keyboard_check_pressed(vk_space))
+			if(counter == 1200 || keyboard_check_pressed(vk_space))
 			{
 			show_debug_message("CASE 29 OVER");
 			 counter = 0;
@@ -749,7 +752,7 @@ if(currentState == cutSceneStates.Active)
 		case 32:
 		#region
 		if(instance_exists(o_dialogue_box))
-			dB.myText = "Teddy...";
+			dB.myText = "Bug: Teddy...";
 		if(!instance_exists(o_final_boss))
 		{
 		instance_create_layer(o_dialogue_box.x+100,o_dialogue_box.y+150,"Instances",o_final_boss);
@@ -781,14 +784,17 @@ if(currentState == cutSceneStates.Active)
 		
 		case 34:
 		#region
+		Emote_create(o_cluck,o_player,-32,-64);
+		o_cluck.image_xscale = -1;
 		if(instance_exists(o_dialogue_box))
-			dB.myText = "Thicc: Wha... WHAAAAAAAAAAA?!?!?!";
+			dB.myText = "Teddy: Wha... WHAAAAAAAAAAA?!?!?!";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 35:
 		#region
+		instance_destroy(o_cluck,true);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Bug: Please, do not be afraid. I am the King of the colony on this island.";
 			case_switch_120();
@@ -805,6 +811,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 37:
 		#region Teddy line 132
+		Emote_create(o_question,o_player,-32,-64);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Teddy: Banished... the evil..?";
 			case_switch_120();
@@ -821,6 +828,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 39:
 		#region Bug
+		instance_destroy(o_question,true);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Bug: Huh ho ho, be not surprised!That is correct. You must be referring to the terms the Elderly Ones- or the 'Ghosts', you may say- have been saying.";
 			case_switch_120();
@@ -869,6 +877,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 45:
 		#region 
+		Emote_create(o_exclamation,o_player,-32,-64);
+		o_exclamation.image_xscale = -1;
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Teddy; That... is definitely something within my league! Yeah!";
 			case_switch_120();
@@ -877,6 +887,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 46:
 		#region 
+		instance_destroy(o_exclamation,true);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Bug: The crystals materialized their powers as falling rocks when I was taken under control, as they were working against me- since I was possessed by the Primary Evil.";
 			case_switch_120();
@@ -916,6 +927,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 51:
 		#region 
+		Emote_create(o_love,o_mama,16,-64);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "My my oh my, that is a relief! I was about to lose my marbles when those who took me from Sunnyside were chanting about 'chicken protein'!";
 			case_switch_120();
@@ -924,6 +936,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 52: 
 		#region 
+		instance_destroy(o_love, true);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Bug: Huh ho, do not worry... Please let me express my sincere apology to you, ma'am. Now, Teddy Gainz. I have a request for you.";
 			case_switch_120();
@@ -948,6 +961,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 55:
 		#region 
+		Emote_create(o_exclamation,o_thicc,8,-64);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Thicc: ...Friend...";
 			case_switch_120();
@@ -956,6 +970,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 56: 
 		#region 
+		instance_destroy(o_exclamation, true);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Bug: Though the name may resemble the grim being, 'reap' in our colony calls for harvest and riches of the land.";
 			case_switch_120();
