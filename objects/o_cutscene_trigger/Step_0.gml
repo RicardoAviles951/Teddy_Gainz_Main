@@ -15,7 +15,7 @@ if(currentState == cutSceneStates.Active)
 				dB.myText = "Thicc: Aye matey! You look a bit lost there. Care if I show you around?"
 				o_thicc.sprite_index = s_thicc_jump
 				
-			if(keyboard_check_pressed(vk_space)) || (counter == 240)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
+			if(keyboard_check_pressed(vk_space)) || (counter == 360)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
 			{
 				instance_destroy(o_dialogue_box, true); //destroy the dialogue box
 				o_thicc.sprite_index = s_thicc_idle;
@@ -39,7 +39,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Teddy: S- sure.";
 		
 		
-	     if(keyboard_check_pressed(vk_space)) || (counter == 120) 
+	     if(keyboard_check_pressed(vk_space)) || (counter == 180) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -84,7 +84,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Thicc: Hahah, even more confused, eh? My name is Thicc Legs, and I'm a proud gopher living on this island.";
 			o_thicc.sprite_index = s_thicc_jump
 		
-		if(keyboard_check_pressed(vk_space)) || (counter == 360) 
+		if(keyboard_check_pressed(vk_space)) || (counter == 420) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 o_thicc.sprite_index = s_thicc_idle;
@@ -105,7 +105,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(156,377, "Instances", o_dialogue_box);
 			dB.myText = "Thicc: Well, not a native, though. I'm the only gopher here, so it's been a bit lonely spending my time like that. So it's nice meeting ya, matey!"
 				
-		 if(keyboard_check_pressed(vk_space)) || (counter == 360) 
+		 if(keyboard_check_pressed(vk_space)) || (counter == 420) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -147,7 +147,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(156,377, "Instances", o_dialogue_box);
 			dB.myText = "Teddy: The bugs invited me to their festival, but they kidnapped my Mum and friends as a preparation for their festivity.";
 			
-		if(keyboard_check_pressed(vk_space)) || (counter == 360) 
+		if(keyboard_check_pressed(vk_space)) || (counter == 420) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -197,7 +197,7 @@ if(currentState == cutSceneStates.Active)
 				instance_create_layer(345,479,"Instances",o_exclamation);
 			}
 			
-			if(keyboard_check_pressed(vk_space)) || (counter == 300) 
+			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
 				 instance_destroy(o_dialogue_box, true);
 				 instance_destroy(o_exclamation, true);
@@ -221,7 +221,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Teddy: N- no, not really... I'm a bit ashamed to say this, but..."
 		}
 			
-			if(keyboard_check_pressed(vk_space)) || (counter == 180) 
+			if(keyboard_check_pressed(vk_space)) || (counter == 300) 
 				{
 				 instance_destroy(o_dialogue_box, true);
 				 counter = 0;
@@ -249,7 +249,7 @@ if(currentState == cutSceneStates.Active)
 			instance_create_layer(295,479,"Instances",o_double_exclamation);
 		}
 			
-			if(keyboard_check_pressed(vk_space)) || (counter == 180) 
+			if(keyboard_check_pressed(vk_space)) || (counter == 300) 
 				{
 				 instance_destroy(o_dialogue_box, true);
 				 instance_destroy(o_double_exclamation);
@@ -273,7 +273,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Thicc: Nahh, matey. Don't be so harsh on yourself. I really admire your courage to come here all by yourself, especially when you're scared of them bugs!"
 		}
 			
-			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
+			if(keyboard_check_pressed(vk_space)) || (counter == 420) 
 				{
 				 instance_destroy(o_dialogue_box, true);
 				 counter = 0;
@@ -296,7 +296,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Thicc: Never forget your loyalty to your family and friends, matey.";
 		
 		
-	     if(keyboard_check_pressed(vk_space)) || (counter == 240) 
+	     if(keyboard_check_pressed(vk_space)) || (counter == 300) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -317,7 +317,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Thicc: As a loner on this island... that's something I can't value anymore, even if I want to.";
 		
 		
-	     if(keyboard_check_pressed(vk_space)) || (counter == 360) 
+	     if(keyboard_check_pressed(vk_space)) || (counter == 420) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -342,7 +342,7 @@ if(currentState == cutSceneStates.Active)
 			instance_create_layer(295,479,"Instances",o_ok);
 		}
 		
-	     if(keyboard_check_pressed(vk_space)) || (counter == 240) 
+	     if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 instance_destroy(o_ok);
@@ -364,7 +364,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Teddy: I actually feel so much better now that I got to talk to you. Would you be kind enough to guide me onto this island?";
 		
 		
-	     if(keyboard_check_pressed(vk_space)) || (counter == 240) 
+	     if(keyboard_check_pressed(vk_space)) || (counter == 300) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -389,7 +389,7 @@ if(currentState == cutSceneStates.Active)
 			instance_create_layer(345,479,"Instances",o_love);
 		}
 		
-	     if(keyboard_check_pressed(vk_space)) || (counter == 240) 
+	     if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 instance_destroy(o_love);
