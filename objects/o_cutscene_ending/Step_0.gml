@@ -31,7 +31,6 @@ if(currentState == cutSceneStates.Active)
 		
 	     if(counter == 180 || (keyboard_check_pressed(vk_space)))
 			{
-			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
 		 	 ++currentStep;
 			}
@@ -45,33 +44,23 @@ if(currentState == cutSceneStates.Active)
 		#endregion
 		case 2: 
 		#region More dialogue before shake.
-		target = o_player; 
-		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
-		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
-			if(!instance_exists(o_dialogue_box))
-					dB = instance_create_layer(center_x, center_y,"Instances", o_dialogue_box);
+			if(instance_exists(o_dialogue_box))
 					dB.myText = "But something doesn't feel right.";
-		
-		
-			if(counter == 180)
+		if(counter == 120 || keyboard_check_pressed(vk_space))
 				{
-					 instance_destroy(o_dialogue_box, true);
 					 counter = 0;
-		 			 ++currentStep;
+		 			++currentStep;
 				}
 			
 			else
 				{
-					++counter;
+					 ++counter;
 				}
 		
 		break;
 		#endregion
 		case 3:
 		#region Room shakes and rocks fall. Teddy dialogue.
-		target = o_player; 
-		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
-		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
 		
 		global.cam_shake = true;
 		
@@ -81,8 +70,7 @@ if(currentState == cutSceneStates.Active)
 				instance_create_layer(341,random_range(91,100), "Instances",o_rock);
 				} 
 		
-			if(!instance_exists(o_dialogue_box))
-			dB = instance_create_layer(center_x, center_y,"Instances", o_dialogue_box);
+			if(instance_exists(o_dialogue_box))
 			dB.myText = "Oh no, this building is beginning to collapse! I gotta find Mum and scramble outta here-";
 		
 			if(counter == 120)
@@ -307,14 +295,10 @@ if(currentState == cutSceneStates.Active)
 		
 		case 12:
 		#region Teddy talks. Line 111
-		target = o_player; 
-		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
-		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
-		if(!instance_exists(o_dialogue_box))
-			dB = instance_create_layer(center_x-100, center_y,"Instances", o_dialogue_box);
+		if(instance_exists(o_dialogue_box))
 			dB.myText = "Mum, let's continue talking after we evacuate. It's not safe if we stay here.";
 		global.cam_shake = true;
-	     if(counter == 180 || (keyboard_check_pressed(vk_space)))
+	     if(counter == 240 || (keyboard_check_pressed(vk_space)))
 			{
 			 instance_destroy(o_dialogue_box, true);
 			 counter = 0;
@@ -396,9 +380,6 @@ if(currentState == cutSceneStates.Active)
 		
 		case 15: 
 		#region Teddy emotes and thicc speaks.
-		target = o_player; 
-		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
-		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
 		
 			if(!instance_exists(o_double_exclamation))
 			instance_create_layer(o_player.x-32,o_player.y-64,"Instances",o_double_exclamation)
@@ -716,7 +697,7 @@ if(currentState == cutSceneStates.Active)
 			dB = instance_create_layer(center_x-150, center_y,"Instances", o_dialogue_box);
 			dB.myText = "Mama: What... just happened?";
 			
-		if(counter == 120 || keyboard_check_pressed(vk_space))
+		if(counter == 300 || keyboard_check_pressed(vk_space))
 			{
 			 counter = 0;
 		 	 ++currentStep;
@@ -807,10 +788,12 @@ if(currentState == cutSceneStates.Active)
 		#endregion
 		
 		case 35:
+		#region
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Bug: Please, do not be afraid. I am the King of the colony on this island.";
 			case_switch_120();
 		break;
+		#endregion
 		
 		case 36:
 		#region Bug line 131
@@ -882,6 +865,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "Bug: However, there is one major fault to the system. It is that... the user must exercise both their arms and courage in order to activate the powers.";
 			case_switch_120();
 		break;
+		#endregion
 		
 		case 45:
 		#region 
@@ -894,7 +878,7 @@ if(currentState == cutSceneStates.Active)
 		case 46:
 		#region 
 		if(instance_exists(o_dialogue_box))
-			dB.myText = "The crystals materialized their powers as falling rocks when I was still taken under control, as they were working against me- the being that was possessed by the Primary Evil.";
+			dB.myText = "Bug: The crystals materialized their powers as falling rocks when I was taken under control, as they were working against me- since I was possessed by the Primary Evil.";
 			case_switch_120();
 		break;
 		#endregion
@@ -933,7 +917,7 @@ if(currentState == cutSceneStates.Active)
 		case 51:
 		#region 
 		if(instance_exists(o_dialogue_box))
-			dB.myText = "Mama: My my oh my, that is a big surprise, but also a big relief! I was about to lose my marbles when those who took me from Sunnyside were chanting about 'chicken protein'!";
+			dB.myText = "My my oh my, that is a relief! I was about to lose my marbles when those who took me from Sunnyside were chanting about 'chicken protein'!";
 			case_switch_120();
 		break;
 		#endregion
@@ -949,7 +933,7 @@ if(currentState == cutSceneStates.Active)
 		case 53:
 		#region 
 		if(instance_exists(o_dialogue_box))
-			dB.myText = "Bug: Again, you and your loved ones have gone through so much... yet, you were the ones who saved our colony as well. Words cannot express the amount of gratitude we have for you.";
+			dB.myText = "Bug: You and your loved ones have gone through so much... yet, you were the ones who saved our colony as well. Words cannot express the amount of our gratitude.";
 			case_switch_120();
 		break;
 		#endregion
