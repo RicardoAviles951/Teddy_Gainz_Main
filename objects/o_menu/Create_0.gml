@@ -21,11 +21,11 @@ ds_menu_main = create_menu_page(
 );
 
 ds_level_select = create_menu_page(
-	["TUTORIAL", menu_element_type.script_runner, level_select,s_clutter_beachcastle1],
-	["BEACH",    menu_element_type.script_runner, level_select,s_background_sky],
-	["PUZZLE BOSS", menu_element_type.script_runner, level_select,s_clutter_foreshadowing],
-	["CEMETARY", menu_element_type.script_runner, level_select,s_background_finalboss_menu],
-	["FINAL BOSS", menu_element_type.script_runner, level_select, s_background_finalboss_menu],
+	["TUTORIAL", menu_element_type.script_runner, level_select,s_preview1],
+	["BEACH",    menu_element_type.script_runner, level_select,s_preview2],
+	["PUZZLE BOSS", menu_element_type.script_runner, level_select,s_preview3],
+	["CEMETARY", menu_element_type.script_runner, level_select,s_preview4],
+	["FINAL BOSS", menu_element_type.script_runner, level_select,s_preview5],
 	["BACK", menu_element_type.page_transfer, menu_page.main]
 );
 
