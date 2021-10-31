@@ -277,7 +277,7 @@
     {"id":{"name":"s_parallax_sky2","path":"sprites/s_parallax_sky2/s_parallax_sky2.yy",},"order":7,},
     {"id":{"name":"s_exclamation","path":"sprites/s_exclamation/s_exclamation.yy",},"order":5,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":7,},
-    {"id":{"name":"o_credits_panel","path":"objects/o_credits_panel/o_credits_panel.yy",},"order":13,},
+    {"id":{"name":"o_credits_text","path":"objects/o_credits_text/o_credits_text.yy",},"order":13,},
     {"id":{"name":"s_shocked_question","path":"sprites/s_shocked_question/s_shocked_question.yy",},"order":11,},
     {"id":{"name":"s_love","path":"sprites/s_love/s_love.yy",},"order":7,},
     {"id":{"name":"calc_smooth_movement","path":"scripts/calc_smooth_movement/calc_smooth_movement.yy",},"order":2,},
@@ -329,8 +329,8 @@
     {"roomId":{"name":"rm_finalboss","path":"rooms/rm_finalboss/rm_finalboss.yy",},},
     {"roomId":{"name":"rm_cutscene_ending","path":"rooms/rm_cutscene_ending/rm_cutscene_ending.yy",},},
     {"roomId":{"name":"rm_cutscene_ending2","path":"rooms/rm_cutscene_ending2/rm_cutscene_ending2.yy",},},
-    {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
