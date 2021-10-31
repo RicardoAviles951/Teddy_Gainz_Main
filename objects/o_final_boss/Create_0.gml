@@ -8,3 +8,4 @@ path_enabled = false;
 bullet_state = noone;
 spiral = 0;
 countdown_bullet = 0;
+death_tumble = false;
