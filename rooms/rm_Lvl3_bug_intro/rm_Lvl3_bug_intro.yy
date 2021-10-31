@@ -147,7 +147,7 @@
     {"spriteId":{"name":"s_background_graveyard","path":"sprites/s_background_graveyard/s_background_graveyard.yy",},"colour":4294967295,"x":0,"y":360,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":false,"depth":1300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/rm_Lvl3/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/rm_Lvl3_bug_intro/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_74E48C3_1","path":"rooms/rm_Lvl3_bug_intro/rm_Lvl3_bug_intro.yy",},
