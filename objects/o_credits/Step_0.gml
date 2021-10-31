@@ -83,6 +83,7 @@ if(currentState == cutSceneStates.Active)
 			{
 				++counter;
 			}
+			break;
 		
 		
 		case 5: //Special thanks
@@ -198,6 +199,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 12: 
+		audio_stop_all();
 		
 		room_goto(rm_main_menu);
 		
