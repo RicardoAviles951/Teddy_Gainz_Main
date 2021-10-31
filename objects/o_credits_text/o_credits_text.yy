@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_credits_panel",
-    "path": "sprites/s_credits_panel/s_credits_panel.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/Cutscene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_credits_panel",
+  "name": "o_credits_text",
   "tags": [],
   "resourceType": "GMObject",
 }
