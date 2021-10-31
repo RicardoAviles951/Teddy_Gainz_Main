@@ -145,7 +145,7 @@ if(currentState == cutSceneStates.Active)
 		
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(156,377, "Instances", o_dialogue_box);
-			dB.myText = "Teddy: The bugs invited me to their festival, but they kidnapped my Mum and friends as a preparation for their festivity.";
+			dB.myText = "Teddy: The bugs invited me to their festival, but they kidnapped my Mum as a preparation for their festivity.";
 			
 		if(keyboard_check_pressed(vk_space)) || (counter == 420) 
 			{
@@ -167,7 +167,7 @@ if(currentState == cutSceneStates.Active)
 			if(!instance_exists(o_dialogue_box))
 			{
 				dB = instance_create_layer(156,377, "Instances", o_dialogue_box);
-				dB.myText = "Teddy: I'm here to save them"
+				dB.myText = "Teddy: I'm here to save her."
 			}
 			
 			if(keyboard_check_pressed(vk_space)) || (counter == 180) 
