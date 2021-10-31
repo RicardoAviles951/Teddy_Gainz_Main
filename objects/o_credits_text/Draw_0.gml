@@ -11,7 +11,7 @@ draw_set_color(c_white); // Sets text color to be black.
 var wantSize = 50; // height of text I want
 var currSize = string_height(myText); //Grabs the size of the font. 48
 var scale = wantSize / currSize; //Creates a scale to achieve the desired size.
-var box_size = sprite_get_width(s_parallax_graveyard1) - 50 //Ses the desired length before breaking a string.
+var box_size = sprite_get_width(s_parallax_graveyard1) //Sets the desired length before breaking a string.
 //Postitions the text to fit our box using some sneaky math. 
 draw_text_ext_transformed(x+300, y-50, myText, currSize-16, box_size*4.7 , scale, scale, 0); 
 
