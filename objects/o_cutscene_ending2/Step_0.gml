@@ -25,6 +25,11 @@ if(currentState == cutSceneStates.Active)
 		
 		case 1:
 		#region Mayonnaise 
+		if(!audio_is_playing(snd_musicbox))
+		{
+			audio_play_sound(snd_musicbox, 2, true);
+			audio_sound_gain(snd_musicbox,.4, 5000);
+		}
 		instance_destroy(o_exclamation, true);
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Thicc: Oh, matey! Sorry 'bout that, I was just lost in my mayonnaise, thinkin' bout some stuff.";
@@ -261,6 +266,11 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 37:
+		audio_stop_sound(snd_musicbox);
+		if(!audio_is_playing(snd_intro_friendly))
+		{
+			audio_play_sound(snd_intro_friendly, 2, true);
+		}
 		if(instance_exists(o_dialogue_box))
 			dB.myText = "Teddy: But if you're sad about leaving us, how about you come visit us in Sunnyside Isle?";
 			case_switch_120();

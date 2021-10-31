@@ -357,7 +357,7 @@ if(currentState == cutSceneStates.Active)
 			image_alpha += .01;
 			if(path_cryst == false)
 			{
-				audio_play_sound(snd_eeriepiano, 2, true);
+				//audio_play_sound(snd_eeriepiano, 2, true);
 				path_start(pth_crystal,1,path_action_stop,true);
 				path_cryst = true;
 			}
@@ -678,7 +678,7 @@ if(currentState == cutSceneStates.Active)
 		}
 		if(counter == 120)
 			{
-			 //instance_destroy(o_dialogue_box, true);
+			 audio_sound_gain(snd_boss_aftermath,0,500);
 			 counter = 0;
 		 	 ++currentStep;
 			}
@@ -693,6 +693,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 28:
 		#region Mama question
+		audio_stop_all();
 		target = o_player; 
 		var center_x = target.x - (sprite_get_width(s_dialogue_box)/2);
 		var center_y = target.y - (sprite_get_height(s_dialogue_box)*2);
@@ -784,6 +785,11 @@ if(currentState == cutSceneStates.Active)
 		
 		case 34:
 		#region
+		if(!audio_is_playing(snd_softpiano))
+		{
+			audio_sound_gain(snd_softpiano,.60,6000);
+			audio_play_sound(snd_softpiano,2,true);		
+		}
 		Emote_create(o_cluck,o_player,-32,-64);
 		o_cluck.image_xscale = -1;
 		if(instance_exists(o_dialogue_box))

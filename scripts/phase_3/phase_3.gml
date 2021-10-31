@@ -32,6 +32,12 @@ controlbullet.speed = 5;
 if(keyboard_check_pressed(vk_down)){
 global.boss_health-=1;	
 }
-//if boss health = 0, play animation, alarm for instance destroy.
-
+if(global.boss_health == 0 && (alarm[6] = -1)) {
+	show_debug_message("PATH DESTROYED");
+	path_speed = 0;
+	path_end();
+	path_enabled = false;
+	alarm[6] = 60;
 }
+}
+//if boss health = 0, play animation, alarm for instance destroy.

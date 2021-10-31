@@ -38,6 +38,13 @@ switch ( global.room ) {
 	case rooms.level3: if(!audio_is_playing(snd_spookywind_ambient)){
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	
+	case rooms.cut_ending: if(!audio_is_playing(snd_boss_aftermath)){
+		audio_play_sound(snd_boss_aftermath,2,true);
+		} break;	
+	case rooms.cut_ending2: if(!audio_is_playing(snd_waves)){
+		audio_play_sound(snd_waves, 1, true);	
+		audio_sound_gain(snd_waves,.8, 5000);
+		}
 }
 if(instance_exists(o_rock) && !audio_is_playing(snd_rock_fall)){
 	audio_play_sound(snd_rock_fall,2, false);
