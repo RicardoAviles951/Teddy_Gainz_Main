@@ -10,7 +10,7 @@ if(currentState == cutSceneStates.Active)
 				dB = instance_create_layer(157,133,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.myText = "One day, an ominous letter arrives to one cozy home on Sunnyside Isle."; //dialogue that will draw in the dialogue box
 								
-			if(keyboard_check_pressed(vk_space)) || (counter == 240)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
+			if(keyboard_check_pressed(vk_space)) || (counter == 300)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
 			{
 				counter = 0; //reset the timer to 0 steps/0 seconds
 				++currentStep; //move to the next case
@@ -29,7 +29,7 @@ if(currentState == cutSceneStates.Active)
 		if(instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB.myText = "The recipient of this letter is our protagonist, Teddy Gainz, who is a good-hearted feathery fellow."; //dialogue that will draw in the dialogue box
 								
-			if(keyboard_check_pressed(vk_space)) || (counter == 240)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
+			if(keyboard_check_pressed(vk_space)) || (counter == 300)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
 			{
 				counter = 0; //reset the timer to 0 steps/0 seconds
 				++currentStep; //move to the next case
@@ -48,7 +48,7 @@ if(currentState == cutSceneStates.Active)
 		if(instance_exists(o_dialogue_box)) 
 				dB.myText = "With his proud, swole arms, Teddy takes the letter and begins reading it."; 
 								
-			if(keyboard_check_pressed(vk_space)) || (counter == 240)  
+			if(keyboard_check_pressed(vk_space)) || (counter == 300)  
 			{
 				instance_destroy(o_dialogue_box);
 				counter = 0; 
@@ -165,7 +165,7 @@ if(currentState == cutSceneStates.Active)
 				dB = instance_create_layer(157,133,"Instances", o_dialogue_box); 
 				dB.myText = "Upon reading this letter, Teddy was absolutely horrified.";
 				
-			if(keyboard_check_pressed(vk_space)) || (counter == 240) 
+			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
 				counter = 0; 
 				++currentStep;
