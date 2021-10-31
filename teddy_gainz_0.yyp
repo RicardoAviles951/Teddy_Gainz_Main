@@ -142,6 +142,7 @@
     {"id":{"name":"snd_softpiano","path":"sounds/snd_softpiano/snd_softpiano.yy",},"order":19,},
     {"id":{"name":"o_music_collider","path":"objects/o_music_collider/o_music_collider.yy",},"order":6,},
     {"id":{"name":"idle","path":"scripts/idle/idle.yy",},"order":0,},
+    {"id":{"name":"s_preview2","path":"sprites/s_preview2/s_preview2.yy",},"order":17,},
     {"id":{"name":"s_crystalglow","path":"sprites/s_crystalglow/s_crystalglow.yy",},"order":24,},
     {"id":{"name":"o_cutscene3","path":"objects/o_cutscene3/o_cutscene3.yy",},"order":8,},
     {"id":{"name":"phase_3","path":"scripts/phase_3/phase_3.yy",},"order":3,},
@@ -181,7 +182,6 @@
     {"id":{"name":"rm_Lvl3","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},"order":5,},
     {"id":{"name":"s_player_jump","path":"sprites/s_player_jump/s_player_jump.yy",},"order":4,},
     {"id":{"name":"new_game","path":"scripts/new_game/new_game.yy",},"order":4,},
-
     {"id":{"name":"rm_Puzzle","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},"order":12,},
     {"id":{"name":"o_beach_ball","path":"objects/o_beach_ball/o_beach_ball.yy",},"order":1,},
     {"id":{"name":"s_status_ctr","path":"sprites/s_status_ctr/s_status_ctr.yy",},"order":3,},
@@ -374,7 +374,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "teddy_gainz_0",
