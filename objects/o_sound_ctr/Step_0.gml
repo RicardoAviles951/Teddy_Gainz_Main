@@ -44,7 +44,11 @@ switch ( global.room ) {
 	case rooms.cut_ending2: if(!audio_is_playing(snd_waves)){
 		audio_play_sound(snd_waves, 1, true);	
 		audio_sound_gain(snd_waves,.8, 5000);
-		}
+		} break;
+	case rooms.credits_room: if(!audio_is_playing(snd_credits)){
+		audio_play_sound(snd_credits, 1, true);	
+		audio_sound_gain(snd_credits,1, 5000);
+		} break;
 }
 if(instance_exists(o_rock) && !audio_is_playing(snd_rock_fall)){
 	audio_play_sound(snd_rock_fall,2, false);
@@ -54,17 +58,3 @@ if(global.cam_shake == true && !audio_is_playing(snd_rumble))
 {
 		audio_play_sound(snd_rumble, 2, false);
 }
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
