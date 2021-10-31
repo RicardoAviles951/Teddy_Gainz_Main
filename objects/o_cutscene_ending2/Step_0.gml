@@ -310,6 +310,7 @@ if(currentState == cutSceneStates.Active)
 		case 43:
 		audio_stop_all()
 		instance_destroy(o_cutscene_ending2, true);
+		//room_goto_next();
 		break;
 	}
 }
