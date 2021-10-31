@@ -28,3 +28,12 @@ if (keyboard_check_pressed(ord("O"))) {
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;	
 }
+
+if (place_meeting(x,y,o_checkpoint))
+{
+	room_reset_true();
+	room_restart();
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
+	image_xscale = 1;
+}
