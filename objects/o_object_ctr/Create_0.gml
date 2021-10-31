@@ -27,7 +27,8 @@ enum rooms {
 	level3,
 	finalboss,
 	cut_ending,
-	cut_ending2
+	cut_ending2,
+	credits_room
 }
 global.room = noone;
 	
