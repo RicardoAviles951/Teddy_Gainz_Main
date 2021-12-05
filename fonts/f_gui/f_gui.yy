@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "Bahnschrift SemiLight",
   "styleName": "Regular",
   "size": 28.0,
