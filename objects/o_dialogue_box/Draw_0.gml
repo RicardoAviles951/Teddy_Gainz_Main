@@ -1,24 +1,21 @@
-/// @description Where the dialogue is drawn
-// You can write your code in this editor
 
-draw_self();
-draw_set_color(c_black); // Sets text color to be black. 
-//Aligns the text relative to the origin of the sprite. For the dialgoue box, the origin is set to top left. 
-draw_set_font(f_dialogue);//Sets the font to the dialogue font.
+var c    = c_black;
+var scale = .15//scales large font down
+var len  = string_width_ext(myText,78,max_width/scale);//gets the width in pixels of the string while including the breakpoints with proper scaling.
+var h    = string_height_ext(myText,78,max_width/scale);//gets height in pixels of the string with proper scaling. 
+var pad = 4;//Adds space to between text and textbox elements
+var sprite_h = sprite_get_height(s_dialogue_alt);//gets height of textbox sprite 
+var adj = (y + sprite_h)-(h*scale*1.3);//Tricky math that ensures the text box grows from the bottom and not from the top. 
 draw_set_halign(fa_left);//Sets the text to be to the right of the origin. (weird it's called fa_left)
-draw_set_valign(fa_top); //Sets the vertical alignment to be below the origin. 
+draw_set_valign(fa_top);
 
-var wantSize = 20; // height of text I want
-var currSize = string_height(myText); //Grabs the size of the font. 48
-var scale = wantSize / currSize; //Creates a scale to achieve the desired size.
-var box_size = sprite_get_width(s_dialogue_box) - 16 //Stores the desired length before breaking a string.
-//Postitions the text to fit our box using some sneaky math. 
-draw_text_ext_transformed(x+8, y+4, myText, currSize-16, box_size*4.7 , scale, scale, 0); 
+//draw_line_width_color(x+(len*scale)/2,y+(h*scale*1.3)/2,o_cutscene_parent.target.x, o_cutscene_parent.target.y-sprite_get_height(o_cutscene_parent.target)/2,2,c_black,c_black);//draws line from target player to center of text box
+draw_sprite_stretched(s_dialogue_alt,0,x-pad,adj,len*scale+(3*pad),h*scale*1.3);
+if(counter<string_length(myText))
+{
+	counter++;
+}
 
+var substrng = string_copy(myText,1,counter)
 
-
-//draw_text_transformed(x+8, y+4, myText, scale, scale, 0); 
-//draw_text_ext(x+8, y+4, myText, 16, sprite_get_width(s_dialogue_box) - 16);//Draws the text at the origin and breaks 16 pixels before the sprite's width. 
-
-
-//draw_text_ext(bbox_left + 4, bbox_top + 4, myText, 16, sprite_width - 16);
+draw_text_ext_transformed_color(x+pad,adj+2,substrng,78,max_width/scale,scale,scale,0,c,c,c,c,1);

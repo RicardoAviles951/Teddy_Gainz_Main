@@ -6,8 +6,8 @@ if(currentState == cutSceneStates.Active)
 	switch (currentStep) {
 		case 0: //Narration. Line 3
 							
-			if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
-				dB = instance_create_layer(157,133,"Instances", o_dialogue_box); //create the dialogue box and pick its position
+			if(!instance_exists(o_textbox)) //if there is no dialogue box, create a dialogue box
+				dB = instance_create_layer(157,133,"Instances", o_textbox); //create the dialogue box and pick its position
 				dB.myText = "One day, an ominous letter arrives to one cozy home on Sunnyside Isle."; //dialogue that will draw in the dialogue box
 								
 			if(keyboard_check_pressed(vk_space)) || (counter == 300)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
@@ -26,7 +26,7 @@ if(currentState == cutSceneStates.Active)
 			
 		case 1: //Narration. Line 4
 		
-		if(instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
+		if(instance_exists(o_textbox)) //if there is no dialogue box, create a dialogue box
 				dB.myText = "The recipient of this letter is our protagonist, Teddy Gainz, who is a good-hearted feathery fellow."; //dialogue that will draw in the dialogue box
 								
 			if(keyboard_check_pressed(vk_space)) || (counter == 300)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
@@ -45,12 +45,12 @@ if(currentState == cutSceneStates.Active)
 		
 		case 2: //Narration. Line 5
 		
-		if(instance_exists(o_dialogue_box)) 
+		if(instance_exists(o_textbox)) 
 				dB.myText = "With his proud, swole arms, Teddy takes the letter and begins reading it."; 
 								
 			if(keyboard_check_pressed(vk_space)) || (counter == 300)  
 			{
-				instance_destroy(o_dialogue_box);
+				instance_destroy(o_textbox);
 				counter = 0; 
 				++currentStep; 
 			}
@@ -160,9 +160,9 @@ if(currentState == cutSceneStates.Active)
 			
 			case 8: //Narrator. Line 10
 			
-			if(!instance_exists(o_dialogue_box))
-				if(!instance_exists(o_dialogue_box)) 
-				dB = instance_create_layer(157,133,"Instances", o_dialogue_box); 
+			if(!instance_exists(o_textbox))
+				if(!instance_exists(o_textbox)) 
+				dB = instance_create_layer(157,133,"Instances", o_textbox); 
 				dB.myText = "Upon reading this letter, Teddy was absolutely horrified.";
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
@@ -181,7 +181,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 9: //Narrator. Line 11
 			
-			if(instance_exists(o_dialogue_box))
+			if(instance_exists(o_textbox))
 				dB.myText = "It was not just the fact that the bugs mentioned about his mother being a good source of protein, when his mother is actually not even a chicken.";
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
@@ -200,7 +200,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 10: // Narrator. Line 12
 			
-			if(instance_exists(o_dialogue_box))
+			if(instance_exists(o_textbox))
 				dB.myText = "Teddy was faced by his biggest fear.";
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
@@ -218,7 +218,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 11: // Narrator. Line 13
 			
-			if(instance_exists(o_dialogue_box))
+			if(instance_exists(o_textbox))
 				dB.myText = "But knowing that this loving mother has been taken away, he had to muster up his courage.";
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
@@ -234,7 +234,7 @@ if(currentState == cutSceneStates.Active)
 				
 			case 12: // Narrator. Line 14
 			
-			if(instance_exists(o_dialogue_box))
+			if(instance_exists(o_textbox))
 				dB.myText = "And so, Teddy has accepted this invitation and embarked on his journey called…";
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 

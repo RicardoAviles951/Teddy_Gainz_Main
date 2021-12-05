@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_dialogue_box",
+    "path": "sprites/s_dialogue_box/s_dialogue_box.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +31,7 @@
     "path": "folders/Objects/Cutscene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_dialogue_box",
+  "name": "o_textbox",
   "tags": [],
   "resourceType": "GMObject",
 }

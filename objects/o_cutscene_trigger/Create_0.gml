@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+target = noone;
+box = s_dialogue_alt;
 event_inherited();
 
 //Event specific variables
