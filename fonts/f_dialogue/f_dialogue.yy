@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "PF Easta Seven Condensed",
   "styleName": "Regular",
   "size": 48.0,
