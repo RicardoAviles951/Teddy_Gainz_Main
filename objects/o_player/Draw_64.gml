@@ -1,4 +1,5 @@
 /// @description Dash indicator
+/*
 var x_top = (global.view_width*20/24);
 var y_top = (global.view_height*1/24) - 12;
 var x_down = (global.view_width*(20/24)+15);
