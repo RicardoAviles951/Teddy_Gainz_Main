@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI Sprites",
+    "path": "folders/Sprites/UI Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_dialogue_alt",

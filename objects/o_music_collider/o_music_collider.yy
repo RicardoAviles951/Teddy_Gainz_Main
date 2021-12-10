@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_weakwall_test",
-    "path": "sprites/s_weakwall_test/s_weakwall_test.yy",
+    "name": "s_pink_sqr",
+    "path": "sprites/s_pink_sqr/s_pink_sqr.yy",
   },
   "solid": false,
   "visible": false,

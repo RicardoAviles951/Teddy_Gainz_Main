@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "teddy_gainz_0",
-    "path": "teddy_gainz_0.yyp",
+    "name": "Gameplay",
+    "path": "folders/Sprites/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_warp",

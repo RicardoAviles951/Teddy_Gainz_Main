@@ -3,8 +3,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "s_weakwall_test",
-    "path": "sprites/s_weakwall_test/s_weakwall_test.yy",
+    "name": "s_pink_sqr",
+    "path": "sprites/s_pink_sqr/s_pink_sqr.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Gameplay",
+    "path": "folders/Objects/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_cameraTarget",
