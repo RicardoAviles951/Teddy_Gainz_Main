@@ -37,3 +37,9 @@ if (place_meeting(x,y,o_checkpoint))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
+
+//DEVELOPMENTS PURPOSES ONLY
+if(keyboard_check_pressed(vk_control))
+{
+	room_goto_next();
+}
