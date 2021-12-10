@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Gameplay",
+    "path": "folders/Objects/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_fade",

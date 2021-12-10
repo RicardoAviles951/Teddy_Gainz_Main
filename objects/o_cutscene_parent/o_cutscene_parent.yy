@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cutscene",
-    "path": "folders/Objects/Cutscene.yy",
+    "name": "Scenes",
+    "path": "folders/Objects/Cutscene/Scenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_cutscene_parent",
