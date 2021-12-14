@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button_D",
-    "path": "sprites/s_button_D/s_button_D.yy",
+    "name": "s_key_D",
+    "path": "sprites/s_key_D/s_key_D.yy",
   },
   "solid": false,
   "visible": true,
