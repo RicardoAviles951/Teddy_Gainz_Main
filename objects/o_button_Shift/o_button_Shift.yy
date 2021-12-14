@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button_Shift",
-    "path": "sprites/s_button_Shift/s_button_Shift.yy",
+    "name": "s_key_shift",
+    "path": "sprites/s_key_shift/s_key_shift.yy",
   },
   "solid": false,
   "visible": true,
