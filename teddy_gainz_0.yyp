@@ -178,6 +178,7 @@
     {"id":{"name":"snd_surfrock","path":"sounds/snd_surfrock/snd_surfrock.yy",},"order":9,},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},"order":3,},
     {"id":{"name":"rm_cutscene_lvl3","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},"order":10,},
+    {"id":{"name":"Sprite118","path":"sprites/Sprite118/Sprite118.yy",},"order":20,},
     {"id":{"name":"s_button_W","path":"sprites/s_button_W/s_button_W.yy",},"order":11,},
     {"id":{"name":"o_cluck","path":"objects/o_cluck/o_cluck.yy",},"order":1,},
     {"id":{"name":"f_prompts","path":"fonts/f_prompts/f_prompts.yy",},"order":1,},

@@ -76,7 +76,7 @@ if(currentState == cutSceneStates.Active)
 		case 5:// Teddy. Line 18
 		
 		if(instance_exists(o_dialogue_box)){
-			dB.myText = "Teddy: Nice to meet you, Thicc. My name is Teddy Gainz."
+			dB.myText = "Nice to meet you, Thicc. My name is Teddy Gainz."
 		}
 		
 		

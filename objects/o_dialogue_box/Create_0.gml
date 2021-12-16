@@ -19,8 +19,8 @@ spell_cnt = 0;
 char_name = "Thicc Legz";
 
 //sprite vars
-sprite  = s_border;
+sprite  = Sprite118;
 spriteW = sprite_get_width(sprite);
 spriteH = sprite_get_height(sprite);
-xscale  = 1;
+xscale  = -1;
 
