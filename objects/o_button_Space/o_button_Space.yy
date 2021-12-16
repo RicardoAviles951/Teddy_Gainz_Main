@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button_Space",
-    "path": "sprites/s_button_Space/s_button_Space.yy",
+    "name": "s_key_space",
+    "path": "sprites/s_key_space/s_key_space.yy",
   },
   "solid": false,
   "visible": true,
