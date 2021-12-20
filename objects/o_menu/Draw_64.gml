@@ -41,4 +41,59 @@ switch(ds_grid[# 1, menu_option[page]]) {
 		break;
 }
 
+draw_set_halign(fa_left);
+
+var rtx = start_x+32 , rty;
+yy = 0; repeat (ds_height) {
+	
+	rty = start_y + (yy*y_buffer);
+	switch(ds_grid[# 1, yy]) {
+		case menu_element_type.slider: 
+			var len           = 64;
+			var current_val   = ds_grid[# 3, yy];
+			var current_array = ds_grid[# 4, yy];
+			var circle_pos = ((current_val - current_array[0])/(current_array[1] - current_array[0]));
+			c = c_white;
+			draw_line_width(rtx, rty, rtx+len, rty, 2);
+			
+			if(inputting and yy == menu_option[page])
+			{
+				c = c_yellow;
+			}
+			draw_circle_color(rtx + (circle_pos*len), rty, 4, c,c,false);
+			draw_text_color(rtx+(len*1.2), rty, string(floor(circle_pos*100)) + "%", c,c,c,c,1);
+		break;
+		
+		case menu_element_type.toggle: 
+			var current_val = ds_grid[# 3, yy];
+			var c1, c2;
+			c = c_white;
+			
+			if(inputting and yy == menu_option[page])
+			{
+				c = c_yellow;
+			}
+			
+			if(current_val == 0)
+			{
+				c1 = c;
+				c2 = c_dkgray;
+			}
+			else
+			{
+				c1 = c_dkgray;
+				c2 = c;
+			}
+			
+			draw_text_color(rtx, rty, "ON", c1,c1,c1,c1,1);
+			draw_text_color(rtx + 128, rty, "OFF", c2,c2,c2,c2,1);
+			break;
+	}
+	yy++;
+}
+
+
+draw_set_valign(fa_middle);
+
+
 //draw_sprite(s_background_sky, 0, global.view_width*3/4, global.view_height/2);
