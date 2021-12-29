@@ -7,12 +7,13 @@ if(currentState == cutSceneStates.Active)
 							
 			if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(0, 0,"Instances", o_dialogue_box); //create the dialogue box and pick its position
+				dB.sprite = s_portrait_teddy;
 				dB.myText = "Teddy: Wow, I bet this place was really pretty before it was so broken down. "; //dialogue that will draw in the dialogue box
 				case_switch_120();
 			break;
 		
 		case 1: // Teddy. Line 58
-				dB.myText = "Teddy: Now it looks a little.... no... REALLY scary... "; //dialogue that will draw in the dialogue box
+				dB.myText = "Now it looks a little.... no... REALLY scary... "; //dialogue that will draw in the dialogue box
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -23,6 +24,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 2: //??? Line 59
+			dB.sprite = s_ghost_powerup;
 			dB.myText = "???: Teddy... Teddy... Do you hear us? "; //dialogue that will draw in the dialogue box
 				
 			with (o_ghost_powerup)
@@ -40,8 +42,8 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 3: //Teddy. Line 60
-		
-				dB.myText = "Teddy: Huh? Am I hearing something?"; 
+				dB.sprite = s_portrait_teddy;
+				dB.myText = "Huh? Am I hearing something?"; 
 				
 			if(!instance_exists(o_question))
 			{
@@ -57,7 +59,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 4: //??? Line 61
-		
+				dB.sprite = s_ghost_powerup;
 				dB.myText = "???: Teddy... Do you hear us?"; //dialogue that will draw in the dialogue box
 								
 			if(keyboard_check_pressed(vk_space)) //if the counter reaches 180 steps/3 seconds, destroy objects and move to next case
@@ -68,8 +70,8 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 5: //Teddy. Line 62
-		
-				dB.myText = "Teddy: WHA- ARE THOSE GHOSTS?"; //dialogue that will draw in the dialogue box
+				dB.sprite = s_portrait_teddy;
+				dB.myText = "WHA- ARE THOSE GHOSTS?"; //dialogue that will draw in the dialogue box
 				
 				if(!instance_exists(o_dumbfounded))
 			{
@@ -85,8 +87,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 6: //Bug ghosts. Line 63
-		
-	
+		dB.sprite = s_ghost_powerup;
 		dB.myText = "Bug ghosts: Please, do not be afraid. We are here to guide you on this journey."; //dialogue that will draw in the dialogue box				
 			if(keyboard_check_pressed(vk_space)) //if the counter reaches 180 steps/3 seconds, destroy objects and move to next case
 			{
@@ -106,20 +107,14 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 8: //Teddy. Line 65. Player choice
-		
-				dB.myText = "Teddy: 1) The Bad Bug? 2) You're scary is what you are."; 
+				dB.sprite = s_portrait_teddy;
+				dB.myText = "1) The Bad Bug?\n2) You're scary is what you are."; 
+				dB.choice = true;
+				show_debug_message(mouse_x);
+				show_debug_message(mouse_y);
+				
 								
 			
-			if(keyboard_check_pressed(vk_numpad1)) || (keyboard_check(1)) 
-			
-			{			
-				++currentStep;
-			}
-			
-			if(keyboard_check_pressed(vk_numpad2)) || (keyboard_check(2))
-			{
-				++currentStep;
-			}
 			
 			break;
 			

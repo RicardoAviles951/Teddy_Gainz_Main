@@ -11,16 +11,16 @@ x = guiW/24;
 y = 0;
 
 //padding
-pad = 32;
+
 
 //text vars
 myText    = undefined;
 spell_cnt = 0;
-char_name = "Thicc Legz";
 
 //sprite vars
-sprite  = Sprite118;
+sprite  = s_portrait_thicc;
 spriteW = sprite_get_width(sprite);
 spriteH = sprite_get_height(sprite);
 xscale  = -1;
+choice = false;
 

@@ -37,3 +37,9 @@ if(spell_cnt < string_length(myText))
 }
 //drawing text.
 draw_text_ext_color(guiW/4,y+height/2-sizeH/2,substring,32,width-guiW/4,b,b,b,b,1);
+
+//Drawing choices
+if(choice)
+{
+draw_sprite_ext(s_key_num1,0,guiW/4+16,y+height/2-sizeH/2+16,3,3,0,c_white,1);
+}
