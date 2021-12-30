@@ -41,5 +41,6 @@ draw_text_ext_color(guiW/4,y+height/2-sizeH/2,substring,32,width-guiW/4,b,b,b,b,
 //Drawing choices
 if(choice)
 {
-draw_sprite_ext(s_key_num1,0,guiW/4+16,y+height/2-sizeH/2+16,3,3,0,c_white,1);
+draw_sprite_ext(s_key_num1,image_index/30,guiW/4+14,y+height/2-sizeH/2+20,3,3,0,c_white,1);
+draw_sprite_ext(s_key_num2,image_index/30,guiW/4+14,y+height/2-sizeH/2+55,3,3,0,c_white,1);
 }

@@ -8,7 +8,7 @@ if(currentState == cutSceneStates.Active)
 			if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(0, 0,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.sprite = s_portrait_teddy;
-				dB.myText = "Teddy: Wow, I bet this place was really pretty before it was so broken down. "; //dialogue that will draw in the dialogue box
+				dB.myText = "Wow, I bet this place was really pretty before it was so broken down. "; //dialogue that will draw in the dialogue box
 				case_switch_120();
 			break;
 		
@@ -110,16 +110,20 @@ if(currentState == cutSceneStates.Active)
 				dB.sprite = s_portrait_teddy;
 				dB.myText = "1) The Bad Bug?\n2) You're scary is what you are."; 
 				dB.choice = true;
-				show_debug_message(mouse_x);
-				show_debug_message(mouse_y);
 				
+				if(keyboard_check_pressed(vk_numpad1) or keyboard_check_pressed(vk_numpad2))
+				{
+					dB.spell_cnt = 0;
+					dB.choice = false;
+				    ++currentStep; 
+				}
 								
 			
 			
 			break;
 			
 		case 9: //Bug ghosts. Line 66
-		
+				dB.sprite = s_ghost_powerup;
 				dB.myText = "Bug ghosts: Huh ho... Let us tell you."; 
 								
 			if(keyboard_check_pressed(vk_space))
@@ -192,8 +196,8 @@ if(currentState == cutSceneStates.Active)
 			break;	
 			
 			case 16: //Bug ghosts. Line 69
-		
-				dB.myText = "Teddy: He- hey, you're starting to cut off-"; 
+				dB.sprite = s_portrait_teddy;
+				dB.myText = "He- hey, you're starting to cut off-"; 
 								
 			if(keyboard_check_pressed(vk_space))
 			{
@@ -203,7 +207,7 @@ if(currentState == cutSceneStates.Active)
 			break;	
 			
 			case 17: //Bug ghosts. Line 73
-		
+				dB.sprite = s_ghost_powerup;
 				dB.myText = "Bug ghosts: Teddy... You are our only hope..."; 
 								
 			if(keyboard_check_pressed(vk_space))
@@ -214,8 +218,8 @@ if(currentState == cutSceneStates.Active)
 			break;	
 			
 			case 18: //Bug ghosts. Line 74
-		
-				dB.myText = "Teddy: They disappeared."; 
+				dB.sprite = s_portrait_teddy;
+				dB.myText = "They disappeared."; 
 				
 			with (o_ghost_powerup)
 			{
@@ -242,7 +246,7 @@ if(currentState == cutSceneStates.Active)
 			break;
 			
 			case 19: //Teddy. Line 75
-				dB.myText = "Teddy: A deserted graveyard, and g- ghosts..."; 
+				dB.myText = "A deserted graveyard, and g- ghosts..."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -253,7 +257,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 20: //Teddy. Line 76
 		
-				dB.myText = "Teddy: ...No, don't be such a chicken, Teddy! I already got this far, and now, it's just my Mum."; 
+				dB.myText = "...No, don't be such a chicken, Teddy! I already got this far, and now, it's just my Mum."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -264,7 +268,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 21: //Teddy. Line 77
 			
-			dB.myText = "Teddy: And the crystals, they said? I'll keep my eye out for that."; 
+			dB.myText = "And the crystals, they said? I'll keep my eye out for that."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -275,7 +279,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 22: //Teddy. Line 78
 			
-				dB.myText = "Teddy: With the ghosts' coop-eration, and my heart set to doing it... Let's do this!"; 
+				dB.myText = "With the ghosts' coop-eration, and my heart set to doing it... Let's do this!"; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{

@@ -23,6 +23,7 @@ if(currentState == cutSceneStates.Active)
 		#region Teddy dialogue 
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(0, 0,"Instances", o_dialogue_box);
+			dB.sprite = s_portrait_teddy;
 			dB.myText = "I... did it?";
 		case_switch_120();
 		break;
@@ -49,7 +50,7 @@ if(currentState == cutSceneStates.Active)
 				} 
 			dB.myText = "Oh no, this building is beginning to collapse! I gotta find Mum and scramble outta here-";
 		
-			if(counter == 120)
+			if(counter == 160)
 				{
 					 instance_destroy(o_dialogue_box, true);
 					 instance_destroy(o_double_exclamation, true);
@@ -98,6 +99,7 @@ if(currentState == cutSceneStates.Active)
 		#region Mama yells out for teddy. Teddy turns around.
 			if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(0, 0,"Instances", o_dialogue_box);
+			dB.sprite = s_portrait_mama;
 			dB.myText = "Teddy!";
 			
 		with (o_player) 
@@ -111,6 +113,7 @@ if(currentState == cutSceneStates.Active)
 		case 6: 
 		#region Teddy responds line 106
 		Emote_create(o_exclamation,o_player,-32, -64);
+		dB.sprite = s_portrait_teddy;
 		dB.myText = "Mum! Are you okay?";
 		case_switch_120();
 		break;
@@ -119,6 +122,7 @@ if(currentState == cutSceneStates.Active)
 		case 7:
 		#region Mama responds. line 107
 		Emote_create(o_double_exclamation,o_mama,16, -64);
+		dB.sprite = s_portrait_mama;
 		dB.myText = "Yes, I am perfectly fine. I am more worried about you, my darling. My my oh my, you have turned so FIERCE! Facing that darn scary moth like that!";
 		case_switch_120();
 		break;
@@ -128,6 +132,7 @@ if(currentState == cutSceneStates.Active)
 		#region Teddy responds.line 108
 		instance_destroy(o_exclamation, true);
 		instance_destroy(o_double_exclamation, true);
+		dB.sprite = s_portrait_teddy;
 		dB.myText = "Haha, well, there was a lot that happened on the way.";
 		case_switch_120();
 		break;
@@ -179,6 +184,7 @@ if(currentState == cutSceneStates.Active)
 	
 		case 11:
 		#region Teddy talks. line 110
+		dB.sprite = s_portrait_teddy;
 		dB.myText = "Thicc! Thank you so much.";
 	    case_switch_120();
 		break;
@@ -300,6 +306,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 17:
 		#region Teddy speaks. Line114.
+			dB.sprite = s_portrait_teddy;
 			dB.myText = "...I know that it's dangerous, but...";
 			case_switch_120();
 		break;
@@ -334,6 +341,7 @@ if(currentState == cutSceneStates.Active)
 			sprite_index = s_thicc_run;
 		}
 		Emote_create(o_shocked_question,o_thicc,8,-64);
+		dB.sprite = s_portrait_thicc;
 		dB.myText = "Hey, where are you going?!";
 		case_switch_120();
 		break;
@@ -342,6 +350,7 @@ if(currentState == cutSceneStates.Active)
 		case 22: 
 		#region  Teddy responds
 		instance_destroy(o_shocked_question, true);
+		dB.sprite = s_portrait_teddy;
 		dB.myText = "To the crystals!!";
 		if(counter == 60)
 			{
@@ -359,6 +368,7 @@ if(currentState == cutSceneStates.Active)
 		case 23: 
 		#region thicc responds
 		Emote_create(o_double_exclamation,o_thicc,16,-64);
+		dB.sprite = s_portrait_thicc;
 		dB.myText = "Matey!! It's dangerous!!";
 		case_switch_120();
 		break;
@@ -371,7 +381,8 @@ if(currentState == cutSceneStates.Active)
 		{
 			image_xscale = -1;
 		}
-		dB.myText = "Mama: Teddy, no!!";
+		dB.sprite = s_portrait_mama;
+		dB.myText = "Teddy, no!!";
 		 if(keyboard_check_pressed(vk_space))
 			{
 			 instance_destroy(o_dialogue_box, true);
@@ -476,14 +487,16 @@ if(currentState == cutSceneStates.Active)
 		audio_stop_all();
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(0, 0,"Instances", o_dialogue_box);
-			dB.myText = "Mama: What... just happened?";
+			dB.sprite = s_portrait_mama;
+			dB.myText = "What... just happened?";
 		case_switch_120();
 		break;
 		#endregion
 		
 		case 29: 
 		#region
-			dB.myText = "Thicc: There was a huge flash and then, the building... isn't collapsing anymore..?";
+			dB.sprite = s_portrait_thicc;
+			dB.myText = "There was a huge flash and then, the building... isn't collapsing anymore..?";
 			case_switch_120();
 		break;
 			#endregion
@@ -498,7 +511,8 @@ if(currentState == cutSceneStates.Active)
 			
 		case 31:
 		#region
-			dB.myText = "Teddy: Huh?";
+			dB.sprite = s_portrait_teddy;
+			dB.myText = "Huh?";
 			case_switch_120();
 		break;
 		#endregion
@@ -545,7 +559,8 @@ if(currentState == cutSceneStates.Active)
 		}
 		Emote_create(o_cluck,o_player,-32,-64);
 		o_cluck.image_xscale = -1;
-			dB.myText = "Teddy: Wha... WHAAAAAAAAAAA?!?!?!";
+			dB.sprite = s_portrait_teddy;
+			dB.myText = "Wha... WHAAAAAAAAAAA?!?!?!";
 			case_switch_120();
 		break;
 		#endregion
@@ -568,14 +583,15 @@ if(currentState == cutSceneStates.Active)
 		case 37:
 		#region Teddy line 132
 		Emote_create(o_question,o_player,-32,-64);
-			dB.myText = "Teddy: Banished... the evil..?";
+			dB.sprite = s_portrait_teddy;
+			dB.myText = "Banished... the evil..?";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 38:
 		#region Teddy line 133
-			dB.myText = "Teddy: Do you mean... you are not the 'Bad Bug'?";
+			dB.myText = "Do you mean... you are not the 'Bad Bug'?";
 			case_switch_120();
 		break;
 		#endregion
@@ -604,7 +620,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 42:
 		#region 
-			dB.myText = "Thicc; But those crystals right there that matey touched- that had some sort of powers, seeing from what happened.";
+			dB.sprite = s_portrait_thicc;
+			dB.myText = "But those crystals right there that matey touched- that had some sort of powers, seeing from what happened.";
 			case_switch_120();
 		break;
 		#endregion
@@ -627,7 +644,8 @@ if(currentState == cutSceneStates.Active)
 		#region 
 		Emote_create(o_exclamation,o_player,-32,-64);
 		o_exclamation.image_xscale = -1;
-			dB.myText = "Teddy; That... is definitely something within my league! Yeah!";
+			dB.sprite = s_portrait_teddy;
+			dB.myText = "That... is definitely something within my league! Yeah!";
 			case_switch_120();
 		break;
 		#endregion
@@ -642,7 +660,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 47:
 		#region 
-			dB.myText = "Thicc: Ah, so that's the trick behind all of this...";
+			dB.sprite = s_portrait_thicc;
+			dB.myText = "Ah, so that's the trick behind all of this...";
 			case_switch_120();
 		break;
 		#endregion
@@ -656,7 +675,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 49:
 		#region
-			dB.myText = "Mama: Wait- I just want to confirm this. You all do not consume meat normally? Is that correct?";
+			dB.sprite = s_portrait_mama;
+			dB.myText = "Wait- I just want to confirm this. You all do not consume meat normally? Is that correct?";
 			case_switch_120();
 		break;
 		#endregion
@@ -671,6 +691,7 @@ if(currentState == cutSceneStates.Active)
 		case 51:
 		#region 
 		Emote_create(o_love,o_mama,16,-64);
+			dB.sprite = s_portrait_mama;
 			dB.myText = "My my oh my, that is a relief! I was about to lose my marbles when those who took me from Sunnyside were chanting about 'chicken protein'!";
 			case_switch_120();
 		break;
@@ -701,7 +722,8 @@ if(currentState == cutSceneStates.Active)
 		case 55:
 		#region 
 		Emote_create(o_exclamation,o_thicc,8,-64);
-			dB.myText = "Thicc: ...Friend...";
+		dB.sprite = s_portrait_thicc;
+			dB.myText = "...Friend...";
 			case_switch_120();
 		break;
 		#endregion
@@ -723,6 +745,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 58:
 		#region 
+			dB.sprite = s_portrait_teddy;
 			dB.myText = "King... Thank you for the honor...Yes, I would like to partake in the festival... With great pleasure!";
 			case_switch_120();
 		break;

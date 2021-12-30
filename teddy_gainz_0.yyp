@@ -292,6 +292,7 @@
     {"id":{"name":"s_key_D","path":"sprites/s_key_D/s_key_D.yy",},"order":21,},
     {"id":{"name":"s_exclamation","path":"sprites/s_exclamation/s_exclamation.yy",},"order":5,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":7,},
+    {"id":{"name":"s_key_num2","path":"sprites/s_key_num2/s_key_num2.yy",},"order":26,},
     {"id":{"name":"o_credits_text","path":"objects/o_credits_text/o_credits_text.yy",},"order":1,},
     {"id":{"name":"s_shocked_question","path":"sprites/s_shocked_question/s_shocked_question.yy",},"order":11,},
     {"id":{"name":"s_love","path":"sprites/s_love/s_love.yy",},"order":7,},
