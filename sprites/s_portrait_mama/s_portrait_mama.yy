@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"de0446fd-84c0-47d8-a408-098374240027","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"de0446fd-84c0-47d8-a408-098374240027","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"LayerId":{"name":"f6cc2ef5-27ad-4437-97ce-3ce630196e55","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_portrait_mama","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"resourceVersion":"1.0","name":"de0446fd-84c0-47d8-a408-098374240027","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c7c3714d-1530-4c32-90dc-a85324d92a0b","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c7c3714d-1530-4c32-90dc-a85324d92a0b","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"LayerId":{"name":"cfe81924-a242-4cfa-88ce-1174bdb5ca7f","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_portrait_mama","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"resourceVersion":"1.0","name":"c7c3714d-1530-4c32-90dc-a85324d92a0b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_portrait_mama","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"96e7cb12-7695-413d-9b6f-804b56139767","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"de0446fd-84c0-47d8-a408-098374240027","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"16a5df75-12b2-4de6-9086-809a82f59d3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c7c3714d-1530-4c32-90dc-a85324d92a0b","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f6cc2ef5-27ad-4437-97ce-3ce630196e55","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cfe81924-a242-4cfa-88ce-1174bdb5ca7f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
