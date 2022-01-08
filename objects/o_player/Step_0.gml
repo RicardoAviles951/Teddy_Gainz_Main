@@ -5,6 +5,9 @@ if (global.state == states.normal){
 else if (global.state == states.dash){
 	dash_state();
 }
+else if (global.state == states.balloon) {
+	balloon_state();
+}
 else if (global.state == states.death) {
 	death_state();
 }

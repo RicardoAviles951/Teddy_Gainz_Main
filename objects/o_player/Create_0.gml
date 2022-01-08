@@ -15,6 +15,8 @@ dash_spd = 10;
 dashing = false;
 cooldown = 0;
 g_dashing = false;
+//Balloon vars
+grabbed = false;
 
 //Animations Array
 animations[0] = s_player_idle_blink;

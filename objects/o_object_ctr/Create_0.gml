@@ -5,8 +5,8 @@ enum states {
 	dash,
 	death,
 	ghost,
-	g_dash
-	//balloon
+	g_dash,
+	balloon
 }
 enum boss {
 	idle,
@@ -23,6 +23,7 @@ enum rooms {
 	tutorial,
 	level1,
 	puzzleboss,
+	level2,
 	cut_lv3,
 	level3,
 	finalboss,

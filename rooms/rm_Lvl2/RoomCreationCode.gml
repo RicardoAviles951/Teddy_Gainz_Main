@@ -1,0 +1,1 @@
+global.rooms = rooms.level2;
