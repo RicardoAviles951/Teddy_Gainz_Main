@@ -6,7 +6,6 @@ if (hsp !=0) && (global.state == states.dash){
 if (dashing){
 	vsp = 0;
 	hsp = sign(hsp)*dash_spd;
-	//x = x + hsp;
 	sprite_index = s_player_dash;
 }
 //Collisions

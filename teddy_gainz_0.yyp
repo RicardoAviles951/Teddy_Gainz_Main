@@ -73,6 +73,7 @@
     {"id":{"name":"s_parallax_graveyard5","path":"sprites/s_parallax_graveyard5/s_parallax_graveyard5.yy",},"order":16,},
     {"id":{"name":"o_cam_shake_ctr","path":"objects/o_cam_shake_ctr/o_cam_shake_ctr.yy",},"order":6,},
     {"id":{"name":"o_wrong","path":"objects/o_wrong/o_wrong.yy",},"order":14,},
+    {"id":{"name":"ac_balloon","path":"animcurves/ac_balloon/ac_balloon.yy",},"order":0,},
     {"id":{"name":"normal_state","path":"scripts/normal_state/normal_state.yy",},"order":0,},
     {"id":{"name":"ghost_state","path":"scripts/ghost_state/ghost_state.yy",},"order":2,},
     {"id":{"name":"rm_Lvl1_bug_intro","path":"rooms/rm_Lvl1_bug_intro/rm_Lvl1_bug_intro.yy",},"order":14,},
@@ -335,7 +336,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
-    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
@@ -350,6 +350,7 @@
     {"roomId":{"name":"rm_cutscene_ending","path":"rooms/rm_cutscene_ending/rm_cutscene_ending.yy",},},
     {"roomId":{"name":"rm_cutscene_ending2","path":"rooms/rm_cutscene_ending2/rm_cutscene_ending2.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
   ],
   "Folders": [
