@@ -5,6 +5,9 @@ if (global.state == states.normal){
 else if (global.state == states.dash){
 	dash_state();
 }
+else if (global.state == states.balloon) {
+	balloon_state();
+}
 else if (global.state == states.death) {
 	death_state();
 }
@@ -39,6 +42,7 @@ if (place_meeting(x,y,o_checkpoint))
 }
 
 //DEVELOPMENTS PURPOSES ONLY
+show_debug_message(hsp);
 if(keyboard_check_pressed(vk_control))
 {
 	room_goto_next();

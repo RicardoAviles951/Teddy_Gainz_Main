@@ -8,6 +8,7 @@ if (tile_place_meeting(x+hsp, y, "Collision"))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
+	if(global.state == states.balloon) global.state = states.normal;
 }
 
 x = x + hsp;
@@ -20,6 +21,7 @@ if (tile_place_meeting(x, y+vsp, "Collision"))
 		y = y + sign(vsp);	
 	}
 	vsp = 0;
+	if(global.state == states.balloon) global.state = states.normal;
 }
 y = y + vsp;
 }

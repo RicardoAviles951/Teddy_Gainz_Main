@@ -15,7 +15,9 @@ dash_spd = 10;
 dashing = false;
 cooldown = 0;
 g_dashing = false;
-
+//balloon var
+curve    = animcurve_get_channel(ac_balloon,"rise");
+percent  = 0;
 //Animations Array
 animations[0] = s_player_idle_blink;
 animations[1] = s_player_idle_pluck;
