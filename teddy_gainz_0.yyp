@@ -239,6 +239,7 @@
     {"id":{"name":"s_parallax_sky4","path":"sprites/s_parallax_sky4/s_parallax_sky4.yy",},"order":9,},
     {"id":{"name":"s_wrong","path":"sprites/s_wrong/s_wrong.yy",},"order":14,},
     {"id":{"name":"s_boss","path":"sprites/s_boss/s_boss.yy",},"order":3,},
+    {"id":{"name":"Sprite126","path":"sprites/Sprite126/Sprite126.yy",},"order":13,},
     {"id":{"name":"o_dialogue_ctr","path":"objects/o_dialogue_ctr/o_dialogue_ctr.yy",},"order":8,},
     {"id":{"name":"o_no","path":"objects/o_no/o_no.yy",},"order":8,},
     {"id":{"name":"s_preview1","path":"sprites/s_preview1/s_preview1.yy",},"order":12,},
