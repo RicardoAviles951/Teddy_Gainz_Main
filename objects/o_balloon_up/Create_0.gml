@@ -6,7 +6,6 @@ percent       = 0;
 hspd          = 0;
 vspd          = 0;
 rise_spd      = -4
-curvd_spd     = 0;//Final speed after animation curve is applied. vspd * position
 
 //Balloon swinging variables
 swing_force   =  0.2;//higher = stronger swinging from side to side.
