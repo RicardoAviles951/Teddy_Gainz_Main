@@ -5,4 +5,3 @@ image_angle = image_angle + cos(swing_spd*timer_balloon)*sign(vspd)*swing_force;
 }
 
 timer_balloon++;
-show_debug_message(image_angle);

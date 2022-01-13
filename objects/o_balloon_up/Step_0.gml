@@ -8,8 +8,10 @@ position = animcurve_channel_evaluate(curve,clamp(percent,0,1));
 //Checks if conditions are met before executing balloon state code.
 if(place_meeting(x,y,o_player) and active == false and global.state != states.balloon)
 {
+	image_index  = 3;
+	image_speed  = 0;
 	o_player.x   = x; //Locks player position to balloon position.
-	o_player.y   = y;
+	o_player.y   = y+25;
 	active       = true; //Variable to track if the balloon is being "grabbed".
 	global.state = states.balloon;//Change player state to balloon state.
 	vspd         = rise_spd; // sets vertical speed to a set value.
@@ -19,4 +21,5 @@ if(global.state != states.balloon) percent = 0;//Resets percent variable
 curvd_spd = vspd*position	
 y += curvd_spd;
 x += hspd;
+show_debug_message("Balloon " + string(image_angle));
 //show_debug_message("Ballon: " + string(vspd*position));
