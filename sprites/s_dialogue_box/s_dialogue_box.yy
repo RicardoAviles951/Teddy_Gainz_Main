@@ -68,10 +68,10 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e5451698-b1f6-4ea1-a5c1-25d2e5452806","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
-    "left": 0,
-    "top": 0,
-    "right": 0,
-    "bottom": 0,
+    "left": 4,
+    "top": 4,
+    "right": 4,
+    "bottom": 4,
     "guideColour": [
       4294902015,
       4294902015,
@@ -79,7 +79,7 @@
       4294902015,
     ],
     "highlightColour": 1728023040,
-    "highlightStyle": 0,
+    "highlightStyle": 1,
     "enabled": false,
     "tileMode": [
       0,

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"rm_cutscene_ending2","path":"rooms/rm_cutscene_ending2/rm_cutscene_ending2.yy",},"order":11,},
     {"id":{"name":"f_dialogue","path":"fonts/f_dialogue/f_dialogue.yy",},"order":3,},
+    {"id":{"name":"s_container","path":"sprites/s_container/s_container.yy",},"order":24,},
     {"id":{"name":"s_weakwall","path":"sprites/s_weakwall/s_weakwall.yy",},"order":5,},
     {"id":{"name":"o_gate","path":"objects/o_gate/o_gate.yy",},"order":6,},
     {"id":{"name":"s_parallax_sky3","path":"sprites/s_parallax_sky3/s_parallax_sky3.yy",},"order":8,},
@@ -126,6 +127,8 @@
     {"id":{"name":"dash_state","path":"scripts/dash_state/dash_state.yy",},"order":1,},
     {"id":{"name":"s_spacebar","path":"sprites/s_spacebar/s_spacebar.yy",},"order":18,},
     {"id":{"name":"pth_thicc","path":"paths/pth_thicc/pth_thicc.yy",},"order":3,},
+    {"id":{"name":"s_portrait_finalboss","path":"sprites/s_portrait_finalboss/s_portrait_finalboss.yy",},"order":25,},
+    {"id":{"name":"o_win_screen","path":"objects/o_win_screen/o_win_screen.yy",},"order":8,},
     {"id":{"name":"s_background_finalboss_menu","path":"sprites/s_background_finalboss_menu/s_background_finalboss_menu.yy",},"order":8,},
     {"id":{"name":"o_ok","path":"objects/o_ok/o_ok.yy",},"order":9,},
     {"id":{"name":"o_thicc","path":"objects/o_thicc/o_thicc.yy",},"order":3,},
@@ -337,7 +340,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
-    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
@@ -352,6 +354,7 @@
     {"roomId":{"name":"rm_cutscene_ending","path":"rooms/rm_cutscene_ending/rm_cutscene_ending.yy",},},
     {"roomId":{"name":"rm_cutscene_ending2","path":"rooms/rm_cutscene_ending2/rm_cutscene_ending2.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
   ],
   "Folders": [
