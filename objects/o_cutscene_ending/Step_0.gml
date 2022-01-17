@@ -519,7 +519,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 32:
 		#region
-		dB.myText = "Bug: Teddy...";
+		dB.sprite = s_portrait_finalboss;
+		dB.myText = "Teddy...";
 		if(!instance_exists(o_final_boss))
 		{
 		instance_create_layer(o_player.x-250,o_player.y-50,"Instances",o_final_boss);
@@ -568,14 +569,15 @@ if(currentState == cutSceneStates.Active)
 		case 35:
 		#region
 		instance_destroy(o_cluck,true);
-			dB.myText = "Bug: Please, do not be afraid. I am the King of the colony on this island.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "Please, do not be afraid. I am the King of the colony on this island.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 36:
 		#region Bug line 131
-			dB.myText = "Bug: The power of the crystals you activated... is what has banished the evil from this island.";
+			dB.myText = "The power of the crystals you activated... is what has banished the evil from this island.";
 			case_switch_120();
 		break;
 		#endregion
@@ -599,21 +601,22 @@ if(currentState == cutSceneStates.Active)
 		case 39:
 		#region Bug
 		instance_destroy(o_question,true);
-			dB.myText = "Bug: Huh ho ho, be not surprised!That is correct. You must be referring to the terms the Elderly Ones- or the 'Ghosts', you may say- have been saying.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "Huh ho ho, be not surprised!That is correct. You must be referring to the terms the Elderly Ones- or the 'Ghosts', you may say- have been saying.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 40: 
 		#region 
-			dB.myText = "Bug: The Bad Bug... is more so of a parasite. They feed into our systems, take control of our bodies, our minds... and they control their hosts like slaves.";
+			dB.myText = "The Bad Bug... is more so of a parasite. They feed into our systems, take control of our bodies, our minds... and they control their hosts like slaves.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 41:
 		#region 
-			dB.myText = "Bug: It is all for their purpose of producing as many offspring as they can, and they latch onto the other members of our colony... Oh, it was an absolute horror.";
+			dB.myText = "It is all for their purpose of producing as many offspring as they can, and they latch onto the other members of our colony... Oh, it was an absolute horror.";
 			case_switch_120();
 		break;
 		#endregion
@@ -628,14 +631,15 @@ if(currentState == cutSceneStates.Active)
 		
 		case 43:
 		#region 
-			dB.myText = "Bug: Indeed. Those crystals- they have the power of 'purification'. They work to banish the evil, impure beings on this land.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "Indeed. Those crystals- they have the power of 'purification'. They work to banish the evil, impure beings on this land.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 44: 
 		#region 
-			dB.myText = "Bug: However, there is one major fault to the system. It is that... the user must exercise both their arms and courage in order to activate the powers.";
+			dB.myText = "However, there is one major fault to the system. It is that... the user must exercise both their arms and courage in order to activate the powers.";
 			case_switch_120();
 		break;
 		#endregion
@@ -653,7 +657,8 @@ if(currentState == cutSceneStates.Active)
 		case 46:
 		#region 
 		instance_destroy(o_exclamation,true);
-			dB.myText = "Bug: The crystals materialized their powers as falling rocks when I was taken under control, as they were working against me- since I was possessed by the Primary Evil.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "The crystals materialized their powers as falling rocks when I was taken under control, as they were working against me- since I was possessed by the Primary Evil.";
 			case_switch_120();
 		break;
 		#endregion
@@ -668,7 +673,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 48:
 		#region
-			dB.myText = "Bug: Yes... But now, I can sense that all is well on this island. Now we could go back to our peaceful, herbivorous days.";
+		dB.sprite = s_portrait_finalboss;
+		dB.myText = "Yes... But now, I can sense that all is well on this island. Now we could go back to our peaceful, herbivorous days.";
 			case_switch_120();
 		break;
 		#endregion
@@ -683,7 +689,8 @@ if(currentState == cutSceneStates.Active)
 		
 		case 50:
 		#region
-			dB.myText = "Bug: Precisely.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "Precisely.";
 			case_switch_120();
 		break;
 		#endregion
@@ -700,21 +707,22 @@ if(currentState == cutSceneStates.Active)
 		case 52: 
 		#region 
 		instance_destroy(o_love, true);
-			dB.myText = "Bug: Huh ho, do not worry... Please let me express my sincere apology to you, ma'am. Now, Teddy Gainz. I have a request for you.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "Huh ho, do not worry... Please let me express my sincere apology to you, ma'am. Now, Teddy Gainz. I have a request for you.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 53:
 		#region 
-			dB.myText = "Bug: You and your loved ones have gone through so much... yet, you were the ones who saved our colony as well. Words cannot express the amount of our gratitude.";
+			dB.myText = "You and your loved ones have gone through so much... yet, you were the ones who saved our colony as well. Words cannot express the amount of our gratitude.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 54:
 		#region 
-			dB.myText = "Bug: Together with your lovely mother and your fellow friend there, I would like to formally re-invite you to the Reaper Festival.";
+			dB.myText = "Together with your lovely mother and your fellow friend there, I would like to formally re-invite you to the Reaper Festival.";
 			case_switch_120();
 		break;
 		#endregion
@@ -731,14 +739,15 @@ if(currentState == cutSceneStates.Active)
 		case 56: 
 		#region 
 		instance_destroy(o_exclamation, true);
-			dB.myText = "Bug: Though the name may resemble the grim being, 'reap' in our colony calls for harvest and riches of the land.";
+			dB.sprite = s_portrait_finalboss;
+			dB.myText = "Though the name may resemble the grim being, 'reap' in our colony calls for harvest and riches of the land.";
 			case_switch_120();
 		break;
 		#endregion
 		
 		case 57: 
 		#region 
-			dB.myText = "Bug: It is meant to be celebrated annually with our loved ones... and as you, being our savior armed with great courage, are cordially invited to this ceremony.";
+			dB.myText = "It is meant to be celebrated annually with our loved ones... and as you, being our savior armed with great courage, are cordially invited to this ceremony.";
 			case_switch_120();
 		break;
 		#endregion

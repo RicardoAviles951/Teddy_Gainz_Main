@@ -15,8 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_status_ctr","path":"objects/o_status_ctr/o_status_ctr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_572C71CC_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_warp","path":"objects/o_warp/o_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":160.0,"resourceVersion":"1.0","name":"inst_55617938","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_parallax_ctr","path":"objects/o_parallax_ctr/o_parallax_ctr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_43243C74","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_win_screen","path":"objects/o_win_screen/o_win_screen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":160.0,"resourceVersion":"1.0","name":"inst_3F6300","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_death_zone","path":"objects/o_death_zone/o_death_zone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.75,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-608.0,"y":704.0,"resourceVersion":"1.0","name":"inst_650C2439_1","tags":[],"resourceType":"GMRInstance",},
@@ -235,7 +235,6 @@
     {"name":"inst_7AC27C96_1","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_22C64405_1","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_615B8D87_1","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
-    {"name":"inst_55617938","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_424ECFB4","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_99A67B6","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_67679EC8","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
@@ -247,6 +246,7 @@
     {"name":"inst_315EEA0C","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_7E0163A2","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
     {"name":"inst_43243C74","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
+    {"name":"inst_3F6300","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

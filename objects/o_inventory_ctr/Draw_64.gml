@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 var x_offset = (global.view_width*23/24);
 var y_offset = (global.view_height/24);
 
