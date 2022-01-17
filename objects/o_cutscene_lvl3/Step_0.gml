@@ -24,15 +24,15 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 2: //??? Line 59
-			dB.sprite = s_ghost_powerup;
-			dB.myText = "???: Teddy... Teddy... Do you hear us? "; //dialogue that will draw in the dialogue box
+			dB.sprite = s_portrait_ghosts;
+			dB.myText = "Teddy... Teddy... Do you hear us? "; //dialogue that will draw in the dialogue box
 				
 			with (o_ghost_powerup)
 			{
 				if(path_on == false)
 					{
 						audio_play_sound(snd_ghost,2,false);
-						image_alpha = .65;
+						image_alpha = .45;
 						path_start(pth_ghost1, 1,path_action_reverse, true);
 						path_on = true;
 					}
@@ -59,8 +59,8 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 4: //??? Line 61
-				dB.sprite = s_ghost_powerup;
-				dB.myText = "???: Teddy... Do you hear us?"; //dialogue that will draw in the dialogue box
+				dB.sprite = s_portrait_ghosts;
+				dB.myText = "Teddy... Do you hear us?"; //dialogue that will draw in the dialogue box
 								
 			if(keyboard_check_pressed(vk_space)) //if the counter reaches 180 steps/3 seconds, destroy objects and move to next case
 			{
@@ -87,8 +87,8 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 6: //Bug ghosts. Line 63
-		dB.sprite = s_ghost_powerup;
-		dB.myText = "Bug ghosts: Please, do not be afraid. We are here to guide you on this journey."; //dialogue that will draw in the dialogue box				
+		dB.sprite = s_portrait_ghosts;
+		dB.myText = "Please, do not be afraid. We are here to guide you on this journey."; //dialogue that will draw in the dialogue box				
 			if(keyboard_check_pressed(vk_space)) //if the counter reaches 180 steps/3 seconds, destroy objects and move to next case
 			{
 				dB.spell_cnt = 0;
@@ -97,7 +97,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 7: //Bug ghosts. Line 64
-				dB.myText = "Bug ghosts: We are the bugs from the near and distant past, before the Bad Bug came to our island."; 
+				dB.myText = "We are the bugs from the near and distant past, before the Bad Bug came to our island."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -123,8 +123,8 @@ if(currentState == cutSceneStates.Active)
 			break;
 			
 		case 9: //Bug ghosts. Line 66
-				dB.sprite = s_ghost_powerup;
-				dB.myText = "Bug ghosts: Huh ho... Let us tell you."; 
+				dB.sprite = s_portrait_ghosts;
+				dB.myText = "Huh ho... Let us tell you."; 
 								
 			if(keyboard_check_pressed(vk_space))
 			{
@@ -134,7 +134,7 @@ if(currentState == cutSceneStates.Active)
 			break;
 			
 		case 10: //Bug ghosts. Line 67 pt1
-				dB.myText = "Bug ghosts: The Bad Bug came and took away our tranquil island."; 
+				dB.myText = "The Bad Bug came and took away our tranquil island."; 
 								
 			if(keyboard_check_pressed(vk_space))
 			{
@@ -144,7 +144,7 @@ if(currentState == cutSceneStates.Active)
 			break;
 		
 		case 11: //Bug ghosts. Line 67 pt2
-				dB.myText = "Bug ghosts: Otherwise, we would not end up in such a form..."; 
+				dB.myText = "Otherwise, we would not end up in such a form..."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -154,7 +154,7 @@ if(currentState == cutSceneStates.Active)
 			break;
 		
 		case 12: //Bug ghosts. Line 68
-				dB.myText = "Bug ghosts: It's dangerous to go with only your body, though it may be mighty. Please take us with you."; 
+				dB.myText = "It's dangerous to go with only your body, though it may be mighty. Please take us with you."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -164,7 +164,7 @@ if(currentState == cutSceneStates.Active)
 			break;
 			
 			case 13: //Bug ghosts. Line 69
-				dB.myText = "Bug ghosts: Use our spirit to get through walls and doors. We only last so long here, so use it wisely."; 
+				dB.myText = "Use our spirit to get through walls and doors. We only last so long here, so use it wisely."; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -175,7 +175,7 @@ if(currentState == cutSceneStates.Active)
 			
 			
 			case 14: //Bug ghosts. Line 69
-				dB.myText = "Bug ghosts: And the crystals... that is the weakness... of the Bad Bug... "; 
+				dB.myText = "And the crystals... that is the weakness... of the Bad Bug... "; 
 								
 			if(keyboard_check_pressed(vk_space)) 
 			{
@@ -186,7 +186,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 15: //Bug ghosts. Line 69
 		
-				dB.myText = "Bug ghosts: And you must touch those cyrstals... with your arms to... save..."; 
+				dB.myText = "And you must touch those cyrstals... with your arms to... save..."; 
 								
 			if(keyboard_check_pressed(vk_space))
 			{
@@ -207,8 +207,8 @@ if(currentState == cutSceneStates.Active)
 			break;	
 			
 			case 17: //Bug ghosts. Line 73
-				dB.sprite = s_ghost_powerup;
-				dB.myText = "Bug ghosts: Teddy... You are our only hope..."; 
+				dB.sprite = s_portrait_ghosts;
+				dB.myText = "Teddy... You are our only hope..."; 
 								
 			if(keyboard_check_pressed(vk_space))
 			{

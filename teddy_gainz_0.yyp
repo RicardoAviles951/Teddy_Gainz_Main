@@ -97,6 +97,7 @@
     {"id":{"name":"o_foreshadowing","path":"objects/o_foreshadowing/o_foreshadowing.yy",},"order":4,},
     {"id":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},"order":2,},
     {"id":{"name":"s_clutter_beachball","path":"sprites/s_clutter_beachball/s_clutter_beachball.yy",},"order":12,},
+    {"id":{"name":"s_portrait_ghosts","path":"sprites/s_portrait_ghosts/s_portrait_ghosts.yy",},"order":26,},
     {"id":{"name":"o_double_exclamation","path":"objects/o_double_exclamation/o_double_exclamation.yy",},"order":3,},
     {"id":{"name":"o_cutscene_lvl3","path":"objects/o_cutscene_lvl3/o_cutscene_lvl3.yy",},"order":5,},
     {"id":{"name":"snd_teddylogo","path":"sounds/snd_teddylogo/snd_teddylogo.yy",},"order":8,},
