@@ -47,9 +47,9 @@ ds_menu_display = create_menu_page(
 );
 
 ds_menu_audio = create_menu_page(
-	["MASTER",     menu_element_type.slider, change_volume, 1, [0,1]],
-	["MUSIC",      menu_element_type.slider, change_volume, .85, [0,1]],
-	["SFX",		   menu_element_type.slider, change_volume, .1, [0,1]],
+	["MASTER",     menu_element_type.slider, change_volume, global.master, [0,1]],
+	["MUSIC",      menu_element_type.slider, change_volume, global.music, [0,1]],
+	["SFX",		   menu_element_type.slider, change_volume, global.sfx, [0,1]],
 	["BACK",       menu_element_type.page_transfer, menu_page.settings]
 );
 

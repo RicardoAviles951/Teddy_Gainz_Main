@@ -61,3 +61,7 @@ global.cam_shake   = false;
 
 //Win vars
 global.gamewin = false;
+
+global.master = 1;
+global.sfx = 1;
+global.music = 1;
