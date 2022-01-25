@@ -341,6 +341,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
+    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
@@ -355,7 +356,6 @@
     {"roomId":{"name":"rm_cutscene_ending","path":"rooms/rm_cutscene_ending/rm_cutscene_ending.yy",},},
     {"roomId":{"name":"rm_cutscene_ending2","path":"rooms/rm_cutscene_ending2/rm_cutscene_ending2.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
-    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
   ],
   "Folders": [
