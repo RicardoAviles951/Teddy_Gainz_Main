@@ -35,8 +35,9 @@ global.room       = noone;
 	
 global.state      = noone;
 global.boss_state = noone;
+global.collider   = 0;
 global.cam_move_speed = 0;
-global.cam_hsp = 0;
+global.cam_hsp        = 0;
 
 //Menu Vars
 global.pause          = true;

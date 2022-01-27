@@ -43,6 +43,8 @@ if (place_meeting(x,y,o_checkpoint))
 
 //DEVELOPMENTS PURPOSES ONLY
 //show_debug_message(vsp);
+show_debug_message("Cam Speed: " + string(global.cam_move_speed));
+show_debug_message("Collider #: " + string(global.collider));
 if(keyboard_check_pressed(vk_control))
 {
 	room_goto_next();
