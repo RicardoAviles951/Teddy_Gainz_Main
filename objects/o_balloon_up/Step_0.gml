@@ -14,6 +14,7 @@ image_angle = image_angle + cos(swing_spd*timer_balloon)*sign(vspd)*swing_force;
 //Checks if conditions are met before executing balloon state code.
 if(place_meeting(x,y,o_player) and active == false and global.state != states.balloon)
 {
+	if(o_player.hsp >7) o_player.hsp = 7;
 	global.state = states.balloon;//Change player state to balloon state.
 	image_index  = 3;//sets balloon sprite index to frame with straight string
 	image_speed  = 0;//sets animation framerate to 0;
