@@ -1,5 +1,5 @@
 if(place_meeting(x,y, o_player) && is_collidable == true) {
-	switch(global.rooms){
+	switch(global.room){
 		case rooms.tutorial:
 		switch(global.collider) {
 		case 0: global.cam_move_speed = 4.6; break;
