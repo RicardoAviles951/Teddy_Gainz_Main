@@ -15,3 +15,4 @@ timer_balloon = 0;//Variable that gets incremented in the cosine fucntion. Highe
 //Tracking if the balloon has collided with the player.
 active        = false;
 image_xscale  = choose(-1,1);
+image_angle = 0;
