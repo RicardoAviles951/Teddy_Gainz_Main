@@ -4,11 +4,14 @@ position = animcurve_channel_evaluate(curve,clamp(percent,0,1));
 //This code will increment the percent variable if the player is in contact with the balloon.
 if(active and global.state == states.balloon) 
 {
+image_angle = image_angle + cos(swing_spd*timer_balloon)*sign(vspd)*swing_force;//calculates swing effect.
+o_player.image_angle = image_angle;
 percent     += 1/120;
 vspd         = rise_spd*position; // sets vertical speed to a set value.
 o_player.vsp = vspd;//sets player vertical speed to equal balloon vertical speed.
-image_angle = image_angle + cos(swing_spd*timer_balloon)*sign(vspd)*swing_force;//calculates swing effect.
 }
+else image_angle = 0;
+
 
 
 //Checks if conditions are met before executing balloon state code.
@@ -23,6 +26,7 @@ if(place_meeting(x,y,o_player) and active == false and global.state != states.ba
 	hspd         = o_player.hsp;//sets the horizontal speed to players last known horizontal speed.
 	active       = true; //Variable to track if the balloon is being "grabbed".
 }
+
 y += vspd;
 x += hspd;
 //Creates floating affect
@@ -32,3 +36,5 @@ if(!active)
 }
 if(global.state != states.balloon) percent = 0;//Resets percent variable
 timer_balloon++;
+show_debug_message(active);
+show_debug_message("Balloon angle: "+ string(image_angle));

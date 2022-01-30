@@ -20,7 +20,7 @@ else if (global.state == states.ghost){
 else if (global.state == states.g_dash){
 	g_dash_state();
 }
-show_debug_message(hsp);
+//show_debug_message(hsp);
 //show_debug_message(x);
 //show_debug_message(y);
 //Restarts the level
@@ -43,6 +43,9 @@ if (place_meeting(x,y,o_checkpoint))
 
 //DEVELOPMENTS PURPOSES ONLY
 //show_debug_message(vsp);
+//show_debug_message("Cam Speed: " + string(global.cam_move_speed));
+//show_debug_message("Collider #: " + string(global.collider));
+show_debug_message("Teddy angle: "+ string(image_angle));
 if(keyboard_check_pressed(vk_control))
 {
 	room_goto_next();

@@ -4,7 +4,7 @@
     "path": "sprites/s_cam_speed_collider/s_cam_speed_collider.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Zones and Triggers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_cam_speed_collider_3",
+  "name": "o_cam_speed_collider",
   "tags": [],
   "resourceType": "GMObject",
 }
