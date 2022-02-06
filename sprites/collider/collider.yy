@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
+  "bbox_left": 0,
   "bbox_right": 63,
-  "bbox_top": 25,
+  "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"203baf99-ac13-4be4-ad51-42889dd8fc41","path":"sprites/s_spawn/s_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"203baf99-ac13-4be4-ad51-42889dd8fc41","path":"sprites/s_spawn/s_spawn.yy",},"LayerId":{"name":"a7ca8b3c-3459-4882-a868-b3df1d3f286f","path":"sprites/s_spawn/s_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_spawn","path":"sprites/s_spawn/s_spawn.yy",},"resourceVersion":"1.0","name":"203baf99-ac13-4be4-ad51-42889dd8fc41","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5865395c-f714-431c-8885-9f5e6431bd25","path":"sprites/collider/collider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5865395c-f714-431c-8885-9f5e6431bd25","path":"sprites/collider/collider.yy",},"LayerId":{"name":"60fec85c-bf5b-458f-8309-a9bbee7e9070","path":"sprites/collider/collider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"collider","path":"sprites/collider/collider.yy",},"resourceVersion":"1.0","name":"5865395c-f714-431c-8885-9f5e6431bd25","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_spawn","path":"sprites/s_spawn/s_spawn.yy",},
+    "spriteId": {"name":"collider","path":"sprites/collider/collider.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"df260ac4-8809-4f33-b6e4-a8051209d949","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"203baf99-ac13-4be4-ad51-42889dd8fc41","path":"sprites/s_spawn/s_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff522bef-83ac-4067-aea3-9b0a5fe7e6fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5865395c-f714-431c-8885-9f5e6431bd25","path":"sprites/collider/collider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_spawn","path":"sprites/s_spawn/s_spawn.yy",},
+    "parent": {"name":"collider","path":"sprites/collider/collider.yy",},
     "resourceVersion": "1.3",
-    "name": "s_spawn",
+    "name": "collider",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a7ca8b3c-3459-4882-a868-b3df1d3f286f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"60fec85c-bf5b-458f-8309-a9bbee7e9070","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Zones and Triggers",
-    "path": "folders/Sprites/Zones and Triggers.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_spawn",
+  "name": "collider",
   "tags": [],
   "resourceType": "GMSprite",
 }
