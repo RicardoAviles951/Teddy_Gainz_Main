@@ -36,5 +36,5 @@ if(!active)
 }
 if(global.state != states.balloon) percent = 0;//Resets percent variable
 timer_balloon++;
-show_debug_message(active);
-show_debug_message("Balloon angle: "+ string(image_angle));
+//show_debug_message(active);
+//show_debug_message("Balloon angle: "+ string(image_angle));

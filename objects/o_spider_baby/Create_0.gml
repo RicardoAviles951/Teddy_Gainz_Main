@@ -1,4 +1,4 @@
-spider_state = spider.vert;
+spider_state = noone;
 enum spider {
 	horz,
 	vert,
