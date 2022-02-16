@@ -28,4 +28,11 @@ if (g_dashing == true) && (alarm[3] = -1){
 if (g_dashing == false){
 	global.state = states.ghost;
 }
+fade_timer--;
+if(fade_timer <= 0)
+{
+	fade_timer = fade_time
+	part_particles_create(o_particle_ctr.particle_sys, x,y,o_particle_ctr.particle_type_gdash_fade,1);
+}
+
 }

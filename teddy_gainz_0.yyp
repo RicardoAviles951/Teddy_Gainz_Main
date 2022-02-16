@@ -19,6 +19,7 @@
     {"id":{"name":"object_collisions","path":"scripts/object_collisions/object_collisions.yy",},"order":5,},
     {"id":{"name":"pth_boss_phase1","path":"paths/pth_boss_phase1/pth_boss_phase1.yy",},"order":0,},
     {"id":{"name":"Sprite134","path":"sprites/Sprite134/Sprite134.yy",},"order":33,},
+    {"id":{"name":"o_particle_ctr","path":"objects/o_particle_ctr/o_particle_ctr.yy",},"order":10,},
     {"id":{"name":"s_thicc_run","path":"sprites/s_thicc_run/s_thicc_run.yy",},"order":3,},
     {"id":{"name":"o_spawner","path":"objects/o_spawner/o_spawner.yy",},"order":11,},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":6,},
@@ -368,7 +369,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
-    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
@@ -376,6 +376,7 @@
     {"roomId":{"name":"rm_Lvl1_bug_intro","path":"rooms/rm_Lvl1_bug_intro/rm_Lvl1_bug_intro.yy",},},
     {"roomId":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},},
     {"roomId":{"name":"rm_Puzzle","path":"rooms/rm_Puzzle/rm_Puzzle.yy",},},
+    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_cutscene_lvl3","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},},
     {"roomId":{"name":"rm_Lvl3_bug_intro","path":"rooms/rm_Lvl3_bug_intro/rm_Lvl3_bug_intro.yy",},},
     {"roomId":{"name":"rm_Lvl3","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},},

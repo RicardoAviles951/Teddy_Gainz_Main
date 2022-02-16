@@ -20,6 +20,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_parallax_ctr","path":"objects/o_parallax_ctr/o_parallax_ctr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_21275328","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_music_collider","path":"objects/o_music_collider/o_music_collider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":544.0,"resourceVersion":"1.0","name":"inst_71572CFB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_win_screen","path":"objects/o_win_screen/o_win_screen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":13952.0,"y":608.0,"resourceVersion":"1.0","name":"inst_2003A091","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_particle_ctr","path":"objects/o_particle_ctr/o_particle_ctr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_14F8E4FF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_button_W","path":"objects/o_button_W/o_button_W.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":415.0,"y":463.0,"resourceVersion":"1.0","name":"inst_5284CAA9","tags":[],"resourceType":"GMRInstance",},
@@ -275,6 +276,7 @@
     {"name":"inst_2003A091","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
     {"name":"inst_14010661","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
     {"name":"inst_5A8B8820","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
+    {"name":"inst_14F8E4FF","path":"rooms/rm_Lvl3/rm_Lvl3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
