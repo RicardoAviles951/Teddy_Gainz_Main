@@ -43,4 +43,13 @@ if (dashing == true) && (alarm[0] = -1){
 if (dashing == false){
 	global.state = states.normal;
 }
+
+fade_timer--;
+
+if(fade_timer <= 0)
+{
+	fade_timer = fade_time
+	part_particles_create(o_particle_ctr.particle_sys, x,y,o_particle_ctr.particle_type_dash_fade,1);
+}
+
 }

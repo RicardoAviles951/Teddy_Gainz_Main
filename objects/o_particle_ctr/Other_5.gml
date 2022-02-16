@@ -1,0 +1,2 @@
+part_emitter_destroy(particle_sys,emitter_rain);
+part_system_destroy(particle_sys);

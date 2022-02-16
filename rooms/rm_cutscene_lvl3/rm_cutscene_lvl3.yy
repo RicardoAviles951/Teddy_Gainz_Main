@@ -19,6 +19,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_tutorial_spawn","path":"objects/o_tutorial_spawn/o_tutorial_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":304.0,"y":624.0,"resourceVersion":"1.0","name":"inst_22E5A74E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_cutscene_lvl3","path":"objects/o_cutscene_lvl3/o_cutscene_lvl3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":448.0,"resourceVersion":"1.0","name":"inst_6CE8ACC6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_music_collider","path":"objects/o_music_collider/o_music_collider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":304.0,"y":656.0,"resourceVersion":"1.0","name":"inst_209F24","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_particle_ctr","path":"objects/o_particle_ctr/o_particle_ctr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":32.0,"resourceVersion":"1.0","name":"inst_8749538","tags":[],"resourceType":"GMRInstance",},
       ],"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"pathId":{"name":"pth_ghost1","path":"paths/pth_ghost1/pth_ghost1.yy",},"colour":4278190335,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Path_1","tags":[],"resourceType":"GMRPathLayer",},
     {"instances":[
@@ -149,6 +150,7 @@
     {"name":"inst_6CE8ACC6","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},
     {"name":"inst_209F24","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},
     {"name":"inst_25E19047","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},
+    {"name":"inst_8749538","path":"rooms/rm_cutscene_lvl3/rm_cutscene_lvl3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
