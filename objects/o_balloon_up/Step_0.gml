@@ -9,8 +9,12 @@ o_player.image_angle = image_angle;
 percent     += 1/120;
 vspd         = rise_spd*position; // sets vertical speed to a set value.
 o_player.vsp = vspd;//sets player vertical speed to equal balloon vertical speed.
+part_particles_create(o_particle_ctr.part_sys_balloon ,x,y,o_particle_ctr.particle_type_balloon,1);
 }
-else image_angle = 0;
+else{
+image_angle = 0;
+//part_type_destroy(o_particle_ctr.particle_type_balloon);
+}
 
 
 
