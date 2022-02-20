@@ -35,9 +35,11 @@ part_type_life(particle_type_rain,1,1000);
 part_type_gravity(particle_type_rain,.2,270);
 part_type_alpha2(particle_type_rain,.5,.2);
 //Balloon Particles
+if(instance_exists(o_balloon_up)){
 part_type_shape(particle_type_balloon,pt_shape_pixel);
 part_type_alpha2(particle_type_balloon,1,.5)
 part_type_size(particle_type_balloon,1,2,0,0);
 part_type_color2(particle_type_balloon, c_white, c_blue);
 part_type_direction(particle_type_balloon, o_balloon_up.image_angle, o_balloon_up.image_angle,0,0);
 part_type_speed(particle_type_balloon,2,5,0,0);
+}
