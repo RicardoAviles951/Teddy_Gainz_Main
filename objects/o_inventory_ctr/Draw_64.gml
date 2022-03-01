@@ -46,7 +46,7 @@ switch (global.room){
 
 	draw_rectangle(x_top-64,y_top,x_down-64,y_down,true);
 	draw_rectangle_color(x_top-64,y_top + (y_diff*g_cooldown),x_down-64,y_down,b,r,g,b,false);
-	show_debug_message("GHOST TMR" + string(ghost_timer));
+	//show_debug_message("GHOST TMR" + string(ghost_timer));
 break;
 
 	case rooms.finalboss:
@@ -62,7 +62,7 @@ break;
 
 	draw_rectangle(x_top-64,y_top,x_down-64,y_down,true);
 	draw_rectangle_color(x_top-64,y_top + (y_diff*g_cooldown),x_down-64,y_down,b,r,g,b,false);
-	show_debug_message("GHOST TMR" + string(ghost_timer));
+	//show_debug_message("GHOST TMR" + string(ghost_timer));
 break;
 
 }
