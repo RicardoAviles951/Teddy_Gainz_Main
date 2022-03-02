@@ -63,3 +63,11 @@ if(input_enter_m) {
 	}
 	audio_play_sound(snd_click,2,false);
 }
+if menu_pages[page]=1{
+	title = false;
+}
+else
+{
+	title = true;
+}
+show_debug_message(menu_pages[page]);

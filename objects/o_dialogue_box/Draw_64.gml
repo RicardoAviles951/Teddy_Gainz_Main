@@ -4,9 +4,23 @@ draw_set_font(f_text);
 //temp vars that store the gui dimensions
 var guiW = display_get_gui_width();
 var guiH = display_get_gui_height();
+switch ( global.room ) {
+	case rooms.cut_intro: 
+		box_spr = 0;
+		break;
+	case rooms.cut_lv3: 
+		box_spr = 2;
+	break;	
+	case rooms.cut_ending: 
+		box_spr = 2;
+	break;	
+	case rooms.cut_ending2: 
+		box_spr = 0;
+	break
+}
 
 //Draw the rectangle
-draw_sprite_stretched(s_dialogue_alt,0,x,y,width,height);
+draw_sprite_stretched(s_dialogue_alt,box_spr,x,y,width,height);
 // temp vars to hold size information and colors
 var scale     = 1.5;
 var sizeW     = spriteW*scale;

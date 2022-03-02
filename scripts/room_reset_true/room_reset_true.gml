@@ -5,4 +5,7 @@ audio_stop_all();
 global.cam_move_speed = 0;
 global.orb_counter = 0;
 global.boss_health = 3;
+instance_activate_object(o_particle_ctr)
+
+part_system_destroy(o_particle_ctr.particle_sys);
 }

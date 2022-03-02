@@ -8,7 +8,7 @@ var start_y = (gheight/2) - (((ds_height-1/2)*y_buffer)), start_x = gwidth/2;
 
 //Draw Menu "Back"
 var c = c_black;
-draw_rectangle_color(0,0,gwidth, gheight,c,c,c,c,false);
+//draw_rectangle_color(0,0,gwidth, gheight,c,c,c,c,false);
 
 
 
