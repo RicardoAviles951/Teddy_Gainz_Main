@@ -9,5 +9,11 @@ var wantSize = 20; // height of text I want
 var currSize = string_height(myText); //Grabs the size of the font. 48
 var scale = wantSize / currSize; //Creates a scale to achieve the desired size.
 var box_size = sprite_get_width(s_dialogue_box) - 16 //Stores the desired length before breaking a string.
+var substring = string_copy(myText,1,spell_count);
+//Code used to draw each character per frame to achieve the "spelling effect"
+if(spell_count < string_length(myText))
+{
+	spell_count++;
+}
 //Postitions the text to fit our box using some sneaky math. 
-draw_text_ext_transformed(x+8, y+4, myText, currSize-16, box_size*4.7 , scale, scale, 0); 
+draw_text_ext_transformed(x+8, y+4, substring, currSize-16, box_size*4.7 , scale, scale, 0); 

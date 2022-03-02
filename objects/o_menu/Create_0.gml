@@ -63,3 +63,4 @@ i++;
 }
 
 inputting = false;
+title = true;

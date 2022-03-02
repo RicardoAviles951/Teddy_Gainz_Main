@@ -12,6 +12,7 @@ if(currentState == cutSceneStates.Active)
 								
 			if(keyboard_check_pressed(vk_space)) || (counter == 300)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
 			{
+				dB.spell_count = 0;
 				counter = 0; //reset the timer to 0 steps/0 seconds
 				++currentStep; //move to the next case
 			}
@@ -31,6 +32,7 @@ if(currentState == cutSceneStates.Active)
 								
 			if(keyboard_check_pressed(vk_space)) || (counter == 300)  //if the counter reaches x steps/x seconds or player hits space, destroy objects and move to next case
 			{
+				dB.spell_count = 0;
 				counter = 0; //reset the timer to 0 steps/0 seconds
 				++currentStep; //move to the next case
 			}
@@ -50,6 +52,7 @@ if(currentState == cutSceneStates.Active)
 								
 			if(keyboard_check_pressed(vk_space)) || (counter == 300)  
 			{
+				dB.spell_count = 0;
 				instance_destroy(o_textbox);
 				counter = 0; 
 				++currentStep; 
@@ -72,6 +75,7 @@ if(currentState == cutSceneStates.Active)
 			
 		if(keyboard_check_pressed(vk_space)) || (counter == 360)  
 			{
+				dB.spell_count = 0;
 				counter = 0; 
 				++currentStep; 
 			}
@@ -86,10 +90,11 @@ if(currentState == cutSceneStates.Active)
 		case 4: //Letter pt2
 		
 		if(instance_exists(o_letter))
-			dB.myText = "This is a ceremony very important for our tribe, and we would like you take part in it as a special guest.";
+			dB.myText = "This is a ceremony very important for our tribe, and we would like you to take part in it as a special guest.";
 			
 			if(keyboard_check_pressed(vk_space)) || (counter == 360)  
 			{
+				dB.spell_count = 0;
 				counter = 0; 
 				++currentStep; 
 			}
@@ -108,6 +113,7 @@ if(currentState == cutSceneStates.Active)
 			
 			if(keyboard_check_pressed(vk_space)) || (counter == 360)  
 			{
+				dB.spell_count = 0;
 				counter = 0; 
 				++currentStep; 
 			}
@@ -167,6 +173,7 @@ if(currentState == cutSceneStates.Active)
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
+				dB.spell_count = 0;
 				counter = 0; 
 				++currentStep;
 				}
@@ -186,6 +193,7 @@ if(currentState == cutSceneStates.Active)
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
+				dB.spell_count = 0;
 				counter = 0; 
 				++currentStep;
 				}
@@ -205,6 +213,7 @@ if(currentState == cutSceneStates.Active)
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
+				dB.spell_count = 0;	
 				counter = 0; 
 				++currentStep;
 				}
@@ -223,6 +232,7 @@ if(currentState == cutSceneStates.Active)
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
+				dB.spell_count = 0;
 				counter = 0; 
 				++currentStep;
 				}
@@ -239,6 +249,7 @@ if(currentState == cutSceneStates.Active)
 				
 			if(keyboard_check_pressed(vk_space)) || (counter == 360) 
 				{
+				dB.spell_count = 0;	
 				counter = 0; 
 				++currentStep;
 				}

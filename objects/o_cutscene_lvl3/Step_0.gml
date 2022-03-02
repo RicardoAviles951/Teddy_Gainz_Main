@@ -111,7 +111,7 @@ if(currentState == cutSceneStates.Active)
 				dB.myText = "1) The Bad Bug?\n2) You're scary is what you are."; 
 				dB.choice = true;
 				
-				if(keyboard_check_pressed(vk_numpad1) or keyboard_check_pressed(vk_numpad2))
+				if(keyboard_check_pressed(vk_numpad1) or keyboard_check_pressed(vk_numpad2) or keyboard_check_pressed(ord("1")) or keyboard_check_pressed(ord("2")))
 				{
 					dB.spell_cnt = 0;
 					dB.choice = false;

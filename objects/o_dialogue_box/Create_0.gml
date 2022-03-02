@@ -5,6 +5,7 @@ var guiH = display_get_gui_height();
 //box dimensions
 height = floor(guiH*.33);
 width  = guiW-guiW/12;
+box_spr = 0; //sets sub image for text box sprite 
 
 //Position on screen
 x = guiW/24;
