@@ -66,3 +66,4 @@ global.gamewin = false;
 global.master = 1;
 global.sfx = 1;
 global.music = 1;
+global.cut_seen = false;
