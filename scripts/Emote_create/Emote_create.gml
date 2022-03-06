@@ -1,5 +1,9 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+///Emote_create(emote,place,x_off,y_off)
+///@param emote
+///@param place
+///@param x_off
+///@param y_off
+
 function Emote_create(){
 
 var emote   = argument[0];

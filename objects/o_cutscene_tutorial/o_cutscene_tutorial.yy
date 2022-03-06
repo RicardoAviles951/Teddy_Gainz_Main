@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scenes",
-    "path": "folders/Objects/Cutscene/Scenes.yy",
+    "name": "Beach",
+    "path": "folders/Objects/Cutscene/Scenes/Beach.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_cutscene_tutorial",

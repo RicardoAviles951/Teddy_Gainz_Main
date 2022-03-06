@@ -21,11 +21,14 @@ enum rooms {
 	cut_map,
 	cut_intro,
 	tutorial,
+	cut_level1,
 	level1,
+	cut_puzzle,
 	puzzleboss,
 	level2,
 	cut_lv3,
 	level3,
+	cut_finalboss,
 	finalboss,
 	cut_ending,
 	cut_ending2,
@@ -63,7 +66,9 @@ global.cam_shake   = false;
 //Win vars
 global.gamewin = false;
 
+//Sound vars
 global.master = 1;
 global.sfx = 1;
 global.music = 1;
+//cutscene vars
 global.cut_seen = false;

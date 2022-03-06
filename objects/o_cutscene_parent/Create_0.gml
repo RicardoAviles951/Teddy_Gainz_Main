@@ -12,3 +12,4 @@ enum cutSceneStates
 
 currentState = cutSceneStates.Active;
 
+timer =0;

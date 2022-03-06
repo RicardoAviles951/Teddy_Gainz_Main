@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(place_meeting(x,y, o_player) && (is_collectible == true) &&!rm_cutscene_lvl3){
+if(place_meeting(x,y, o_player) && (is_collectible == true) && global.room != rm_cutscene_lvl3){
 	global.orb_counter = global.orb_counter + 1;
 	audio_play_sound(snd_orb_pickup, 1, false);
 	show_debug_message("ORB PICKED UP");

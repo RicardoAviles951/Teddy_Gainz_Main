@@ -59,7 +59,7 @@ if (place_meeting(x,y+vsp,o_death_zone))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
-if (place_meeting(x,y,o_enemy))
+if (place_meeting(x,y,o_enemy_parent))
 {
 	room_reset_true();
 	room_restart();

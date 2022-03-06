@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "s_ghost_powerup",
-    "path": "sprites/s_ghost_powerup/s_ghost_powerup.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_cutscene_parent",
+    "path": "objects/o_cutscene_parent/o_cutscene_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,19 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environement",
-    "path": "folders/Objects/Environement.yy",
+    "name": "Beach",
+    "path": "folders/Objects/Cutscene/Scenes/Beach.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_ghost_powerup",
+  "name": "o_cutscene_pre_level1",
   "tags": [],
   "resourceType": "GMObject",
 }

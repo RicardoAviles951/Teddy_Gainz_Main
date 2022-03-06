@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scenes",
-    "path": "folders/Objects/Cutscene/Scenes.yy",
+    "name": "Cemetary",
+    "path": "folders/Objects/Cutscene/Scenes/Cemetary.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_cutscene_lvl3",

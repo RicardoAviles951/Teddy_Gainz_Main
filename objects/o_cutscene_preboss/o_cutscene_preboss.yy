@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "s_ghost_wall",
-    "path": "sprites/s_ghost_wall/s_ghost_wall.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_cutscene_parent",
+    "path": "objects/o_cutscene_parent/o_cutscene_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scenes",
-    "path": "folders/Objects/Cutscene/Scenes.yy",
+    "name": "Cemetary",
+    "path": "folders/Objects/Cutscene/Scenes/Cemetary.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_cutscene3",
+  "name": "o_cutscene_preboss",
   "tags": [],
   "resourceType": "GMObject",
 }
