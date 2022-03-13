@@ -1,2 +1,2 @@
 myText = undefined;
-spell_count = 0;
+spell_cnt = 0;

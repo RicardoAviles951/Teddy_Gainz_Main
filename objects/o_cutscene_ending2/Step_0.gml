@@ -11,12 +11,14 @@ if(currentState == cutSceneStates.Active)
 		
 		Emote_create(o_exclamation,o_player,-32,-64);
 		o_exclamation.image_xscale = -1;
+	if counter >=60{
 		if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(0, 0,"Instances", o_dialogue_box);
 			dB.sprite = s_portrait_teddy;
 			dB.myText = "Thicc! I was looking for you.";
 		case_switch_120();
-		
+	}
+	counter++;
 		break;
 		#endregion
 		
@@ -167,6 +169,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 25:
+		dB.sprite = s_portrait_teddy;
 		dB.myText = "No, Thicc. Please don't apologize.";
 		case_switch_120();
 		break;

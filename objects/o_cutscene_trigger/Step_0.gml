@@ -6,7 +6,7 @@ if(currentState == cutSceneStates.Active)
 			
 			
 			case 0: 
-					
+		if counter >=60{
 			if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(0,0,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.sprite = s_portrait_thicc;
@@ -19,6 +19,7 @@ if(currentState == cutSceneStates.Active)
 				dB.spell_cnt = 0; //resets the variable responsible for spelling out letters in dialouge back to 0
 				++currentStep; //move to the next case
 			}
+		}
 			break;
 		
 		case 1: //Teddy. Line 14
@@ -28,7 +29,6 @@ if(currentState == cutSceneStates.Active)
 		 if(keyboard_check_pressed(vk_space)) 
 			{
 			 //instance_destroy(o_dialogue_box, true);
-			 counter = 0;
 			 dB.spell_cnt = 0;
 		 	 ++currentStep;
 			}
@@ -38,7 +38,7 @@ if(currentState == cutSceneStates.Active)
 			dB.myText = "(A gopher... with legs?!)";
 			
 		if(!instance_exists(o_shocked_question))
-			instance_create_layer(295,481,"Instances",o_shocked_question)
+			instance_create_layer(303,481,"Instances",o_shocked_question)
 		
 		if(keyboard_check_pressed(vk_space)) 
 			{
@@ -57,7 +57,6 @@ if(currentState == cutSceneStates.Active)
 			{
 			 o_thicc.sprite_index = s_thicc_idle;
 			 dB.spell_cnt = 0;
-			 counter = 0;
 			 ++currentStep;
 			}
 			break;
@@ -140,7 +139,7 @@ if(currentState == cutSceneStates.Active)
 		
 		if(!instance_exists(o_double_exclamation))
 		{
-			instance_create_layer(295,481,"Instances",o_double_exclamation);
+			instance_create_layer(303,481,"Instances",o_double_exclamation);
 		}
 			
 			if(keyboard_check_pressed(vk_space)) 
@@ -191,7 +190,7 @@ if(currentState == cutSceneStates.Active)
 		
 		if(!instance_exists(o_ok))
 		{
-			instance_create_layer(295,481,"Instances",o_ok);
+			instance_create_layer(303,481,"Instances",o_ok);
 		}
 		
 	     if(keyboard_check_pressed(vk_space)) || (counter == 360) 
@@ -256,3 +255,4 @@ if(currentState == cutSceneStates.Active)
 else if (currentState == cutSceneStates.Paused) {
 	
 }
+counter++;

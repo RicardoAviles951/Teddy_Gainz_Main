@@ -4,6 +4,7 @@ position = animcurve_channel_evaluate(curve,clamp(percent,0,1));
 //This code will increment the percent variable if the player is in contact with the balloon.
 if(active and global.state == states.balloon) 
 {
+collided = true;
 image_angle = image_angle + cos(swing_spd*timer_balloon)*sign(vspd)*swing_force;//calculates swing effect.
 o_player.image_angle = image_angle;
 percent     += 1/120;
@@ -13,7 +14,7 @@ part_particles_create(o_particle_ctr.part_sys_balloon ,x,y,o_particle_ctr.partic
 }
 else{
 image_angle = 0;
-//part_type_destroy(o_particle_ctr.particle_type_balloon);
+o_sound_ctr.audio_on = false;
 }
 
 
@@ -30,6 +31,8 @@ if(place_meeting(x,y,o_player) and active == false and global.state != states.ba
 	hspd         = o_player.hsp;//sets the horizontal speed to players last known horizontal speed.
 	active       = true; //Variable to track if the balloon is being "grabbed".
 }
+
+
 
 y += vspd;
 x += hspd;

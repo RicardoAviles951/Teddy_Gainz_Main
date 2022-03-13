@@ -2,11 +2,14 @@ if(currentState == cutSceneStates.Active)
 {
 	switch (currentStep) {
 		case 0:
+	if counter >=60{
 		if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 		dB = instance_create_layer(0,0,"Instances", o_dialogue_box);
 		dB.sprite = s_portrait_teddy;
 		dB.myText = "That... was a long path...";
 		case_switch_120();
+	}
+	counter++;
 		break;
 		case 1:
 		dB.myText = "Hey, wait... Are those the crystals the ghosts were talking about?";

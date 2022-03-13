@@ -3,6 +3,7 @@ if(currentState == cutSceneStates.Active and global.cut_seen == false)
 	switch (currentStep) {
 		case 0: 
 		global.state = states.player_idle;
+	if counter >=60{
 		if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(0,0,"Cutscenes", o_dialogue_box); //create the dialogue box and pick its position
 				dB.sprite = s_portrait_thicc;
@@ -13,6 +14,8 @@ if(currentState == cutSceneStates.Active and global.cut_seen == false)
 				dB.spell_cnt = 0; //resets the variable responsible for spelling out letters in dialouge back to 0
 				++currentStep; //move to the next case
 			}
+	}
+	counter++;
 		break;
 		
 		case 1: 

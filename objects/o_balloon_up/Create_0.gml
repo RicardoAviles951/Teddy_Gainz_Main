@@ -16,3 +16,5 @@ timer_balloon = 0;//Variable that gets incremented in the cosine fucntion. Highe
 active        = false;
 image_xscale  = choose(-1,1);
 image_angle = 0;
+
+collided = false;

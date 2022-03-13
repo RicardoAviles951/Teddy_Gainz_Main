@@ -3,11 +3,14 @@ if(currentState == cutSceneStates.Active)
 	switch (currentStep) {
 		case 0:
 		global.state = states.player_idle;
+	if counter >=60{
 		if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(0,0,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.sprite = s_portrait_thicc;
 				dB.myText = "Well done, matey!";
 				case_switch_120();
+	}
+	counter++;
 		break;
 		case 1:
 		dB.sprite = s_portrait_teddy;
