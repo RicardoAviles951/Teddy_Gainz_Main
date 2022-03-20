@@ -184,6 +184,7 @@
     {"id":{"name":"idle","path":"scripts/idle/idle.yy",},"order":0,},
     {"id":{"name":"s_preview2","path":"sprites/s_preview2/s_preview2.yy",},"order":16,},
     {"id":{"name":"s_crystalglow","path":"sprites/s_crystalglow/s_crystalglow.yy",},"order":25,},
+    {"id":{"name":"s_rollercoaster","path":"sprites/s_rollercoaster/s_rollercoaster.yy",},"order":32,},
     {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},"order":2,},
     {"id":{"name":"phase_3","path":"scripts/phase_3/phase_3.yy",},"order":3,},
     {"id":{"name":"o_transition","path":"objects/o_transition/o_transition.yy",},"order":4,},
