@@ -9,5 +9,6 @@ if(place_meeting(x,y,o_player) && collectable == true) {
 	instance_create_layer(321,random_range(91,100), "Instances",o_rock);
 	instance_create_layer(641,random_range(110,130), "Instances",o_rock);
 	instance_create_layer(961,random_range(100,150), "Instances",o_rock);
+	instance_create_layer(1271,random_range(100,150), "Instances",o_rock);
 	instance_destroy();
 }
