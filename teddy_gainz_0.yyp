@@ -318,6 +318,7 @@
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":1,},
     {"id":{"name":"s_pink_sqr","path":"sprites/s_pink_sqr/s_pink_sqr.yy",},"order":4,},
     {"id":{"name":"s_player_ghostjump","path":"sprites/s_player_ghostjump/s_player_ghostjump.yy",},"order":10,},
+    {"id":{"name":"snd_ambient_carnival","path":"sounds/snd_ambient_carnival/snd_ambient_carnival.yy",},"order":25,},
     {"id":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},"order":11,},
     {"id":{"name":"s_background_flags","path":"sprites/s_background_flags/s_background_flags.yy",},"order":35,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":2,},
@@ -400,6 +401,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
+    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
@@ -418,7 +420,6 @@
     {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
     {"roomId":{"name":"rm_spiderboss","path":"rooms/rm_spiderboss/rm_spiderboss.yy",},},
     {"roomId":{"name":"rm_Lvl3_bug_intro","path":"rooms/rm_Lvl3_bug_intro/rm_Lvl3_bug_intro.yy",},},
-    {"roomId":{"name":"rm_Lvl2","path":"rooms/rm_Lvl2/rm_Lvl2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -31,6 +31,7 @@ if(Vwall_collided)
 
 if(place_meeting(x,y,o_death_zone)){
 	//show_debug_message("DESTROYED");
+	audio_stop_sound(snd_crawling);
 	instance_destroy();
 }
 //show_debug_message("leftwall: " + string(leftwall));

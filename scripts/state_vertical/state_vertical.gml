@@ -12,7 +12,7 @@ spider_collisions();
 guide();
 snap();
 anim_spider();
-//if instance_exists(o_spider_baby){
-//if !audio_is_playing(snd_crawling) audio_play_sound(snd_crawling,1,true);
-//}
+
+if !audio_is_playing(snd_crawling) audio_play_sound(snd_crawling,1,true);
+
 }

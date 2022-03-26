@@ -32,6 +32,13 @@ switch ( global.room ) {
 		audio_sound_gain(snd_waves,.8, 5000);
 		}
 		break;
+		case rooms.level2:
+		if(!audio_is_playing(snd_ambient_carnival)){
+			//audio_play_sound(snd_ambient_carnival,1,true);
+			//audio_sound_pitch(snd_ambient_carnival,.3);
+			//audio_sound_gain(snd_ambient_carnival,.3,2000);
+		}
+		break;
 	case rooms.cut_lv3: if(!audio_is_playing(snd_spookywind_ambient)){
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	
