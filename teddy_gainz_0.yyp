@@ -378,6 +378,7 @@
     {"id":{"name":"s_level1Tiles","path":"sprites/s_level1Tiles/s_level1Tiles.yy",},"order":4,},
     {"id":{"name":"s_parallax_graveyard2","path":"sprites/s_parallax_graveyard2/s_parallax_graveyard2.yy",},"order":14,},
     {"id":{"name":"s_no","path":"sprites/s_no/s_no.yy",},"order":8,},
+    {"id":{"name":"snd_level_2","path":"sounds/snd_level_2/snd_level_2.yy",},"order":26,},
     {"id":{"name":"s_happy_tune","path":"sprites/s_happy_tune/s_happy_tune.yy",},"order":6,},
     {"id":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},"order":0,},
   ],
