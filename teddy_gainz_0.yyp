@@ -216,6 +216,7 @@
     {"id":{"name":"Idle_state","path":"scripts/Idle_state/Idle_state.yy",},"order":4,},
     {"id":{"name":"o_weakwall","path":"objects/o_weakwall/o_weakwall.yy",},"order":6,},
     {"id":{"name":"s_mama_idle","path":"sprites/s_mama_idle/s_mama_idle.yy",},"order":3,},
+    {"id":{"name":"s_tent","path":"sprites/s_tent/s_tent.yy",},"order":51,},
     {"id":{"name":"s_key_space","path":"sprites/s_key_space/s_key_space.yy",},"order":23,},
     {"id":{"name":"o_title","path":"objects/o_title/o_title.yy",},"order":10,},
     {"id":{"name":"pth_ghost1","path":"paths/pth_ghost1/pth_ghost1.yy",},"order":4,},
