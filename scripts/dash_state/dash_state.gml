@@ -40,6 +40,7 @@ if (dashing == true) && (alarm[0] = -1){
 		alarm[0]= 10;
 		//show_debug_message("DASHING NOW")
 	}
+string_dash();
 if (dashing == false){
 	global.state = states.normal;
 }

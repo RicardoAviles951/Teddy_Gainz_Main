@@ -7,7 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 28,
+  "bbox_left": 29,
   "bbox_right": 34,
   "bbox_top": 0,
   "bbox_bottom": 63,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d6a8bd01-6898-4fcf-b77c-fce9f3c3c650","path":"sprites/s_string/s_string.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d6a8bd01-6898-4fcf-b77c-fce9f3c3c650","path":"sprites/s_string/s_string.yy",},"LayerId":{"name":"d658e43c-da5d-47ea-a0a8-5ef2a5c2fa73","path":"sprites/s_string/s_string.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_string","path":"sprites/s_string/s_string.yy",},"resourceVersion":"1.0","name":"d6a8bd01-6898-4fcf-b77c-fce9f3c3c650","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d54aa4f9-eea0-44f5-94d2-83196f51b20a","path":"sprites/s_web_fine/s_web_fine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d54aa4f9-eea0-44f5-94d2-83196f51b20a","path":"sprites/s_web_fine/s_web_fine.yy",},"LayerId":{"name":"e71d14d1-1e5f-4e57-9d7a-1e7db347cb4a","path":"sprites/s_web_fine/s_web_fine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_web_fine","path":"sprites/s_web_fine/s_web_fine.yy",},"resourceVersion":"1.0","name":"d54aa4f9-eea0-44f5-94d2-83196f51b20a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_string","path":"sprites/s_string/s_string.yy",},
+    "spriteId": {"name":"s_web_fine","path":"sprites/s_web_fine/s_web_fine.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d8798603-ba0a-4fc0-b872-d2efdf69d414","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d6a8bd01-6898-4fcf-b77c-fce9f3c3c650","path":"sprites/s_string/s_string.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6febba00-db21-4693-ab5a-b078d6d2c131","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d54aa4f9-eea0-44f5-94d2-83196f51b20a","path":"sprites/s_web_fine/s_web_fine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_string","path":"sprites/s_string/s_string.yy",},
+    "parent": {"name":"s_web_fine","path":"sprites/s_web_fine/s_web_fine.yy",},
     "resourceVersion": "1.3",
-    "name": "s_string",
+    "name": "s_web_fine",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d658e43c-da5d-47ea-a0a8-5ef2a5c2fa73","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e71d14d1-1e5f-4e57-9d7a-1e7db347cb4a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 29,
@@ -97,7 +97,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_string",
+  "name": "s_web_fine",
   "tags": [],
   "resourceType": "GMSprite",
 }

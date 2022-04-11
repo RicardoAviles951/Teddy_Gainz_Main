@@ -1,4 +1,7 @@
 ///Script that checks all bounding boxes of the tile. Returns value 0 if not colliding and 1 if colliding.
+/// @param x
+/// @param y
+/// @param layer_id
 function tile_place_meeting(){
 var xx = argument0;
 var yy = argument1;

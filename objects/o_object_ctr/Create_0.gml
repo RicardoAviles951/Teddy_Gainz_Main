@@ -8,6 +8,8 @@ enum states {
 	g_dash,
 	balloon
 }
+
+
 enum boss {
 	idle,
 	phase_1,

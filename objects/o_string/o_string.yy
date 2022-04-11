@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_string",
-    "path": "sprites/s_string/s_string.yy",
+    "name": "s_web_fine",
+    "path": "sprites/s_web_fine/s_web_fine.yy",
   },
   "solid": false,
   "visible": true,

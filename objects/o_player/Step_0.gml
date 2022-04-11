@@ -40,7 +40,6 @@ if (place_meeting(x,y,o_checkpoint))
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
 }
-
 //DEVELOPMENTS PURPOSES ONLY
 //show_debug_message(vsp);
 //show_debug_message("Cam Speed: " + string(global.cam_move_speed));

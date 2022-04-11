@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 574,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 447,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 576,
+  "height": 448,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"847441a8-b79c-4287-83da-2dce05358ccd","path":"sprites/Sprite159/Sprite159.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"847441a8-b79c-4287-83da-2dce05358ccd","path":"sprites/Sprite159/Sprite159.yy",},"LayerId":{"name":"e4debe08-6c5f-492e-9472-4961e058b49f","path":"sprites/Sprite159/Sprite159.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite159","path":"sprites/Sprite159/Sprite159.yy",},"resourceVersion":"1.0","name":"847441a8-b79c-4287-83da-2dce05358ccd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ae228b08-9be7-40bc-85f1-d11c31775e95","path":"sprites/wood_tiles/wood_tiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ae228b08-9be7-40bc-85f1-d11c31775e95","path":"sprites/wood_tiles/wood_tiles.yy",},"LayerId":{"name":"a25df834-6743-43a0-82d1-29e0e0c959f3","path":"sprites/wood_tiles/wood_tiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"wood_tiles","path":"sprites/wood_tiles/wood_tiles.yy",},"resourceVersion":"1.0","name":"ae228b08-9be7-40bc-85f1-d11c31775e95","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite159","path":"sprites/Sprite159/Sprite159.yy",},
+    "spriteId": {"name":"wood_tiles","path":"sprites/wood_tiles/wood_tiles.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d45fabce-2cb5-4c38-a1bf-95915cc6a0ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"847441a8-b79c-4287-83da-2dce05358ccd","path":"sprites/Sprite159/Sprite159.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a771acca-14dc-414b-897b-e52d66d5ca84","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ae228b08-9be7-40bc-85f1-d11c31775e95","path":"sprites/wood_tiles/wood_tiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite159","path":"sprites/Sprite159/Sprite159.yy",},
+    "parent": {"name":"wood_tiles","path":"sprites/wood_tiles/wood_tiles.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite159",
+    "name": "wood_tiles",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4debe08-6c5f-492e-9472-4961e058b49f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a25df834-6743-43a0-82d1-29e0e0c959f3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite159",
+  "name": "wood_tiles",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -19,4 +19,4 @@ right = 1;
 up = -1;
 down = 1;
 guide_x = 1;
-guide_y = 1;
+guide_y = 1; 
