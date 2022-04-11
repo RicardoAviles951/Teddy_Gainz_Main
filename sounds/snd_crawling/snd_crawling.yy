@@ -11,8 +11,8 @@
     "name": "audiogroup_sfx",
     "path": "audiogroups/audiogroup_sfx",
   },
-  "soundFile": "snd_crawling.mp3",
-  "duration": 2.115875,
+  "soundFile": "snd_crawling.wav",
+  "duration": 1.400431,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
