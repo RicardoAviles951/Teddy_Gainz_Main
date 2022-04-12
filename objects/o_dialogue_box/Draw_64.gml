@@ -5,18 +5,11 @@ draw_set_font(f_text);
 var guiW = display_get_gui_width();
 var guiH = display_get_gui_height();
 switch ( global.room ) {
-	case rooms.cut_intro: 
-		box_spr = 0;
-		break;
-	case rooms.cut_lv3: 
-		box_spr = 2;
-	break;	
-	case rooms.cut_ending: 
-		box_spr = 2;
-	break;	
-	case rooms.cut_ending2: 
-		box_spr = 0;
-	break
+	case rooms.cut_intro:  box_spr = 0; break;
+	case rooms.cut_level2: box_spr = 1; break;
+	case rooms.cut_lv3:    box_spr = 2; break;	
+	case rooms.cut_ending: box_spr = 2; break;	
+	case rooms.cut_ending2:box_spr = 0; break;
 }
 
 //Draw the rectangle

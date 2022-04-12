@@ -15,6 +15,9 @@ switch(global.room) {
 	case rooms.level1:
 	if(alarm[0] = -1) alarm[0] = 15;
 	break;
+	case rooms.cut_level2:
+	if(alarm[0] = -1) alarm[0] = 15;
+	break;
 	case rooms.level2: 
 	if(alarm[0] = -1) alarm[0] = 15;
 	break;
