@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_orb_samples","path":"sprites/s_orb_samples/s_orb_samples.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_orb_samples",
     "tags": [],
     "resourceType": "GMSequence",

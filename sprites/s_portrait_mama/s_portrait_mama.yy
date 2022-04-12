@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_portrait_mama","path":"sprites/s_portrait_mama/s_portrait_mama.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_portrait_mama",
     "tags": [],
     "resourceType": "GMSequence",

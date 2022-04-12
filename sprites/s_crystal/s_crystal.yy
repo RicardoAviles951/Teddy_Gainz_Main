@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_crystal","path":"sprites/s_crystal/s_crystal.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_crystal",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_weakwall","path":"sprites/s_weakwall/s_weakwall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_weakwall",
     "tags": [],
     "resourceType": "GMSequence",

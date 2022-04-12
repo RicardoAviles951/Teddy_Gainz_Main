@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_thicc_jump","path":"sprites/s_thicc_jump/s_thicc_jump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_thicc_jump",
     "tags": [],
     "resourceType": "GMSequence",

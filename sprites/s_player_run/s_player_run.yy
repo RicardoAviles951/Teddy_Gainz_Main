@@ -86,7 +86,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_run","path":"sprites/s_player_run/s_player_run.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_run",
     "tags": [],
     "resourceType": "GMSequence",

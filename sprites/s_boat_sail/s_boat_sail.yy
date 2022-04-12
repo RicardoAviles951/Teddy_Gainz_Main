@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_boat_sail","path":"sprites/s_boat_sail/s_boat_sail.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_boat_sail",
     "tags": [],
     "resourceType": "GMSequence",

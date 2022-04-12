@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_spacebar","path":"sprites/s_spacebar/s_spacebar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_spacebar",
     "tags": [],
     "resourceType": "GMSequence",

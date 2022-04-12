@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_walkingglobe","path":"sprites/s_clutter_walkingglobe/s_clutter_walkingglobe.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_walkingglobe",
     "tags": [],
     "resourceType": "GMSequence",

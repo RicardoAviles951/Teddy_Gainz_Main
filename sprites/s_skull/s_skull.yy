@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_skull","path":"sprites/s_skull/s_skull.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_skull",
     "tags": [],
     "resourceType": "GMSequence",

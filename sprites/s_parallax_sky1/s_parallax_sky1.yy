@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_parallax_sky1","path":"sprites/s_parallax_sky1/s_parallax_sky1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_parallax_sky1",
     "tags": [],
     "resourceType": "GMSequence",

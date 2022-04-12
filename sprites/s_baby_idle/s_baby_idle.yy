@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_baby_idle","path":"sprites/s_baby_idle/s_baby_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_baby_idle",
     "tags": [],
     "resourceType": "GMSequence",

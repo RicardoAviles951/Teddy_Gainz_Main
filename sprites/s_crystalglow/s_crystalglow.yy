@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_crystalglow","path":"sprites/s_crystalglow/s_crystalglow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_crystalglow",
     "tags": [],
     "resourceType": "GMSequence",

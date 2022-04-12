@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_cottoncandyblue","path":"sprites/s_clutter_cottoncandyblue/s_clutter_cottoncandyblue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_cottoncandyblue",
     "tags": [],
     "resourceType": "GMSequence",

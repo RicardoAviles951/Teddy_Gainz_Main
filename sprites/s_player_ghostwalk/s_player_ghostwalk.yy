@@ -94,7 +94,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_ghostwalk","path":"sprites/s_player_ghostwalk/s_player_ghostwalk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_ghostwalk",
     "tags": [],
     "resourceType": "GMSequence",

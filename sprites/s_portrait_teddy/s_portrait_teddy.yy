@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_portrait_teddy","path":"sprites/s_portrait_teddy/s_portrait_teddy.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_portrait_teddy",
     "tags": [],
     "resourceType": "GMSequence",

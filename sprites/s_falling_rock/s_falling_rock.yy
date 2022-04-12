@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_falling_rock","path":"sprites/s_falling_rock/s_falling_rock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_falling_rock",
     "tags": [],
     "resourceType": "GMSequence",

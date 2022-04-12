@@ -68,7 +68,7 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "sq_bug_bob",
   "tags": [],
   "resourceType": "GMSequence",

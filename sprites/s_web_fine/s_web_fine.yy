@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_web_fine","path":"sprites/s_web_fine/s_web_fine.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_web_fine",
     "tags": [],
     "resourceType": "GMSequence",

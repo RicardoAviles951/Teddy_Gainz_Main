@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_jugglingball","path":"sprites/s_clutter_jugglingball/s_clutter_jugglingball.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_jugglingball",
     "tags": [],
     "resourceType": "GMSequence",

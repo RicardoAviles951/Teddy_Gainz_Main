@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_pixel","path":"sprites/s_pixel/s_pixel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_pixel",
     "tags": [],
     "resourceType": "GMSequence",

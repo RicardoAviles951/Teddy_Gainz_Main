@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_key_W","path":"sprites/s_key_W/s_key_W.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_key_W",
     "tags": [],
     "resourceType": "GMSequence",

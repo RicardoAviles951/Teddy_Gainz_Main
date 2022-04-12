@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dialogue_alt","path":"sprites/s_dialogue_alt/s_dialogue_alt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dialogue_alt",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_web_distressed","path":"sprites/s_web_distressed/s_web_distressed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_web_distressed",
     "tags": [],
     "resourceType": "GMSequence",

@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_thicc_run","path":"sprites/s_thicc_run/s_thicc_run.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_thicc_run",
     "tags": [],
     "resourceType": "GMSequence",

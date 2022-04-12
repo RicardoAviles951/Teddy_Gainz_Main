@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_background_finalboss_menu","path":"sprites/s_background_finalboss_menu/s_background_finalboss_menu.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_background_finalboss_menu",
     "tags": [],
     "resourceType": "GMSequence",

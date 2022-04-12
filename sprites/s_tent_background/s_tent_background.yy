@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_tent_background","path":"sprites/s_tent_background/s_tent_background.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_tent_background",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_shocked_question","path":"sprites/s_shocked_question/s_shocked_question.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_shocked_question",
     "tags": [],
     "resourceType": "GMSequence",

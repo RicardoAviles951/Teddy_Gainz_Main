@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ferriswheel","path":"sprites/s_ferriswheel/s_ferriswheel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ferriswheel",
     "tags": [],
     "resourceType": "GMSequence",

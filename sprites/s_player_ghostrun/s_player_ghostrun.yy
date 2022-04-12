@@ -86,7 +86,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_ghostrun","path":"sprites/s_player_ghostrun/s_player_ghostrun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_ghostrun",
     "tags": [],
     "resourceType": "GMSequence",

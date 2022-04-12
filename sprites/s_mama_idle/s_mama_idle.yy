@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_mama_idle","path":"sprites/s_mama_idle/s_mama_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_mama_idle",
     "tags": [],
     "resourceType": "GMSequence",

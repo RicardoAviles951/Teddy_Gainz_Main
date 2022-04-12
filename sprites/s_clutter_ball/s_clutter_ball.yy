@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_ball","path":"sprites/s_clutter_ball/s_clutter_ball.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_ball",
     "tags": [],
     "resourceType": "GMSequence",

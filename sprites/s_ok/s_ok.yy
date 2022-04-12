@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ok","path":"sprites/s_ok/s_ok.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ok",
     "tags": [],
     "resourceType": "GMSequence",

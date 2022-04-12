@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_background_graveyard","path":"sprites/s_background_graveyard/s_background_graveyard.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_background_graveyard",
     "tags": [],
     "resourceType": "GMSequence",

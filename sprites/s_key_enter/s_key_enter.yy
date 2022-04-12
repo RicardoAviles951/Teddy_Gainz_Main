@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_key_enter","path":"sprites/s_key_enter/s_key_enter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_key_enter",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_popcorn","path":"sprites/s_clutter_popcorn/s_clutter_popcorn.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_popcorn",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_beachcastle2","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_beachcastle2",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ghostwall1","path":"sprites/s_ghostwall1/s_ghostwall1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ghostwall1",
     "tags": [],
     "resourceType": "GMSequence",

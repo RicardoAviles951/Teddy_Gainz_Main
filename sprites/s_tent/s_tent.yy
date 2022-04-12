@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_tent","path":"sprites/s_tent/s_tent.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_tent",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_portrait_thicc","path":"sprites/s_portrait_thicc/s_portrait_thicc.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_portrait_thicc",
     "tags": [],
     "resourceType": "GMSequence",

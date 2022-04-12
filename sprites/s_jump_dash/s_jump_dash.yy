@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_jump_dash","path":"sprites/s_jump_dash/s_jump_dash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_jump_dash",
     "tags": [],
     "resourceType": "GMSequence",

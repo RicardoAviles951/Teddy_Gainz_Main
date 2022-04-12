@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_parallax_ctr","path":"sprites/s_parallax_ctr/s_parallax_ctr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_parallax_ctr",
     "tags": [],
     "resourceType": "GMSequence",

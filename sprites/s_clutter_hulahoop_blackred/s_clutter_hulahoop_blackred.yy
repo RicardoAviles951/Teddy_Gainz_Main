@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_hulahoop_blackred","path":"sprites/s_clutter_hulahoop_blackred/s_clutter_hulahoop_blackred.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_hulahoop_blackred",
     "tags": [],
     "resourceType": "GMSequence",

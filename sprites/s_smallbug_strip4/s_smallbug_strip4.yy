@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_smallbug_strip4","path":"sprites/s_smallbug_strip4/s_smallbug_strip4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_smallbug_strip4",
     "tags": [],
     "resourceType": "GMSequence",

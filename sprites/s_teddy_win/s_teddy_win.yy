@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_teddy_win","path":"sprites/s_teddy_win/s_teddy_win.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_teddy_win",
     "tags": [],
     "resourceType": "GMSequence",

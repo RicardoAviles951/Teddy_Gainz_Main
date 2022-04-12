@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_button_Shift","path":"sprites/s_button_Shift/s_button_Shift.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_button_Shift",
     "tags": [],
     "resourceType": "GMSequence",

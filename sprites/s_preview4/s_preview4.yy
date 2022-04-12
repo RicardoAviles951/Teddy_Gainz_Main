@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_preview4","path":"sprites/s_preview4/s_preview4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_preview4",
     "tags": [],
     "resourceType": "GMSequence",

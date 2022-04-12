@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_smallbug_animated","path":"sprites/s_smallbug_animated/s_smallbug_animated.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_smallbug_animated",
     "tags": [],
     "resourceType": "GMSequence",

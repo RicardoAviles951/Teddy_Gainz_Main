@@ -65,7 +65,7 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "sq_boat_bob",
   "tags": [],
   "resourceType": "GMSequence",

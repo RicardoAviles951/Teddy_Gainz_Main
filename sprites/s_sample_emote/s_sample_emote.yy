@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_sample_emote","path":"sprites/s_sample_emote/s_sample_emote.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_sample_emote",
     "tags": [],
     "resourceType": "GMSequence",

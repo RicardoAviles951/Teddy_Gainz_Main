@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_cam_speed_collider","path":"sprites/s_cam_speed_collider/s_cam_speed_collider.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_cam_speed_collider",
     "tags": [],
     "resourceType": "GMSequence",

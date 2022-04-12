@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_portrait_finalboss","path":"sprites/s_portrait_finalboss/s_portrait_finalboss.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_portrait_finalboss",
     "tags": [],
     "resourceType": "GMSequence",

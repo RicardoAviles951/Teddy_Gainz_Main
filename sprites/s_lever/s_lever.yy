@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_lever","path":"sprites/s_lever/s_lever.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_lever",
     "tags": [],
     "resourceType": "GMSequence",

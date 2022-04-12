@@ -135,7 +135,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_boss","path":"sprites/s_boss/s_boss.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_boss",
     "tags": [],
     "resourceType": "GMSequence",

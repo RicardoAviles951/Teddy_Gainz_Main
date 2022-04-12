@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_ghost","path":"sprites/s_player_ghost/s_player_ghost.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_ghost",
     "tags": [],
     "resourceType": "GMSequence",

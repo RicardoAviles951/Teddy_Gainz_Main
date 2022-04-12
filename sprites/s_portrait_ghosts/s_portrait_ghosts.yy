@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_portrait_ghosts","path":"sprites/s_portrait_ghosts/s_portrait_ghosts.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_portrait_ghosts",
     "tags": [],
     "resourceType": "GMSequence",

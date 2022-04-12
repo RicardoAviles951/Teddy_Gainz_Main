@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_balloon","path":"sprites/s_player_balloon/s_player_balloon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_balloon",
     "tags": [],
     "resourceType": "GMSequence",

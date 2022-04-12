@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_beachball","path":"sprites/s_clutter_beachball/s_clutter_beachball.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_beachball",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_correct","path":"sprites/s_correct/s_correct.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_correct",
     "tags": [],
     "resourceType": "GMSequence",

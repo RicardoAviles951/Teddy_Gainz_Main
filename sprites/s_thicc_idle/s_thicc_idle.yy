@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_thicc_idle","path":"sprites/s_thicc_idle/s_thicc_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_thicc_idle",
     "tags": [],
     "resourceType": "GMSequence",

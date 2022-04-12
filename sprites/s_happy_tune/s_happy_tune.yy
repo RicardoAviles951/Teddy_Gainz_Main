@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_happy_tune","path":"sprites/s_happy_tune/s_happy_tune.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_happy_tune",
     "tags": [],
     "resourceType": "GMSequence",

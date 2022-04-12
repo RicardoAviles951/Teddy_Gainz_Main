@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_ghostjump","path":"sprites/s_player_ghostjump/s_player_ghostjump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_ghostjump",
     "tags": [],
     "resourceType": "GMSequence",

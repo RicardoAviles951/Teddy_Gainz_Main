@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_parallax_graveyard1","path":"sprites/s_parallax_graveyard1/s_parallax_graveyard1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_parallax_graveyard1",
     "tags": [],
     "resourceType": "GMSequence",

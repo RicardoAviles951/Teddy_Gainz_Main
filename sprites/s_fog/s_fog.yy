@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_fog","path":"sprites/s_fog/s_fog.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_fog",
     "tags": [],
     "resourceType": "GMSequence",

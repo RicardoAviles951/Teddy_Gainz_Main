@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_cluck","path":"sprites/s_cluck/s_cluck.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_cluck",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"wood_tiles","path":"sprites/wood_tiles/wood_tiles.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "wood_tiles",
     "tags": [],
     "resourceType": "GMSequence",

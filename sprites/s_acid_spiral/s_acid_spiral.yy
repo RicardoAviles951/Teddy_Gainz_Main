@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_acid_spiral","path":"sprites/s_acid_spiral/s_acid_spiral.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_acid_spiral",
     "tags": [],
     "resourceType": "GMSequence",

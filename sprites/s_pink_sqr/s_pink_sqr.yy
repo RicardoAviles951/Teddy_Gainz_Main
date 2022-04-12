@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_pink_sqr","path":"sprites/s_pink_sqr/s_pink_sqr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_pink_sqr",
     "tags": [],
     "resourceType": "GMSequence",

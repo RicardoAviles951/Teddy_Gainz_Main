@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_idle_pluck","path":"sprites/s_player_idle_pluck/s_player_idle_pluck.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_idle_pluck",
     "tags": [],
     "resourceType": "GMSequence",

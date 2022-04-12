@@ -94,7 +94,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_player_walk","path":"sprites/s_player_walk/s_player_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_player_walk",
     "tags": [],
     "resourceType": "GMSequence",

@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_bug","path":"sprites/s_bug/s_bug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_bug",
     "tags": [],
     "resourceType": "GMSequence",

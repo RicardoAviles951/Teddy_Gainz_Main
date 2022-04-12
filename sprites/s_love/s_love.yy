@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_love","path":"sprites/s_love/s_love.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_love",
     "tags": [],
     "resourceType": "GMSequence",

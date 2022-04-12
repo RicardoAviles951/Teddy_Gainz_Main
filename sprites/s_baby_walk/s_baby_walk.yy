@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_baby_walk","path":"sprites/s_baby_walk/s_baby_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_baby_walk",
     "tags": [],
     "resourceType": "GMSequence",

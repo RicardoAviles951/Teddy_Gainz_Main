@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_death_zone","path":"sprites/s_death_zone/s_death_zone.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_death_zone",
     "tags": [],
     "resourceType": "GMSequence",

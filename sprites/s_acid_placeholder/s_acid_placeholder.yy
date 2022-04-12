@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_acid_placeholder","path":"sprites/s_acid_placeholder/s_acid_placeholder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_acid_placeholder",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_grave","path":"sprites/s_clutter_grave/s_clutter_grave.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_grave",
     "tags": [],
     "resourceType": "GMSequence",

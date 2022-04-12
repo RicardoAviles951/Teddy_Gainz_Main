@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_clutter_foreshadowing","path":"sprites/s_clutter_foreshadowing/s_clutter_foreshadowing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_clutter_foreshadowing",
     "tags": [],
     "resourceType": "GMSequence",

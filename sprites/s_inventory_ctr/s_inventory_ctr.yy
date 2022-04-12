@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_inventory_ctr","path":"sprites/s_inventory_ctr/s_inventory_ctr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_inventory_ctr",
     "tags": [],
     "resourceType": "GMSequence",

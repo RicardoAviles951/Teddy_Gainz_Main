@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_status_ctr","path":"sprites/s_status_ctr/s_status_ctr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_status_ctr",
     "tags": [],
     "resourceType": "GMSequence",
