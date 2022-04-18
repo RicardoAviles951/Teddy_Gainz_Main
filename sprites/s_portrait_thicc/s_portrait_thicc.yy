@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Portraits",
+    "path": "folders/Sprites/Character Sprites/Portraits.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_portrait_thicc",

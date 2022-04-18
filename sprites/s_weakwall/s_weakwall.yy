@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Zones and Triggers",
-    "path": "folders/Sprites/Zones and Triggers.yy",
+    "name": "Gameplay",
+    "path": "folders/Sprites/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_weakwall",

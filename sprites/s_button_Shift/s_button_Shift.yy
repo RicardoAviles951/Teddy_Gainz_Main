@@ -86,8 +86,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI Sprites",
-    "path": "folders/Sprites/UI Sprites.yy",
+    "name": "Buttons",
+    "path": "folders/Sprites/UI-UX Sprites/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_button_Shift",

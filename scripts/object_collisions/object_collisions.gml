@@ -74,6 +74,15 @@ if(place_meeting(x,y, o_thicc)) && !instance_exists(o_cutscene_parent)
 	instance_create_layer(x, y, "Instances", o_cutscene_trigger);
 	hsp = 0;
 }
+if alarm[6] = -1 and o_spider.spider_state != spider_boss.swing_idle
+	{
+		alarm[6] = 120;
+	}
+if (place_meeting(x,y,o_spider) and spider_smack == false)
+{
+	hsp -= 10;
+	spider_smack = true;
+}
 
 }
 

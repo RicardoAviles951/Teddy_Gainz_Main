@@ -1044,7 +1044,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "wood_set",
+  "name": "tile_level2",
   "tags": [],
   "resourceType": "GMTileSet",
 }

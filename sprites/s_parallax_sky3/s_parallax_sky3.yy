@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Environment/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_parallax_sky3",

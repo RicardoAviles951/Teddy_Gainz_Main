@@ -1,3 +1,8 @@
+/// approach(speed, max_speed, acceleration)
+/// @description approach(speed,max_speed, acceleration);
+/// @param speed
+/// @param max_speed
+/// @param acceleration
 function approach(){
 if (argument0 < argument1)
 {

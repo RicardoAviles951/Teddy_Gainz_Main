@@ -7,6 +7,7 @@ var guiH = display_get_gui_height();
 switch ( global.room ) {
 	case rooms.cut_intro:  box_spr = 0; break;
 	case rooms.cut_level2: box_spr = 1; break;
+	case rooms.cut_pre_spiderboss: box_spr = 1; break;
 	case rooms.cut_lv3:    box_spr = 2; break;	
 	case rooms.cut_ending: box_spr = 2; break;	
 	case rooms.cut_ending2:box_spr = 0; break;

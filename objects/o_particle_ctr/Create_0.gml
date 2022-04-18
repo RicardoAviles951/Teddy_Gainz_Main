@@ -5,6 +5,7 @@ particle_type_gdash_fade = part_type_create();
 particle_type_wind = part_type_create();
 particle_type_rain = part_type_create();
 particle_type_balloon = part_type_create();
+particle_type_party = part_type_create();
 emitter_rain = part_emitter_create(particle_sys);
 //part_system_automatic_draw(particle_sys, false);
 //Regular Dash
@@ -43,3 +44,11 @@ part_type_color2(particle_type_balloon, c_white, c_blue);
 part_type_direction(particle_type_balloon, o_balloon_up.image_angle, o_balloon_up.image_angle,0,0);
 part_type_speed(particle_type_balloon,2,5,0,0);
 }
+
+//Party Particles(balloons)
+part_type_sprite(particle_type_party,s_balloon,false,false,false);
+part_type_life(particle_type_party,120,120);
+part_type_direction(particle_type_party,90,90,.5,1);
+part_type_gravity(particle_type_party,.1,90);
+part_type_speed(particle_type_party,1,3,0,0);
+

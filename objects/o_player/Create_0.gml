@@ -24,3 +24,4 @@ path_teddy = false;
 //particle vars
 fade_time = 5;
 fade_timer = fade_time;
+spider_smack = false;

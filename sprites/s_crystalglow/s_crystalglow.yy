@@ -93,8 +93,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "name": "Gameplay",
+    "path": "folders/Sprites/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_crystalglow",

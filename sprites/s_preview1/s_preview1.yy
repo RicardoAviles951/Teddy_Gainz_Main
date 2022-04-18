@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "UI Sprites",
-    "path": "folders/Sprites/UI Sprites.yy",
+    "name": "menu_level_previews",
+    "path": "folders/Sprites/UI-UX Sprites/menu_level_previews.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_preview1",

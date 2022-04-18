@@ -5,6 +5,7 @@ if instance_exists(o_spider){
 	switch(o_spider.spider_state){
 		case spider_boss.swing_1:
 			if place_meeting(x,y,o_string) {
+				if !audio_is_playing(snd_web) audio_play_sound(snd_web,2,false);
 				with(o_string) sprite_index = s_web_distressed;
 				if alarm[5] = -1 alarm[5] = 120;//Delays the switch to idle state
 			}
@@ -12,6 +13,7 @@ if instance_exists(o_spider){
 		
 		case spider_boss.swing_2:
 			if place_meeting(x,y,o_string) {
+				if !audio_is_playing(snd_web) audio_play_sound(snd_web,2,false);
 				with(o_string) sprite_index = s_web_distressed;
 				if alarm[5] = -1 alarm[5] = 120;
 				}
@@ -19,6 +21,7 @@ if instance_exists(o_spider){
 		
 		case spider_boss.swing_3:
 			if place_meeting(x,y,o_string) {
+				if !audio_is_playing(snd_web) audio_play_sound(snd_web,2,false);
 				with(o_string) sprite_index = s_web_distressed;
 				if alarm[5] = -1 alarm[5] = 120;
 				}

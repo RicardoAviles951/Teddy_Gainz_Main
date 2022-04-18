@@ -93,8 +93,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Character Sprites",
-    "path": "folders/Sprites/Character Sprites.yy",
+    "name": "Mama",
+    "path": "folders/Sprites/Character Sprites/Mama.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_mama_idle",

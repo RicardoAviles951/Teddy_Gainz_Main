@@ -83,6 +83,7 @@ if(currentState == cutSceneStates.Active)
 		case_switch_120();
 		break;
 		case 13: 
+		audio_stop_all();
 		instance_destroy(o_dialogue_box);
 		global.state = states.normal;
 		room_goto_next();

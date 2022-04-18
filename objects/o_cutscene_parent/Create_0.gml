@@ -9,7 +9,7 @@ enum cutSceneStates
 	Active,
 	Paused 
 }
-
+number = 0
 currentState = cutSceneStates.Active;
 
 timer =0;

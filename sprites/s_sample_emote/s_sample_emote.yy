@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI Sprites",
-    "path": "folders/Sprites/UI Sprites.yy",
+    "name": "UI-UX Sprites",
+    "path": "folders/Sprites/UI-UX Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_sample_emote",
