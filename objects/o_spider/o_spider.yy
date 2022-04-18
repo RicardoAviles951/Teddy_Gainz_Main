@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_boss_placeholder",
-    "path": "sprites/s_boss_placeholder/s_boss_placeholder.yy",
+    "name": "s_arachne",
+    "path": "sprites/s_arachne/s_arachne.yy",
   },
   "solid": false,
   "visible": true,

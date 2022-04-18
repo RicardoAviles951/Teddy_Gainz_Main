@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI Sprites",
-    "path": "folders/Sprites/UI Sprites.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Environment/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_background_graveyard",

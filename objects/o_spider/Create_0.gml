@@ -1,9 +1,13 @@
-spider_state = spider_boss.swing_1;
+if global.room == rooms.cut_pre_spiderboss{
+	spider_state = spider_boss.cutscene
+}
+else spider_state = spider_boss.swing_1;
 enum spider_boss{
 	swing_1,
 	swing_2,
 	swing_3,
 	swing_idle,
+	cutscene,
 	broken
 }
 //Swinging vars 
@@ -26,3 +30,8 @@ summon_max = 4;
 last_state = noone;
 baby_count = 0;
 shake_time = 60;
+hang_height = -1000;
+hang_spd = -2;
+image_speed = 0;
+image_index = 0; 
+

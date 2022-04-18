@@ -32,13 +32,21 @@ switch ( global.room ) {
 		audio_sound_gain(snd_waves,.8, 5000);
 		}
 		break;
-		case rooms.level2:
+	case rooms.level2:
 		if(!audio_is_playing(snd_level_2)){
 			audio_play_sound(snd_level_2,1,true);
 			//audio_sound_pitch(snd_level_2,.3);
 			audio_sound_gain(snd_level_2,.3,2000);
 		}
 		break;
+	case rooms.cut_pre_spiderboss:
+	if(!audio_is_playing(snd_eeriepiano)){
+			audio_play_sound(snd_eeriepiano,1,true);
+			//audio_sound_pitch(snd_level_2,.3);
+			//audio_sound_gain(snd_itsybitsy,.3,2000);
+			audio_sound_pitch(snd_eeriepiano,.8);
+		}
+	break;
 	case rooms.cut_lv3: if(!audio_is_playing(snd_spookywind_ambient)){
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	

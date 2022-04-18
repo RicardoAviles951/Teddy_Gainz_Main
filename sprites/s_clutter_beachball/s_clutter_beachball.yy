@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "name": "Clutter",
+    "path": "folders/Sprites/Environment/Clutter.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_clutter_beachball",

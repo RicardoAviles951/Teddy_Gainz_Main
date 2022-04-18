@@ -27,7 +27,7 @@ if(place_meeting(x,y,o_player) and active == false and global.state != states.ba
 	image_index  = 3;//sets balloon sprite index to frame with straight string
 	image_speed  = 0;//sets animation framerate to 0;
 	o_player.x   = x; //Locks player position to balloon position.
-	o_player.y   = y;//Locks player position to balloon position with slight adjustment.
+	o_player.y   = y;//Locks player position to balloon position.
 	hspd         = o_player.hsp;//sets the horizontal speed to players last known horizontal speed.
 	active       = true; //Variable to track if the balloon is being "grabbed".
 }

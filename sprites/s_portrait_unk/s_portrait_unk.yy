@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"06e63d4b-47c1-4257-8b87-a25d8635e47d","path":"sprites/s_border/s_border.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06e63d4b-47c1-4257-8b87-a25d8635e47d","path":"sprites/s_border/s_border.yy",},"LayerId":{"name":"599c710e-35e3-40e0-aeb3-7fee3bb27c35","path":"sprites/s_border/s_border.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_border","path":"sprites/s_border/s_border.yy",},"resourceVersion":"1.0","name":"06e63d4b-47c1-4257-8b87-a25d8635e47d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d008f885-a86e-4f20-abbb-cee887e4f144","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d008f885-a86e-4f20-abbb-cee887e4f144","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},"LayerId":{"name":"142796c1-bc15-4e2f-a40d-d5a024d0b479","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_portrait_unk","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},"resourceVersion":"1.0","name":"d008f885-a86e-4f20-abbb-cee887e4f144","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_border","path":"sprites/s_border/s_border.yy",},
+    "spriteId": {"name":"s_portrait_unk","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ce69abc5-1000-4cd6-a985-1d0179b51d1f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06e63d4b-47c1-4257-8b87-a25d8635e47d","path":"sprites/s_border/s_border.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"07ac9258-bea8-4a11-9fd7-e5bca914f0da","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d008f885-a86e-4f20-abbb-cee887e4f144","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_border","path":"sprites/s_border/s_border.yy",},
+    "parent": {"name":"s_portrait_unk","path":"sprites/s_portrait_unk/s_portrait_unk.yy",},
     "resourceVersion": "1.4",
-    "name": "s_border",
+    "name": "s_portrait_unk",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"599c710e-35e3-40e0-aeb3-7fee3bb27c35","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"142796c1-bc15-4e2f-a40d-d5a024d0b479","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI Sprites",
-    "path": "folders/Sprites/UI Sprites.yy",
+    "name": "Portraits",
+    "path": "folders/Sprites/Character Sprites/Portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_border",
+  "name": "s_portrait_unk",
   "tags": [],
   "resourceType": "GMSprite",
 }

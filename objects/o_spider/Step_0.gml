@@ -44,9 +44,9 @@ switch(spider_state){
 	break;
 	
 	case spider_boss.swing_idle: 
-	if grappleY > -1000//Below highest point
+	if grappleY > hang_height //Below highest point
 		{
-			grappleY -=2; //Move up
+			grappleY +=hang_spd; //Move up
 		}
 	else 
 		{
@@ -57,6 +57,14 @@ switch(spider_state){
 		}
 	if grappleY = -998 summoning = true;
 	ropeAngleVelocity *= .99; //dampener to slow down
+	hsp = ropeX - x;
+	vsp = ropeY - y;
+	x+=hsp;
+	y+=vsp;
+    image_angle = ropeAngle +90;
+	break;
+	
+	case spider_boss.cutscene:
 	hsp = ropeX - x;
 	vsp = ropeY - y;
 	x+=hsp;
@@ -96,7 +104,7 @@ if summoning {
 if(!instance_exists(o_balloon_up)) {
 	instance_create_layer(640,576,"balloon",o_balloon_up);
 }
-
+spider_anim();
 
 //DEBUG FUNCTIONS
 //show_debug_message("SUMMON TIME: " + string(summon_time));
@@ -105,4 +113,4 @@ if keyboard_check_pressed(vk_left) {
 	spider_state = spider_boss.swing_3;
 	o_string.sprite_index = s_web_distressed;
 }
-show_debug_message(baby_count);
+//show_debug_message(ropeAngle);

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "name": "Tiles",
+    "path": "folders/Sprites/Environment/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_level1Tiles",

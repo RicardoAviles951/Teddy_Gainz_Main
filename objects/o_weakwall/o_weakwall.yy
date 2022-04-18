@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI Objects",
-    "path": "folders/Objects/UI Objects.yy",
+    "name": "Gameplay",
+    "path": "folders/Objects/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_weakwall",

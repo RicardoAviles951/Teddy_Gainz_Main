@@ -484,7 +484,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet2",
+  "name": "tile_level3",
   "tags": [],
   "resourceType": "GMTileSet",
 }
