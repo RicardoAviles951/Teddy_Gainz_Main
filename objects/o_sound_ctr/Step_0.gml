@@ -73,17 +73,3 @@ if(global.cam_shake == true && !audio_is_playing(snd_rumble))
 {
 		audio_play_sound(snd_rumble, 2, false);
 }
-
-
-if global.state == states.balloon and audio_on == false{
-	if !audio_is_playing(snd_balloon){
-		audio_play_sound(snd_balloon,1,false);
-		audio_sound_gain(snd_balloon,.5,250);
-	}
-	audio_on = true;
-}
-else {
-	audio_sound_gain(snd_balloon,0,250);
-	if (audio_sound_get_gain(snd_balloon) <=.2) audio_stop_sound(snd_balloon);
-}
-

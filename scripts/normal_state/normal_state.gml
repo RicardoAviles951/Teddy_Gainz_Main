@@ -27,5 +27,17 @@ anim();
 		audio_play_sound(snd_ghost, 2, false);
 	}
 	//balloon
-	
+	balloon = instance_place(x,y,o_balloon_up);
+	if (balloon)
+		{
+			with(balloon)
+			{
+				if can_grab == true global.state = states.balloon;
+			}
+		}
+	percent = 0;
+	if audio_is_playing(snd_balloon){
+		audio_sound_gain(snd_balloon,0,250);
+		if audio_sound_get_gain(snd_balloon) <.1 audio_stop_sound(snd_balloon);
+	}
 }

@@ -25,3 +25,9 @@ path_teddy = false;
 fade_time = 5;
 fade_timer = fade_time;
 spider_smack = false;
+timer = 0;
+//Animation Curve Variables
+curve         = animcurve_get_channel(ac_balloon,"rise");
+percent       = 0;
+rise_spd      = -5;
+collided = false;
