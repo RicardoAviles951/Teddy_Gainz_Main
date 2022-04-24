@@ -86,27 +86,27 @@ if key_spider {
 if summoning {
 	if alarm[0] = -1 {
 		//Creates spiders on left side
-		with(instance_create_layer(36,-20,"spider",o_spider_baby)){
+		with(instance_create_layer(32,0,"spider",o_spider_baby)){
 			image_yscale = -1;
 			image_xscale = -1;
 			image_angle = 90;
 		}
 		//Creates spiders on right side
-		instance_create_layer(1276,-8,"spider",o_spider_baby);
+		instance_create_layer(1310,-0,"spider",o_spider_baby);
 		baby_count +=2;
 		//Spawns every half second
 		alarm[0] = 30;
 	}
-	if alarm[2] = -1{
+	//if alarm[2] = -1{
 		//Applies camera shake
-		layer_set_fx("fx_shake",o_effect_ctr.shake_fx);
-		alarm[2] = shake_time;
-	}
+		//layer_set_fx("fx_shake",o_effect_ctr.shake_fx);
+		//alarm[2] = shake_time;
+	//}
 }
 
 //summons balloon
 if(!instance_exists(o_balloon_up)) {
-	instance_create_layer(640,576,"balloon",o_balloon_up);
+	instance_create_layer(672,624,"balloon",o_balloon_up);
 }
 spider_anim();
 

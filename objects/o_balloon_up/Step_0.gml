@@ -9,7 +9,7 @@ switch(state_balloon){
 	if y != o_player.y y = o_player.y;
 	image_index = 3;//Set frame to straight string
 	image_angle = o_player.image_angle;//match the players swing
-	image_xscale = 1*-sign(o_player.hsp);
+	image_xscale = -1*o_player.image_xscale;
 	vspd = o_player.vsp;//stores last known speed into a var
 	if !audio_is_playing(snd_balloon) and audio_played == false{
 		audio_play_sound(snd_balloon,1,false);
@@ -19,7 +19,8 @@ switch(state_balloon){
 	break;
 	
 	case st_balloon.released:
-	image_angle = 0; //Resets image angle	
+	image_angle = 0; //Resets image angle
+	if vspd < 2 vspd = -6;
 	y += vspd;//moves balloon by last known speed
     can_grab = false;//not able to be grabbed
 	break;
