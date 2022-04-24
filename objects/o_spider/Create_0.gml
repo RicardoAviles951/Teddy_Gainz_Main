@@ -1,7 +1,4 @@
-if global.room == rooms.cut_pre_spiderboss{
-	spider_state = spider_boss.cutscene
-}
-else spider_state = spider_boss.swing_1;
+spider_state = spider_boss.swing_1;
 enum spider_boss{
 	swing_1,
 	swing_2,

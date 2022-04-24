@@ -18,6 +18,7 @@ switch(spider_state){
 		x+=hsp;
 		y+=vsp;
 		image_angle = ropeAngle +90;
+		sprite_index = s_arachne;
 	break;
 
 	case spider_boss.swing_2:
@@ -29,6 +30,7 @@ switch(spider_state){
 		x+=hsp;
 		y+=vsp;
 	    image_angle = ropeAngle +90;
+		sprite_index = s_arachne;
 	break;
 	
 	case spider_boss.swing_3:
@@ -40,6 +42,7 @@ switch(spider_state){
 		x+=hsp;
 		y+=vsp;
 	    image_angle = ropeAngle +90;	
+		sprite_index = s_arachne;
 	
 	break;
 	
@@ -62,6 +65,7 @@ switch(spider_state){
 	x+=hsp;
 	y+=vsp;
     image_angle = ropeAngle +90;
+	sprite_index = s_arachne_idle_angry;
 	break;
 	
 	case spider_boss.cutscene:

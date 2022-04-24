@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Character Sprites/Enemies.yy",
+    "name": "Arachne",
+    "path": "folders/Sprites/Character Sprites/Enemies/Arachne.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_arachne",

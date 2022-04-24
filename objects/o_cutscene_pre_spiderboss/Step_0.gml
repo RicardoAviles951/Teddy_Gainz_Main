@@ -5,6 +5,7 @@ if(currentState == cutSceneStates.Active)
 	switch (currentStep) {
 		case 0: 
 			global.state = states.player_idle;//Sets player state to idle to remove control from player
+			o_spider.spider_state = spider_boss.cutscene;
 			//Allows for a 1 second delay before starting the dialogue box sequences.
 			if counter >=60{
 			if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
@@ -76,6 +77,8 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 8: 
+			o_spider.sprite_index = s_arachne_talk_happy;
+			o_spider.image_speed = 1;
 			o_player.image_xscale = 1;           //Turns Teddy back towards the spider.
 			if(!instance_exists(o_dialogue_box)) dB = instance_create_layer(0,0,"Cutscenes", o_dialogue_box); 
 			dB.sprite = s_portrait_unk;//Spider 
@@ -91,6 +94,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 9:
+			o_spider.sprite_index = s_arachne_idle_happy;
 			if instance_exists(o_love) instance_destroy(o_love);
 			dB.sprite = s_portrait_teddy;//Spider 
 			dB.myText = "Uh oh, I hope you're just talking about the applause.";
@@ -98,6 +102,8 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 10:
+			o_spider.sprite_index = s_arachne_talk_angry;
+			o_spider.image_speed = 1;
 			dB.sprite = s_portrait_unk;//Spider 
 			dB.myText = "There'll be no need for applause at the end of this show, Teddy.";
 			case_switch_120();

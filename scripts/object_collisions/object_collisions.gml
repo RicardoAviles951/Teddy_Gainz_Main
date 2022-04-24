@@ -1,24 +1,8 @@
 function object_collisions(){
 if (place_meeting(x+hsp,y,o_weakwall))
 {
-	//while (!place_meeting(x+sign(hsp),y,o_weakwall))
-	//{
-	//	x = x + sign(hsp);
-	//}
 	hsp = hsp*.8;
 }
-
-//x = x + hsp;
-
-//Vertical Collision
-//if (place_meeting(x,y+vsp,o_weakwall))
-//{
-	//while (!place_meeting(x,y+sign(vsp),o_weakwall))
-	//{
-		//y = y + sign(vsp);
-	//}
-	//vsp = 0;
-//}
 
 //Horizontal collisions
 if (place_meeting(x+hsp,y,o_ghost_wall))
@@ -66,6 +50,10 @@ if (place_meeting(x,y,o_enemy_parent))
 	x=o_tutorial_spawn.x;
 	y=o_tutorial_spawn.y;
 	image_xscale = 1;
+}
+
+if (place_meeting(x,y,o_spider_baby) and global.room == rooms.boss_spider){
+	global.state = states.death;
 }
 
 //triggers cutscene lvl 1, on the beach
