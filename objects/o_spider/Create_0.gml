@@ -24,11 +24,12 @@ summoning = false;
 summon_time = 0;
 summon_max = 4;
 
-last_state = noone;
-baby_count = 0;
-shake_time = 60;
-hang_height = -1000;
-hang_spd = -2;
+last_state = noone;//Stores last state for contextual summons 
+baby_count = 0;//Counts how many baby spiders are alive 
+shake_time = 60;//Timer for screenshake
+hang_height = -1000;//Sets height that spider should not cross.
+hang_spd = -2;//Speed at which spider moves up the web during transitions
 image_speed = 0;
 image_index = 0; 
+global.bumped = false;//Detects if first bump occured. 
 

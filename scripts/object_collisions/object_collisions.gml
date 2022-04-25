@@ -63,15 +63,28 @@ if(place_meeting(x,y, o_thicc)) && !instance_exists(o_cutscene_parent)
 	hsp = 0;
 }
 
-if instance_exists(o_spider){
+if instance_exists(o_spider)
+{
 	if alarm[6] = -1 and o_spider.spider_state != spider_boss.swing_idle
 	{
 		alarm[6] = 120;
 	}
 	if (place_meeting(x,y,o_spider) and spider_smack == false)
 	{
+		if !audio_is_playing(snd_dash) audio_play_sound(snd_dash,1,false);
+		audio_sound_pitch(snd_dash,1.8);
 		hsp -= 10;
 		spider_smack = true;
+	}
+	
+	if spider_smack and global.bumped == false{
+		with(instance_create_layer(x,y,"Instances",o_dialogue_box)){
+			sprite  = s_portrait_unk;
+			box_spr = 1;
+			myText  = "GET DOWN FROM THERE!!";
+		}
+		if alarm[7] = -1 alarm[7] = 120;
+		global.bumped = true;
 	}
 }
 

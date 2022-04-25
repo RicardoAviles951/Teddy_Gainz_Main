@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "teddy_gainz_0",
-    "path": "teddy_gainz_0.yyp",
+    "name": "Zones and Triggers",
+    "path": "folders/Objects/Zones and Triggers.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_tutorial_spawn",

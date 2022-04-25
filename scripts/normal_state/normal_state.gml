@@ -16,6 +16,7 @@ anim();
 		global.state = states.dash;
 		cooldown = 60;
 		audio_play_sound(snd_dash,1,false);
+		audio_sound_pitch(snd_dash,1);
 	}
 	cooldown = cooldown - 1;
 	//ghost
