@@ -31,6 +31,7 @@ enum rooms {
 	level2,
 	cut_pre_spiderboss,
 	boss_spider,
+	cut_post_spiderboss,
 	cut_lv3,
 	level3,
 	cut_finalboss,

@@ -47,6 +47,15 @@ switch ( global.room ) {
 			audio_sound_pitch(snd_eeriepiano,.8);
 		}
 	break;
+	case rooms.boss_spider:
+	/*if(!audio_is_playing(snd_level_2)){
+			audio_play_sound(snd_level_2,1,true);
+			audio_sound_pitch(snd_level_2,random_range(.8,.96) );
+			audio_sound_gain(snd_level_2,.3,2000);
+	}
+	//audio_sound_pitch(snd_level_2,random_range(.9,.96) );
+	*/
+	break;
 	case rooms.cut_lv3: if(!audio_is_playing(snd_spookywind_ambient)){
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	

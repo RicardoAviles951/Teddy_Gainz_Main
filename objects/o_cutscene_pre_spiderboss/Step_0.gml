@@ -46,7 +46,8 @@ if(currentState == cutSceneStates.Active)
 		case 5: //Arachne revealed
 			if instance_exists(o_dialogue_box) instance_destroy(o_dialogue_box);
 			o_thicc.sprite_index = s_thicc_jump;  //Thicc jumping out of surprise/fear
-			o_spider.image_index = 1;             //Puts sprite in nuetral position.
+			o_spider.sprite_index = s_arachne_crawl_happy //Puts sprite in nuetral position.
+			o_spider.image_speed = 1;
 			if o_spider.grappleY < -332           // if spider is above a specific point then lower at a speed. 
 			{
 				number = approach(number,5,.2);   //creates smooth value to lower spider by
@@ -62,6 +63,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 6://new case 6
+		o_spider.image_speed = 0;
 		if(!instance_exists(o_dialogue_box)) dB = instance_create_layer(0,0,"Cutscenes", o_dialogue_box); 
 		o_thicc.sprite_index = s_thicc_idle;     //Thicc regains composure
 		o_player.image_xscale = -1;              //turns Teddy towards thicc.
@@ -124,7 +126,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 12:
 			if instance_exists(o_love) instance_destroy(o_love);
-			dB.sprite = s_portrait_unk;//Spider 
+			dB.sprite = s_portrait_teddy; 
 			dB.myText = "Your flirting makes me uncomfortable!!";
 			Emote_create(o_cluck,o_player,16,-64);
 			case_switch_120();
