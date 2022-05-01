@@ -30,6 +30,5 @@ shake_time = 60;//Timer for screenshake
 hang_height = -1000;//Sets height that spider should not cross.
 hang_spd = -2;//Speed at which spider moves up the web during transitions
 image_speed = 0;
-image_index = 0; 
+image_index = 1; 
 global.bumped = false;//Detects if first bump occured. 
-

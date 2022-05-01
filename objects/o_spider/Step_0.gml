@@ -7,7 +7,7 @@ ropeAngle += ropeAngleVelocity;
 //ropeAngleVelocity *= .99; //dampener to slow down
 ropeX = grappleX + lengthdir_x(ropeLength,ropeAngle);
 ropeY = grappleY + lengthdir_y(ropeLength,ropeAngle);
-
+var spr_h = sprite_get_height(s_arachne);
 //Stages of swinging as the battle progresses 
 switch(spider_state){
 	case spider_boss.swing_1:
@@ -19,9 +19,11 @@ switch(spider_state){
 		y+=vsp;
 		image_angle = ropeAngle +90;
 		sprite_index = s_arachne;
+		spider_anim();
 	break;
 
 	case spider_boss.swing_2:
+	    sprite_index = s_arachne;
 		last_state = spider_boss.swing_2;
 		if grappleY < -736 grappleY +=2;
 		ropeAngle +=.75;
@@ -30,7 +32,7 @@ switch(spider_state){
 		x+=hsp;
 		y+=vsp;
 	    image_angle = ropeAngle +90;
-		sprite_index = s_arachne;
+		spider_anim();
 	break;
 	
 	case spider_boss.swing_3:
@@ -43,29 +45,70 @@ switch(spider_state){
 		y+=vsp;
 	    image_angle = ropeAngle +90;	
 		sprite_index = s_arachne;
+		spider_anim();
 	
 	break;
 	
 	case spider_boss.swing_idle: 
-	if grappleY > hang_height //Below highest point
-		{
-			grappleY +=hang_spd; //Move up
-		}
-	else 
-		{
-			if ((baby_count > 7) and alarm[1] = -1)
-			{
-				alarm[1] = 600;
-			}
-		}
-	if grappleY = -998 summoning = true;
-	ropeAngleVelocity *= .99; //dampener to slow down
-	hsp = ropeX - x;
-	vsp = ropeY - y;
-	x+=hsp;
-	y+=vsp;
-    image_angle = ropeAngle +90;
-	sprite_index = s_arachne_idle_angry;
+		switch(last_state){
+			case spider_boss.swing_1:
+				if grappleY > hang_height //Below highest point
+					{
+						grappleY +=hang_spd; //Move up
+						sprite_index = s_arachne_crawl_angry;
+						image_speed = 1;
+					}
+				else //If at highest point
+					{
+						sprite_index = s_arachne_idle_angry;
+						if ((baby_count > 7) and alarm[1] == -1)
+						{
+							alarm[1] = 600;
+						}
+					}
+				if grappleY = -998 summoning = true;
+				ropeAngleVelocity *= .99; //dampener to slow down
+				hsp = ropeX - x;
+				vsp = ropeY - y;
+				x+=hsp;
+				y+=vsp;
+			    image_angle = ropeAngle +90;
+			break;
+		
+			case spider_boss.swing_2:
+			if grappleY > hang_height //Below highest point
+					{
+						grappleY +=hang_spd; //Move up
+						sprite_index = s_arachne_crawl_angry;
+					}
+				else //If at highest point
+					{
+						sprite_index = s_arachne_idle_angry;
+						if ((baby_count > 7) and alarm[1] == -1)
+						{
+							alarm[1] = 600;
+						}
+					}
+				if grappleY = -998 summoning = true;
+				ropeAngleVelocity *= .99; //dampener to slow down
+				hsp = ropeX - x;
+				vsp = ropeY - y;
+				x+=hsp;
+				y+=vsp;
+			    image_angle = ropeAngle +90;
+			break;
+		
+			case spider_boss.swing_3:
+			ropeAngleVelocity *= .99;
+			hsp = ropeX - x;
+				vsp = ropeY - y;
+				x+=hsp;
+				y+=vsp;
+			    image_angle = ropeAngle +90;
+			if alarm[1] == -1 alarm[1] = 30;//Quickly goes to cutscene
+				sprite_index = s_arachne_idle_angry;
+			break;
+	}
 	break;
 	
 	case spider_boss.cutscene:
@@ -74,6 +117,32 @@ switch(spider_state){
 	x+=hsp;
 	y+=vsp;
     image_angle = ropeAngle +90;
+	spider_anim();
+	break;
+	
+	case spider_boss.broken:
+	if o_player.on_ground == true {global.state = states.player_idle;}
+	if !instance_exists(o_dialogue_box){
+	with(instance_create_layer(x,y,"Instances",o_dialogue_box)){
+		sprite = s_portrait_unk;
+		myText = "Stop! Stop! Stop! Usually they fall for me by now. You're ruining this VERY IMPORTANT rehearsal time with my babies!!!";
+	}
+	}
+if instance_exists(o_dialogue_box)
+{	
+	if keyboard_check_pressed(vk_space)
+		{
+			audio_stop_all();
+			room_goto_next();
+		}
+}
+	ropeAngleVelocity *= .99; //dampener to slow down
+	hsp = ropeX - x;
+	vsp = ropeY - y;
+	x+=hsp;
+	y+=vsp;
+    image_angle = ropeAngle +90;
+	spider_anim();
 	break;
 }
 key_spider = keyboard_check_pressed(vk_up);//Dev purposes only
@@ -97,18 +166,18 @@ if summoning {
 		//Spawns every half second
 		alarm[0] = 30;
 	}
-	//if alarm[2] = -1{
+	/*if alarm[2] = -1{
 		//Applies camera shake
-		//layer_set_fx("fx_shake",o_effect_ctr.shake_fx);
-		//alarm[2] = shake_time;
-	//}
+		layer_set_fx("fx_shake",o_effect_ctr.shake_fx);
+		alarm[2] = shake_time;
+	}*/
 }
 
 //summons balloon
 if(!instance_exists(o_balloon_up)) {
 	instance_create_layer(672,624,"balloon",o_balloon_up);
 }
-spider_anim();
+
 
 //DEBUG FUNCTIONS
 //show_debug_message("SUMMON TIME: " + string(summon_time));
@@ -117,4 +186,4 @@ if keyboard_check_pressed(vk_left) {
 	spider_state = spider_boss.swing_3;
 	o_string.sprite_index = s_web_distressed;
 }
-//show_debug_message(ropeAngle);
+show_debug_message("State" + string(spider_state));
