@@ -432,11 +432,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_initializations","path":"rooms/rm_initializations/rm_initializations.yy",},},
+    {"roomId":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},},
     {"roomId":{"name":"rm_splash_screen","path":"rooms/rm_splash_screen/rm_splash_screen.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cutscene_intro","path":"rooms/rm_cutscene_intro/rm_cutscene_intro.yy",},},
     {"roomId":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
-    {"roomId":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},},
     {"roomId":{"name":"rm_Lvl1_bug_intro","path":"rooms/rm_Lvl1_bug_intro/rm_Lvl1_bug_intro.yy",},},
     {"roomId":{"name":"rm_Lvl1","path":"rooms/rm_Lvl1/rm_Lvl1.yy",},},
     {"roomId":{"name":"rm_cutscene_puzzle","path":"rooms/rm_cutscene_puzzle/rm_cutscene_puzzle.yy",},},

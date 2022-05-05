@@ -4,7 +4,6 @@ global.game_is_paused = false;
 enum pause_menu_page {
 	main_p,
 	level_select,
-	restart,
 	settings,
 	display,
 	audio,
