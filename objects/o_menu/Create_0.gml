@@ -1,4 +1,4 @@
-/// @description Insert description hereg
+/// @description 
 
 display_set_gui_size(global.view_width, global.view_height);
 
@@ -30,6 +30,8 @@ ds_level_select = create_menu_page(
 	["TUTORIAL",    menu_element_type.script_runner, level_select,s_preview1],
 	["BEACH",       menu_element_type.script_runner, level_select,s_preview2],
 	["PUZZLE BOSS", menu_element_type.script_runner, level_select,s_preview3],
+	["CARNIVAL",    menu_element_type.script_runner, level_select,s_preview6],
+	["MINI BOSS",   menu_element_type.script_runner, level_select,s_preview7],
 	["CEMETARY",    menu_element_type.script_runner, level_select,s_preview4],
 	["FINAL BOSS",  menu_element_type.script_runner, level_select,s_preview5],
 	["BACK",        menu_element_type.page_transfer, menu_page.main]

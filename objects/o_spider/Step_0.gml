@@ -7,7 +7,6 @@ ropeAngle += ropeAngleVelocity;
 //ropeAngleVelocity *= .99; //dampener to slow down
 ropeX = grappleX + lengthdir_x(ropeLength,ropeAngle);
 ropeY = grappleY + lengthdir_y(ropeLength,ropeAngle);
-var spr_h = sprite_get_height(s_arachne);
 //Stages of swinging as the battle progresses 
 switch(spider_state){
 	case spider_boss.swing_1:
@@ -121,11 +120,17 @@ switch(spider_state){
 	break;
 	
 	case spider_boss.broken:
+	o_sound_ctr.audio_on = true;
+	if sound_played == false{
+		audio_play_sound(snd_record_scratch,1,false);
+		sound_played = true;
+	}
 	if o_player.on_ground == true {global.state = states.player_idle;}
 	if !instance_exists(o_dialogue_box){
 	with(instance_create_layer(x,y,"Instances",o_dialogue_box)){
 		sprite = s_portrait_unk;
 		myText = "Stop! Stop! Stop! Usually they fall for me by now. You're ruining this VERY IMPORTANT rehearsal time with my babies!!!";
+		box_spr = 1;
 	}
 	}
 if instance_exists(o_dialogue_box)
@@ -145,11 +150,7 @@ if instance_exists(o_dialogue_box)
 	spider_anim();
 	break;
 }
-key_spider = keyboard_check_pressed(vk_up);//Dev purposes only
 
-if key_spider {
-	summoning = true;
-}
 
 //Variable summoning stores whether spiders can be summoned. 
 if summoning {
@@ -166,11 +167,11 @@ if summoning {
 		//Spawns every half second
 		alarm[0] = 30;
 	}
-	/*if alarm[2] = -1{
+	if alarm[2] = -1{
 		//Applies camera shake
 		layer_set_fx("fx_shake",o_effect_ctr.shake_fx);
 		alarm[2] = shake_time;
-	}*/
+	}
 }
 
 //summons balloon
@@ -180,7 +181,13 @@ if(!instance_exists(o_balloon_up)) {
 
 
 //DEBUG FUNCTIONS
+/*
 //show_debug_message("SUMMON TIME: " + string(summon_time));
+key_spider = keyboard_check_pressed(vk_up);//Dev purposes only
+
+if key_spider {
+	summoning = true;
+}
 if keyboard_check_pressed(vk_right) spider_state = spider_boss.swing_idle;
 if keyboard_check_pressed(vk_left) {
 	spider_state = spider_boss.swing_3;

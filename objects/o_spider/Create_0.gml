@@ -32,3 +32,4 @@ hang_spd = -2;//Speed at which spider moves up the web during transitions
 image_speed = 0;
 image_index = 1; 
 global.bumped = false;//Detects if first bump occured. 
+sound_played = false;

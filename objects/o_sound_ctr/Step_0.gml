@@ -13,7 +13,7 @@ switch ( global.room ) {
 		break;
 	case rooms.menu_room: if(!audio_is_playing(snd_teddylogo)) {
 		audio_play_sound(snd_teddylogo,1,true)
-		audio_sound_gain(snd_teddylogo,.35, 3000);
+		audio_sound_gain(snd_teddylogo,.8, 6000);
 		}break;
 	case rooms.tutorial: if(!audio_is_playing(snd_waves) && !audio_is_playing(snd_surfrock)){
 		audio_play_sound(snd_waves, 1, true);	
@@ -21,6 +21,12 @@ switch ( global.room ) {
 		//audio_play_sound(snd_surfrock,2, true);
 		//audio_sound_gain(snd_surfrock,.45, 5000);
 		} break;
+	case rooms.cut_level1:
+	if(!audio_is_playing(snd_waves)){
+		audio_play_sound(snd_waves, 1, true);	
+		audio_sound_gain(snd_waves,.7, 5000);	
+	}
+	break;
 	case rooms.level1: if(!audio_is_playing(snd_waves)){
 		audio_play_sound(snd_waves, 1, true);	
 		audio_sound_gain(snd_waves,.7, 5000);
@@ -29,9 +35,18 @@ switch ( global.room ) {
 		} break;
 	case rooms.puzzleboss: if(!audio_is_playing(snd_waves)){
 		audio_play_sound(snd_waves, 1, true);	
-		audio_sound_gain(snd_waves,.8, 5000);
 		}
+		audio_sound_gain(snd_waves,.8, 5000);
+		
 		break;
+	case rooms.cut_level2:
+		if(!audio_is_playing(snd_level_2)){
+			audio_play_sound(snd_level_2,1,true);
+			//audio_sound_pitch(snd_level_2,.3);
+		}
+		audio_sound_gain(snd_level_2,.1,2000);
+	break;
+		
 	case rooms.level2:
 		if(!audio_is_playing(snd_level_2)){
 			audio_play_sound(snd_level_2,1,true);
@@ -48,14 +63,24 @@ switch ( global.room ) {
 		}
 	break;
 	case rooms.boss_spider:
-	/*if(!audio_is_playing(snd_level_2)){
-			audio_play_sound(snd_level_2,1,true);
-			audio_sound_pitch(snd_level_2,random_range(.8,.96) );
-			audio_sound_gain(snd_level_2,.3,2000);
+	if audio_on == false
+	{
+			if !audio_is_playing(snd_spiderboss_music) audio_play_sound(snd_spiderboss_music,1,true);
+			audio_sound_gain(snd_spiderboss_music,.7,4000);	
 	}
-	//audio_sound_pitch(snd_level_2,random_range(.9,.96) );
-	*/
+	else
+	{
+		audio_stop_sound(snd_spiderboss_music);
+	}
+	
 	break;
+	case rooms.cut_post_spiderboss:
+	if(!audio_is_playing(snd_softpiano)){
+		audio_play_sound(snd_softpiano,2,true);
+	}
+	audio_sound_gain(snd_softpiano,.4,4000);
+	break;
+	
 	case rooms.cut_lv3: if(!audio_is_playing(snd_spookywind_ambient)){
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	
@@ -82,3 +107,4 @@ if(global.cam_shake == true && !audio_is_playing(snd_rumble))
 {
 		audio_play_sound(snd_rumble, 2, false);
 }
+show_debug_message("audio status " + string(audio_on));

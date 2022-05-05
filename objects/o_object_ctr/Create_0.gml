@@ -19,6 +19,7 @@ enum boss {
 }
 
 enum rooms {
+	splash_rm,
 	menu_room,
 	cut_map,
 	cut_intro,
@@ -78,3 +79,6 @@ global.sfx = 1;
 global.music = 1;
 //cutscene vars
 global.cut_seen = false;
+
+global.death_cnt = 0;
+global.help = false;

@@ -4,6 +4,7 @@ global.game_is_paused = false;
 enum pause_menu_page {
 	main_p,
 	level_select,
+	restart,
 	settings,
 	display,
 	audio,
@@ -21,15 +22,17 @@ enum menu_element_type_p {
 ds_pause_menu = create_menu_page(
 	["RESUME",       menu_element_type_p.script_runner,unpause],
 	["LEVEL SELECT", menu_element_type_p.page_transfer, pause_menu_page.level_select],
+	["RESTART",      menu_element_type_p.script_runner,restart_rm                  ],
 	["SETTINGS",     menu_element_type_p.page_transfer, pause_menu_page.settings],
 	["EXIT GAME",    menu_element_type_p.script_runner, back_to_main],
 );
 
 ds_level_select = create_menu_page(
-	["TUTORIAL", menu_element_type_p.script_runner, level_select],
-	["BEACH",    menu_element_type_p.script_runner, level_select],
-	["PUZZLE BOSS", menu_element_type_p.script_runner, level_select],
-	["CEMETARY", menu_element_type_p.script_runner, level_select],
+	["TUTORIAL", menu_element_type_p.script_runner, level_select_p],
+	["BEACH",    menu_element_type_p.script_runner, level_select_p],
+	["PUZZLE BOSS", menu_element_type_p.script_runner, level_select_p],
+	["CARNIVAL",    menu_element_type_p.script_runner, level_select_p],
+	["CEMETARY", menu_element_type_p.script_runner, level_select_p],
 	["BACK", menu_element_type_p.page_transfer, pause_menu_page.main_p]
 );
 

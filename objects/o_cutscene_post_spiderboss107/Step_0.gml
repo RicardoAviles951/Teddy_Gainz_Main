@@ -12,6 +12,7 @@ if(currentState == cutSceneStates.Active)
 					dB = instance_create_layer(0,0,"Cutscenes", o_dialogue_box); //create the dialogue box and pick its position
 					dB.sprite = s_portrait_teddy;
 					dB.myText = "Jeez, Mrs.Spider Lady I didn't realize it was that important.";
+					dB.box_spr = 1;
 					case_switch_120();
 			}
 				counter++;
@@ -39,7 +40,7 @@ if(currentState == cutSceneStates.Active)
 		case 3:
 			o_spider.sprite_index = s_arachne_talk_angry;
 			o_spider.image_speed = 1;
-			dB.sprite = s_portrait_unk;
+			dB.sprite = s_portrait_arachne;
 			dB.myText ="I'm Arachne Queen of The Spanish Web, The World Wide Web, and The Dark Web for that matter, and I matter far more than you ever will, Teddy Chicken, now scram, before I change my mind and scramble you like I did Anansi after I found him with a chorus fly.";
 			Emote_create(o_happy_tune,o_spider,-spr_w/2+16,spr_h/2-16);
 			o_happy_tune.image_xscale = -1;
@@ -60,7 +61,7 @@ if(currentState == cutSceneStates.Active)
 		    instance_destroy(o_exclamation);
 			o_spider.sprite_index = s_arachne_talk_happy;
 			o_spider.image_speed = 1;
-			dB.sprite = s_portrait_unk;
+			dB.sprite = s_portrait_arachne;
 			dB.myText = "Oh my sweet and sour Chicken Nugget, She's going to get buried in the MAUSOLEUM soon if you don't hurry your tail feathers over there! Tee hee!";
 			Emote_create(o_love,o_spider,-spr_w/2+16,spr_h/2-16);
 			o_love.image_xscale = -1;

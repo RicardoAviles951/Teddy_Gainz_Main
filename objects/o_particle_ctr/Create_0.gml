@@ -49,8 +49,8 @@ part_type_speed(particle_type_balloon,2,5,0,0);
 //Party Particles(balloons)
 part_type_sprite(particle_type_party,s_balloon,false,false,false);
 part_type_life(particle_type_party,120,120);
-part_type_direction(particle_type_party,90,90,.5,1);
-part_type_gravity(particle_type_party,.1,90);
-part_type_speed(particle_type_party,1,3,0,0);
+part_type_direction(particle_type_party,90,90,0,0);
+part_type_gravity(particle_type_party,.05,95);
+part_type_speed(particle_type_party,3,5,0,0);
 
 

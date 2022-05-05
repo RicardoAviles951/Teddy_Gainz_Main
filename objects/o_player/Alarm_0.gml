@@ -3,4 +3,4 @@
 if(global.state != states.balloon){
 global.state = states.normal;
 }
-show_debug_message("State Changed");
+//show_debug_message("State Changed");

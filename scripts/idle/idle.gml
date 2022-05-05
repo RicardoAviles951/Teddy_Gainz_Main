@@ -4,7 +4,7 @@ function idle(){
 	show_debug_message("BOSS IDLE");
 	show_debug_message(global.boss_health);
 	var rest_x = global.view_width/2;
-	var rest_y = (global.view_height/2) - (sprite_get_height(s_boss_placeholder)/2);
+	var rest_y = (global.view_height/2) - (sprite_get_height(s_boss)/2);
 	//show_debug_message(x);
 	//show_debug_message(y);
 y = y + sin(timer_boss*.08)*.5;

@@ -9,10 +9,17 @@ switch(type) {
 	case 1: room_goto(rm_Lvl1);
 	room_reset_true(); break;
 	case 2: room_goto(rm_Puzzle);
+	room_reset_true(); 
+	global.death_cnt = 0;
+	global.help = false;
+	break;
+	case 3: room_goto(rm_Lvl2);
 	room_reset_true(); break;
-	case 3: room_goto(rm_Lvl3); 
+	case 4: room_goto(rm_spiderboss);
+	room_reset_true(); break;
+	case 5: room_goto(rm_Lvl3); 
 	room_reset_true(); break; 
-	case 4: room_goto(rm_finalboss);
+	case 6: room_goto(rm_finalboss);
 	room_reset_true(); break;
 }
 

@@ -17,7 +17,6 @@ switch(global.room) {
 	break;
 	case rooms.cut_level2:
 	if(alarm[0] = -1) alarm[0] = 15;
-	if alarm[1] = -1 alarm[1] = 45;
 	/*part_emitter_region(particle_sys,emitter_rain,room_width/2,room_width/2,room_height+64,room_width+64,ps_shape_diamond,ps_distr_invgaussian);
 	part_emitter_burst(particle_sys,emitter_rain,particle_type_party,1);*/
 	break;

@@ -7,6 +7,7 @@ if(currentState == cutSceneStates.Active)
 		dB = instance_create_layer(0,0,"Instances", o_dialogue_box);
 		dB.sprite = s_portrait_teddy;
 		dB.myText = "That... was a long path...";
+		dB.box_spr = 2;
 		case_switch_120();
 	}
 	counter++;

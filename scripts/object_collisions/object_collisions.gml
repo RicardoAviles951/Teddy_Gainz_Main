@@ -21,6 +21,7 @@ if (place_meeting(x+hsp,y,o_death_zone))
 	{
 		x = x + sign(hsp);
 	}
+	global.death_cnt += 1;
 	hsp = 0
 	room_reset_true();
 	room_restart();
@@ -36,6 +37,7 @@ if (place_meeting(x,y+vsp,o_death_zone))
 	{
 		y = y + sign(vsp);
 	}
+	global.death_cnt += 1;
 	vsp = 0;
 	room_reset_true();
 	room_restart();
@@ -71,8 +73,8 @@ if instance_exists(o_spider)
 	}
 	if (place_meeting(x,y,o_spider) and spider_smack == false)
 	{
-		if !audio_is_playing(snd_dash) audio_play_sound(snd_dash,1,false);
-		audio_sound_pitch(snd_dash,1.8);
+		if !audio_is_playing(snd_slap) audio_play_sound(snd_slap,1,false);
+		audio_sound_pitch(snd_slap,random_range(.95,1.1));
 		hsp -= 10;
 		spider_smack = true;
 	}

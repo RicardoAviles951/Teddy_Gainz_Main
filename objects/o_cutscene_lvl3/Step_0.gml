@@ -9,6 +9,7 @@ if(currentState == cutSceneStates.Active)
 				dB = instance_create_layer(0, 0,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.sprite = s_portrait_teddy;
 				dB.myText = "Wow, I bet this place was really pretty before it was so broken down. "; //dialogue that will draw in the dialogue box
+				dB.box_spr = 2;
 				case_switch_120();
 		}
 		counter++;

@@ -16,4 +16,4 @@ if(spell_cnt < string_length(myText))
 	spell_cnt++;
 }
 //Postitions the text to fit our box using some sneaky math. 
-draw_text_ext_transformed(x+8, y+4, substring, currSize-16, box_size*4.7 , scale, scale, 0); 
+draw_text_ext_transformed(x+8, y+4, substring, currSize-16, box_size*5.5 , scale, scale, 0); 

@@ -37,11 +37,12 @@ if(currentState == cutSceneStates.Active)
 		if alarm[0] = -1 alarm[0] = 60;
 		break;
 		case 5:
+		o_thicc.sprite_index = s_thicc_jump;
 		if(!instance_exists(o_dialogue_box)) //if there is no dialogue box, create a dialogue box
 				dB = instance_create_layer(0,0,"Instances", o_dialogue_box); //create the dialogue box and pick its position
 				dB.sprite = s_portrait_thicc;
 				dB.myText = "RUUUNN!";
-		layer_set_fx("effects",o_effect_ctr.shake_fx)
+		layer_set_fx("effects",o_effect_ctr.shake_fx);
 		if alarm[0] = -1 alarm[0] = 120;
 		break;
 		case 6:

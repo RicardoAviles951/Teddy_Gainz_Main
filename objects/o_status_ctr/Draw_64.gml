@@ -15,7 +15,7 @@ draw_rectangle_color(gwidth*3/16,gheight/4,gwidth*13/16, gheight*3/4,c,c,c,c,fal
 
 //Draw elements on left side
 draw_set_font(f_main_menu);
-draw_set_valign(fa_middle);
+draw_set_valign(fa_top);
 draw_set_halign(fa_center);
 
 var left_txt_x = start_x - x_buffer, left_txt_y, x_offset;

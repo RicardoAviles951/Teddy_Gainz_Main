@@ -30,4 +30,5 @@ timer = 0;
 curve         = animcurve_get_channel(ac_balloon,"rise");
 percent       = 0;
 rise_spd      = -5;
-collided = false;
+cluck_played = false;
+

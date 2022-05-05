@@ -14,7 +14,7 @@ var c = c_black;
 
 //Draw elements on left side
 draw_set_font(f_main_menu);
-draw_set_valign(fa_middle);
+draw_set_valign(fa_top);
 draw_set_halign(fa_right);
 
 var left_txt_x = start_x - x_buffer, left_txt_y, x_offset;
@@ -33,7 +33,7 @@ var yy = 0; repeat(ds_height){
 
 
 // draw dividing line
-draw_line(start_x, start_y, start_x, left_txt_y);
+//draw_line(start_x, start_y, start_x, left_txt_y);
 
 //Draw elements on right side
 switch(ds_grid[# 1, menu_option[page]]) {
