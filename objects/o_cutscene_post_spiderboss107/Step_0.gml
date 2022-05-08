@@ -31,7 +31,7 @@ if(currentState == cutSceneStates.Active)
 		case 2:
 			instance_destroy(o_shocked_question);
 			dB.sprite = s_portrait_teddy;
-			dB.myText = "No? OR It said 'Arachne and Anansi's Greatest Show on The Web' on the sign.";
+			dB.myText = "No?...It said 'Arachne and Anansi's Greatest Show on The Web' on the sign.";
 			o_spider.image_speed = 0;
 			layer_clear_fx("effects");
 			case_switch_120();

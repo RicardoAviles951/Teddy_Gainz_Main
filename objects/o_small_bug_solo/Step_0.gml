@@ -8,6 +8,9 @@ with(inst_579DB0A6){
 	
 y = y + sin(.08*timer)*.5;
 }
+with(inst_1589C301){
+	y = y + sin(.08*timer)*.5;
+}
 break;
 	case rooms.cut_level1:
 if cut_move

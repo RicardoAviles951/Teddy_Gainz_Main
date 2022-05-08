@@ -8,197 +8,91 @@ if(currentState == cutSceneStates.Active)
 		if(!instance_exists(o_credits_text))
 			dB = instance_create_layer(0, 135, "Instances", o_credits_text);
 			dB.myText = "AMBER NICOLE WILLIAMS | Game Artist | @Ambrowskii\nANFER MOLINA | Game Designer/Develope  | @anferm\nCINDY FAN | Art Director/Game Artist | @CindFan | www.cind.ca\nCYNTHIA SULIT | Artist/Producer | @mcjsulit";
-						
-			if(counter = 600) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
+			case_switch_120();
 								
 		break;
 		
 		case 1: 
 		dB.myText = "DAWN HAMMOND-QUAYE | Level Designer/Developer | @TheArtemis_Moon\nJON PEREZ | Production Consultant | @darthgreebo\nKENNA LINDSAY | Executive Producer | @kenna_lindsay\nLEYLA MAMEDOVA | QA/Playtester | @leylses";
-		
-		if(counter = 600) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-			
+		case_switch_120();
 		break;
 		
 		case 2:
 		dB.myText = "MORGAN ANDERSON | Game Artist/Character Artist | www.morganderson.com\nRICARDO AVILES | Game Designer/Developer/Sound Designer | @ricky_games20\nRIKA WATANABE | Narrative Designer/Game Writer";
-		
-		if(counter = 600) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
 		
-		case 3: //Special thanks
+		case 3: 
+			dB.myText ="Sound Attributions";
+			case_switch_120();
+		break;
+		case 4:
+			dB.myText ="Option Click UI Click by EminYILDIRIM of Freesound.org\n'Justa Slap Smack' by RocketPancake of Freesound.org\nRika Watanabe - Breaking Wall Sound\nRika Watanabe - Balloon Rise Sound";
+			case_switch_120();
+		break;
+		
+		case 5:
+		dB.myText = "Ambient Beach Sounds 'Ambience, Seaside Waves, Close, A' by InspectorJ(www.jshaw.co.uk) of Freesound.org\nLevel 1 Music 'Ghost Surf Rock' Loyalty Freak Music of Freemusicarchive.org\nLevel 2 Music 'Mechanical Street Organ - The Hague' by RTB45 of Freesound.org\nAmbient Graveyard Music 'Halloween Graveyard at night howling wind'\nby Mistersherlock of Freesound.org";
+		case_switch_120();
+		break;
+		
+		case 6:
+			dB.myText = "Graveyard Cutscene Music Ricardo Aviles - Original Composition\nLevel 3 Music Ricardo Aviles - Original Composition\nAmbient Final Boss Music Dark Ambience - Abandoned Fields by Dredile of freesounds.org\nCredits Music 'Making Up (soft Hip Hop)' Shortiefoeva2 of Freesound.org ";
+			case_switch_120();	
+	break;
+		
+		case 7:
+			dB.myText = "Visual Attributions\nLevel 2 Tileset Hero's Journey - Wood Camp by Anokolisa of itch.io";
+			case_switch_120();
+		break;
+		
+		case 8: //Special thanks
 		dB.myText = "SPECIAL THANKS";
-		
-		if(counter = 240) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break; 
 		
-		case 4:
-		dB.myText = "1up Indie\nAhmed Hamad\nAmy Isaac\nAnnie VanderMeer";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
+		case 9:
+		dB.myText = "1up Indie\nAhmed Hamad\nAmy Isaac\nAnnie VanderMeer\nAlisha Dacus";
+		case_switch_120();
 			break;
 		
 		
-		case 5: //Special thanks
+		case 10: //Special thanks
 		dB.myText = "Callum Moscovitch\nChristopher Lockfort\nCircus Center\nColin Johnson";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
-				
-		case 6: 
+		case 11: 
 		dB.myText = "Computer Science House at RIT\nDallas Lillie\nDanica Pok\nFriendlyCosmonaut";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
+		case_switch_120();
 		
 		break;
 		
-		case 7:
+		case 12:
 		dB.myText = "George and Sara Lindsay\nHaight Ashbury Merchants Association\nHolly\nIGDA Foundation";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
 		
-		case 8:
+		case 13:
 		dB.myText = "Katie Whitcraft\nMika\nMohamed Chamas\nOjo Stephen";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
 		
-		case 9:
+		case 14:
 		dB.myText = "Renee Blair\nRunway Innovation Hub\nRussell Harmon\nSara Toby Moore";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
 		
-		case 10:
+		case 15:
 		dB.myText = "Sean Spaulding\nSela Davis\nSofia Romualdo\nThe Booksmith";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
 		
-		case 11:
+		case 16:
 		dB.myText = "The Clown Conservatory at Circus Center\nNik Pantis\nOscar Barajas\nCorinne Scrivens";
-		
-		if(counter = 300) || (keyboard_check_pressed(vk_space))
-			{
-				counter = 0;
-				++currentStep;
-			}
-			
-			else
-			{
-				++counter;
-			}
-		
+		case_switch_120();
 		break;
 		
-		case 12: 
+		case 17: 
 		audio_stop_all();
 		
 		room_goto(rm_main_menu);
@@ -208,5 +102,4 @@ if(currentState == cutSceneStates.Active)
 }
 
 else if (currentState == cutSceneStates.Paused) {
-	
 }
