@@ -189,7 +189,7 @@ if(currentState == cutSceneStates.Active)
 			
 			case 15: //Bug ghosts. Line 69
 		
-				dB.myText = "And you must touch those cyrstals... with your arms to... save..."; 
+				dB.myText = "And you must touch those crystals... with your arms to... save..."; 
 								
 			if(keyboard_check_pressed(vk_space))
 			{

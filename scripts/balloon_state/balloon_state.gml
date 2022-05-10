@@ -21,4 +21,42 @@ if(key_jump){
 	global.state = states.normal;
 }
 timer++;
+if (place_meeting(x+hsp,y,o_death_zone))
+{
+	while (!place_meeting(x+sign(hsp),y,o_death_zone))
+	{
+		x = x + sign(hsp);
+	}
+	global.death_cnt += 1;
+	hsp = 0
+	room_reset_true();
+	room_restart();
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
+	image_xscale = 1;
+}
+
+//Vertical Collision
+if (place_meeting(x,y+vsp,o_death_zone))
+{
+	while (!place_meeting(x,y+sign(vsp),o_death_zone))
+	{
+		y = y + sign(vsp);
+	}
+	global.death_cnt += 1;
+	vsp = 0;
+	room_reset_true();
+	room_restart();
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
+	image_xscale = 1;
+}
+if (place_meeting(x,y,o_enemy_parent))
+{
+	room_reset_true();
+	room_restart();
+	x=o_tutorial_spawn.x;
+	y=o_tutorial_spawn.y;
+	image_xscale = 1;
+}
 }

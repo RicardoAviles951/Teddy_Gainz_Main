@@ -107,4 +107,4 @@ if(global.cam_shake == true && !audio_is_playing(snd_rumble))
 {
 		audio_play_sound(snd_rumble, 2, false);
 }
-show_debug_message("audio status " + string(audio_on));
+//show_debug_message("audio status " + string(audio_on));

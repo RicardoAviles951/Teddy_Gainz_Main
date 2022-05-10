@@ -7,7 +7,7 @@ if(currentState == cutSceneStates.Active)
 		case 0: 
 		if(!instance_exists(o_credits_text))
 			dB = instance_create_layer(0, 135, "Instances", o_credits_text);
-			dB.myText = "AMBER NICOLE WILLIAMS | Game Artist | @Ambrowskii\nANFER MOLINA | Game Designer/Develope  | @anferm\nCINDY FAN | Art Director/Game Artist | @CindFan | www.cind.ca\nCYNTHIA SULIT | Artist/Producer | @mcjsulit";
+			dB.myText = "AMBER NICOLE WILLIAMS | Game Artist | @Ambrowskii\nANFER MOLINA | Game Designer/Developer  | @anferm\nCINDY FAN | Art Director/Game Artist | @CindFan | www.cind.ca\nCYNTHIA SULIT | Artist/Producer | @mcjsulit";
 			case_switch_120();
 								
 		break;

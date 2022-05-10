@@ -23,9 +23,9 @@ clamp(cooldown, 0, 60);
 
 draw_rectangle(x_top,y_top,x_down,y_down,true);
 draw_rectangle_color(x_top,y_top + (y_diff*cooldown_percent),x_down,y_down,g,g,g,g,false);
-show_debug_message(cooldown_percent);
+show_debug_message("Cooldown" +string(cooldown_percent));
 
-if(global.state == states.dash) {
+if(global.state == states.dash or global.state == states.g_dash) {
 		cooldown = 60;
 	}
 	else {
