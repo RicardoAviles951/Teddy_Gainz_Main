@@ -61,7 +61,7 @@ yy = 0; repeat (ds_height) {
 				c = c_yellow;
 			}
 			draw_circle_color(rtx + (circle_pos*len), rty, 4, c,c,false);
-			draw_text_color(rtx+(len*1.2), rty, string(floor(circle_pos*100)) + "%", c,c,c,c,1);
+			draw_text_color(rtx+(len*1.2)+16, rty-16, string(floor(circle_pos*100)) + "%", c,c,c,c,1);
 		break;
 		
 		case menu_element_type.toggle: 

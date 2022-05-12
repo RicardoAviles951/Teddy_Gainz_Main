@@ -240,7 +240,6 @@
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
     {"id":{"name":"s_clutter_foreshadowing","path":"sprites/s_clutter_foreshadowing/s_clutter_foreshadowing.yy",},"order":12,},
     {"id":{"name":"rm_Tutorial","path":"rooms/rm_Tutorial/rm_Tutorial.yy",},"order":1,},
-    {"id":{"name":"snd_itsybitsy","path":"sounds/snd_itsybitsy/snd_itsybitsy.yy",},"order":27,},
     {"id":{"name":"snd_intro_friendly","path":"sounds/snd_intro_friendly/snd_intro_friendly.yy",},"order":17,},
     {"id":{"name":"snd_surfrock","path":"sounds/snd_surfrock/snd_surfrock.yy",},"order":9,},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},"order":3,},
