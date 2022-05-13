@@ -7,7 +7,7 @@ var y_buffer = 48, x_buffer = 16; //Determines how far apart buttons are.
 var start_y = (gheight/2) - (((ds_height-1/2)*y_buffer)), start_x = gwidth/2;
 
 //Draw Menu "Back"
-var c = c_black;
+//var c = c_black;
 //draw_rectangle_color(0,0,gwidth, gheight,c,c,c,c,false);
 
 
@@ -54,14 +54,14 @@ yy = 0; repeat (ds_height) {
 			var current_array = ds_grid[# 4, yy];
 			var circle_pos = ((current_val - current_array[0])/(current_array[1] - current_array[0]));
 			c = c_white;
-			draw_line_width(rtx, rty, rtx+len, rty, 2);
+			draw_line_width(rtx, rty+16, rtx+len, rty+16, 2);
 			
 			if(inputting and yy == menu_option[page])
 			{
 				c = c_yellow;
 			}
-			draw_circle_color(rtx + (circle_pos*len), rty, 4, c,c,false);
-			draw_text_color(rtx+(len*1.2)+16, rty-16, string(floor(circle_pos*100)) + "%", c,c,c,c,1);
+			draw_circle_color(rtx + (circle_pos*len), rty+16, 4, c,c,false);
+			draw_text_color(rtx+(len*1.2)+16, rty, string(floor(circle_pos*100)) + "%", c,c,c,c,1);
 		break;
 		
 		case menu_element_type.toggle: 

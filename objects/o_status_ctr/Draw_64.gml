@@ -8,8 +8,8 @@ var y_buffer = 48, x_buffer = 0; //Determines how far apart buttons are.
 var start_y = (gheight*5/8) - (((ds_height-1/2)*y_buffer)), start_x = gwidth/2;
 
 //Draw Menu "Back"
-var c = c_black;
-draw_rectangle_color(gwidth*3/16,gheight/4,gwidth*13/16, gheight*3/4,c,c,c,c,false);
+var cb = c_black;
+draw_rectangle_color(gwidth*3/16,gheight/4,gwidth*13/16, gheight*3/4,cb,cb,cb,cb,false);
 
 
 
@@ -17,7 +17,7 @@ draw_rectangle_color(gwidth*3/16,gheight/4,gwidth*13/16, gheight*3/4,c,c,c,c,fal
 draw_set_font(f_main_menu);
 draw_set_valign(fa_top);
 draw_set_halign(fa_center);
-
+var c = c_white;
 var left_txt_x = start_x - x_buffer, left_txt_y, x_offset;
 var yy = 0; repeat(ds_height){
 	left_txt_y = start_y + (yy*y_buffer);
@@ -55,13 +55,13 @@ yy = 0; repeat (ds_height) {
 			var current_array = ds_grid[# 4, yy];
 			var circle_pos = ((current_val - current_array[0])/(current_array[1] - current_array[0]));
 			c = c_white;
-			draw_line_width(rtx, rty, rtx+len, rty, 2);
+			draw_line_width(rtx, rty+16, rtx+len, rty+16, 2);
 			
 			if(inputting and yy == menu_option[page])
 			{
 				c = c_yellow;
 			}
-			draw_circle_color(rtx + (circle_pos*len), rty, 4, c,c,false);
+			draw_circle_color(rtx + (circle_pos*len), rty+16, 4, c,c,false);
 			draw_text_color(rtx+(len*1.2), rty, string(floor(circle_pos*100)) + "%", c,c,c,c,1);
 		break;
 		
