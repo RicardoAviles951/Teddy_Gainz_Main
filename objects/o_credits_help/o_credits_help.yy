@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_jump_dash",
-    "path": "sprites/s_jump_dash/s_jump_dash.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI Objects",
-    "path": "folders/Objects/UI Objects.yy",
+    "name": "Controller Objects",
+    "path": "folders/Objects/Controller Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_jumpdash",
+  "name": "o_credits_help",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,13 +4,7 @@ var gwidth = global.view_width, gheight = global.view_height
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 48, x_buffer = 16; //Determines how far apart buttons are.
-var start_y = (gheight/2) - (((ds_height-1/2)*y_buffer)), start_x = gwidth/2;
-
-//Draw Menu "Back"
-//var c = c_black;
-//draw_rectangle_color(0,0,gwidth, gheight,c,c,c,c,false);
-
-
+var start_y = ((gheight/2)+64) - (((ds_height-1/2)*y_buffer)), start_x = gwidth/2;
 
 //Draw elements on left side
 draw_set_font(f_main_menu);

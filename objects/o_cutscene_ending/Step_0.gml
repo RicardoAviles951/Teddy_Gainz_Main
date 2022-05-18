@@ -97,6 +97,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 5: 
 		#region Mama yells out for teddy. Teddy turns around.
+			o_mama.sprite_index = s_mama_talk;
 			if(!instance_exists(o_dialogue_box))
 			dB = instance_create_layer(0, 0,"Instances", o_dialogue_box);
 			dB.sprite = s_portrait_mama;
@@ -111,6 +112,7 @@ if(currentState == cutSceneStates.Active)
 		#endregion
 		
 		case 6: 
+		o_mama.sprite_index = s_mama_blink;
 		#region Teddy responds line 106
 		Emote_create(o_exclamation,o_player,-32, -64);
 		dB.sprite = s_portrait_teddy;
@@ -121,6 +123,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 7:
 		#region Mama responds. line 107
+		o_mama.sprite_index = s_mama_talk;
 		Emote_create(o_double_exclamation,o_mama,16, -64);
 		dB.sprite = s_portrait_mama;
 		dB.myText = "Yes, I am perfectly fine. I am more worried about you, my darling. My my oh my, you have turned so FIERCE! Facing that darn scary moth like that!";
@@ -130,6 +133,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 8:
 		#region Teddy responds.line 108
+		o_mama.sprite_index = s_mama_blink;
 		instance_destroy(o_exclamation, true);
 		instance_destroy(o_double_exclamation, true);
 		dB.sprite = s_portrait_teddy;
@@ -380,6 +384,7 @@ if(currentState == cutSceneStates.Active)
 		with (o_mama)
 		{
 			image_xscale = -1;
+			sprite_index = s_mama_talk;
 		}
 		dB.sprite = s_portrait_mama;
 		dB.myText = "Teddy, no!!";
@@ -495,6 +500,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 29: 
 		#region
+			o_mama.sprite_index = s_mama_blink;
 			dB.sprite = s_portrait_thicc;
 			dB.myText = "There was a huge flash and then, the building... isn't collapsing anymore..?";
 			case_switch_120();
@@ -504,7 +510,8 @@ if(currentState == cutSceneStates.Active)
 		case 30: 
 		#region
 		show_debug_message("CASE 30!!!");
-			dB.myText = "???: ...Teddy...";
+			dB.sprite = s_portrait_unk;
+			dB.myText = "...Teddy...";
 			case_switch_120();
 			break;
 			#endregion
@@ -555,7 +562,7 @@ if(currentState == cutSceneStates.Active)
 		#region
 		if(!audio_is_playing(snd_softpiano))
 		{
-			audio_sound_gain(snd_softpiano,.60,6000);
+			audio_sound_gain(snd_softpiano,.85,6000);
 			audio_play_sound(snd_softpiano,2,true);		
 		}
 		Emote_create(o_cluck,o_player,-32,-64);
@@ -602,7 +609,7 @@ if(currentState == cutSceneStates.Active)
 		#region Bug
 		instance_destroy(o_question,true);
 			dB.sprite = s_portrait_finalboss;
-			dB.myText = "Huh ho ho, be not surprised!That is correct. You must be referring to the terms the Elderly Ones- or the 'Ghosts', you may say- have been saying.";
+			dB.myText = "Huh ho ho, be not surprised! That is correct. You must be referring to the terms the Elderly Ones- or the 'Ghosts', you may say- have been saying.";
 			case_switch_120();
 		break;
 		#endregion
@@ -681,6 +688,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 49:
 		#region
+			o_mama.sprite_index = s_mama_talk;
 			dB.sprite = s_portrait_mama;
 			dB.myText = "Wait- I just want to confirm this. You all do not consume meat normally? Is that correct?";
 			case_switch_120();
@@ -689,6 +697,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 50:
 		#region
+			o_mama.sprite_index = s_mama_blink;
 			dB.sprite = s_portrait_finalboss;
 			dB.myText = "Precisely.";
 			case_switch_120();
@@ -698,6 +707,7 @@ if(currentState == cutSceneStates.Active)
 		case 51:
 		#region 
 		Emote_create(o_love,o_mama,16,-64);
+			o_mama.sprite_index = s_mama_talk;
 			dB.sprite = s_portrait_mama;
 			dB.myText = "My my oh my, that is a relief! I was about to lose my marbles when those who took me from Sunnyside were chanting about 'chicken protein'!";
 			case_switch_120();
@@ -706,6 +716,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 52: 
 		#region 
+			o_mama.sprite_index = s_mama_blink;
 		instance_destroy(o_love, true);
 			dB.sprite = s_portrait_finalboss;
 			dB.myText = "Huh ho, do not worry... Please let me express my sincere apology to you, ma'am. Now, Teddy Gainz. I have a request for you.";
@@ -715,7 +726,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 53:
 		#region 
-			dB.myText = "You and your loved ones have gone through so much... yet, you were the ones who saved our colony as well. Words cannot express the amount of our gratitude.";
+			dB.myText = "You and your loved ones have gone through so much... Yet, you were the ones who saved our colony as well. Words cannot express the amount of our gratitude.";
 			case_switch_120();
 		break;
 		#endregion

@@ -5,6 +5,7 @@ if(currentState == cutSceneStates.Active)
 {
 	switch (currentStep) {
 		case 0: 
+		audio_stop_sound(snd_waves);
 		if(!instance_exists(o_credits_text))
 			dB = instance_create_layer(0, 135, "Instances", o_credits_text);
 			dB.myText = "AMBER NICOLE WILLIAMS | Game Artist | @Ambrowskii\nANFER MOLINA | Game Designer/Developer  | @anferm\nCINDY FAN | Art Director/Game Artist | @CindFan | www.cind.ca\nCYNTHIA SULIT | Artist/Producer | @mcjsulit";
@@ -32,7 +33,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 5:
-		dB.myText = "Ambient Beach Sounds 'Ambience, Seaside Waves, Close, A' by InspectorJ(www.jshaw.co.uk) of Freesound.org\nLevel 1 Music 'Ghost Surf Rock' Loyalty Freak Music of Freemusicarchive.org\nLevel 2 Music 'Mechanical Street Organ - The Hague' by RTB45 of Freesound.org\nAmbient Graveyard Music 'Halloween Graveyard at night howling wind'\nby Mistersherlock of Freesound.org";
+		dB.myText = "Ambient Beach Sounds 'Ambience, Seaside Waves, Close, A' by InspectorJ(www.jshaw.co.uk) of Freesound.org\nLevel 1 Music 'Ghost Surf Rock' Loyalty Freak Music of Freemusicarchive.org\nLevel 2 Music 'Mechanical Street Organ-The Hague' by RTB45 of Freesound.org\nAmbient Graveyard Music 'Halloween Graveyard at night howling wind'\nby Mistersherlock of Freesound.org";
 		case_switch_120();
 		break;
 		
@@ -42,7 +43,7 @@ if(currentState == cutSceneStates.Active)
 	break;
 		
 		case 7:
-			dB.myText = "Visual Attributions\nLevel 2 Tileset Hero's Journey - Wood Camp by Anokolisa of itch.io";
+			dB.myText = "Visual Attributions\nLevel 2 Tileset Hero's Journey - Wood Camp by Anokolisa of itch.io\n'Controller & Keyboard Icons' by Vryell of itch.io";
 			case_switch_120();
 		break;
 		

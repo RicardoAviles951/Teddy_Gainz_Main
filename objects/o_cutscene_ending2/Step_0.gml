@@ -7,7 +7,6 @@ if(currentState == cutSceneStates.Active)
 		
 		o_player.image_xscale = -1;
 		o_thicc.image_xscale  = -1;
-		o_mama.image_index    =  1;
 		
 		Emote_create(o_exclamation,o_player,-32,-64);
 		o_exclamation.image_xscale = -1;
@@ -85,7 +84,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		
 		case 10:
-		dB.myText = "My disguise was a surfer roamin' around on Buzzy Buggy Beach, but in reality, that was just an undercover.";
+		dB.myText = "My disguise was a surfer roamin' around on Buzzy Buggy Beach, but in reality, that was just a cover.";
 		case_switch_120();
 		break;
 		
@@ -227,7 +226,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 35:
 		instance_destroy(o_love, true);
-		dB.myText = "...Pal, you're really gonna get me cryin' real tears here!";
+		dB.myText = "...Pal, you're gonna get me cryin' real tears here!";
 		case_switch_120();
 		break;
 		
@@ -280,9 +279,9 @@ if(currentState == cutSceneStates.Active)
 		
 		
 		case 43:
-		audio_stop_all()
-		instance_destroy(o_cutscene_ending2, true);
-		room_goto_next();
+		audio_stop_all();
+		instance_destroy(o_dialogue_box);
+		TransitionStart(rm_credits,sq_fadeOut,sq_fadeIn);
 		break;
 	}
 }

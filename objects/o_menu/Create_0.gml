@@ -23,6 +23,7 @@ ds_menu_main = create_menu_page(
 	["NEW GAME",     menu_element_type.script_runner, new_game,s_pixel],
 	["LEVEL SELECT", menu_element_type.page_transfer, menu_page.level_select,s_pixel],
 	["SETTINGS",     menu_element_type.page_transfer, menu_page.settings,s_pixel],
+	["CREDITS",      menu_element_type.script_runner, credits,s_pixel],
 	["EXIT GAME",    menu_element_type.script_runner, exit_game,s_pixel],
 );
 

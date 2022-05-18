@@ -22,6 +22,7 @@ ds_pause_menu = create_menu_page(
 	["RESUME",       menu_element_type_p.script_runner,unpause],
 	["LEVEL SELECT", menu_element_type_p.page_transfer, pause_menu_page.level_select],
 	["RESTART",      menu_element_type_p.script_runner,restart_rm                  ],
+	["SKIP",menu_element_type_p.script_runner,next_room],
 	["SETTINGS",     menu_element_type_p.page_transfer, pause_menu_page.settings],
 	["EXIT GAME",    menu_element_type_p.script_runner, back_to_main],
 );

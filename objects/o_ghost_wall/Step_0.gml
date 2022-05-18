@@ -1,4 +1,4 @@
-if(place_meeting(x,y,o_player) && global.state == states.ghost) {
+if(place_meeting(x,y,o_player) && global.state == states.ghost && ghosted == false) {
 	ghosted = true;
 }
 if(ghosted == true) {

@@ -3,9 +3,9 @@ if (place_meeting(x+hsp,y,o_weakwall))
 {
 	hsp = hsp*.8;
 }
-
+wall = instance_nearest(x,y,o_ghost_wall)
 //Horizontal collisions
-if (place_meeting(x+hsp,y,o_ghost_wall))
+if (place_meeting(x+hsp,y,o_ghost_wall) and wall.ghosted == false)
 {
 	while (!place_meeting(x+sign(hsp),y,o_ghost_wall))
 	{
@@ -47,11 +47,8 @@ if (place_meeting(x,y+vsp,o_death_zone))
 }
 if (place_meeting(x,y,o_enemy_parent))
 {
-	room_reset_true();
-	room_restart();
-	x=o_tutorial_spawn.x;
-	y=o_tutorial_spawn.y;
-	image_xscale = 1;
+	//if !audio_is_playing(snd_death_cluck) audio_play_sound(snd_death_cluck,1,false);
+	global.state = states.death;
 }
 
 if (place_meeting(x,y,o_spider_baby) and global.room == rooms.boss_spider){

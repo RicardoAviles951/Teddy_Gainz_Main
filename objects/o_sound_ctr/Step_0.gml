@@ -87,6 +87,11 @@ switch ( global.room ) {
 	case rooms.level3: if(!audio_is_playing(snd_spookywind_ambient)){
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	
+	case rooms.finalboss:
+	if(!audio_is_playing(snd_level3_music)){
+	audio_play_sound(snd_level3_music,1,true);	
+	}
+	break;
 	case rooms.cut_ending: if(!audio_is_playing(snd_boss_aftermath)){
 		audio_play_sound(snd_boss_aftermath,2,true);
 		} break;	

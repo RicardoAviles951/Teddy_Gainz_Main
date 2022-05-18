@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button_A",
-    "path": "sprites/s_button_A/s_button_A.yy",
+    "name": "s_key_A",
+    "path": "sprites/s_key_A/s_key_A.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

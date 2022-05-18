@@ -41,7 +41,7 @@ if(currentState == cutSceneStates.Active)
 		
 		case 5: 
 		dB.sprite = s_portrait_thicc;
-		dB.myText = "Haha, you're much more in spirit then you first came to the island!";
+		dB.myText = "Haha, you're much more in spirit than when you first came to the island!";
 		case_switch_120();
 		break;
 		

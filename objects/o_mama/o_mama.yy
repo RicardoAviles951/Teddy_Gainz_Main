@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_mama_idle",
-    "path": "sprites/s_mama_idle/s_mama_idle.yy",
+    "name": "s_mama_blink",
+    "path": "sprites/s_mama_blink/s_mama_blink.yy",
   },
   "solid": false,
   "visible": true,

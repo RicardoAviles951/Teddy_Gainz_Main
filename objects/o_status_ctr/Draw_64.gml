@@ -55,6 +55,7 @@ yy = 0; repeat (ds_height) {
 			var current_array = ds_grid[# 4, yy];
 			var circle_pos = ((current_val - current_array[0])/(current_array[1] - current_array[0]));
 			c = c_white;
+			draw_set_color(c_white);
 			draw_line_width(rtx, rty+16, rtx+len, rty+16, 2);
 			
 			if(inputting and yy == menu_option[page])

@@ -41,7 +41,7 @@ if(currentState == cutSceneStates.Active)
 			o_spider.sprite_index = s_arachne_talk_angry;
 			o_spider.image_speed = 1;
 			dB.sprite = s_portrait_arachne;
-			dB.myText ="I'm Arachne Queen of The Spanish Web, The World Wide Web, and The Dark Web for that matter, and I matter far more than you ever will, Teddy Chicken, now scram, before I change my mind and scramble you like I did Anansi after I found him with a chorus fly.";
+			dB.myText ="I'm Arachne Queen of The Spanish Web, The World Wide Web, and The Dark Web for that matter. And I matter far more than you ever will, Teddy Chicken! Now scram, before I change my mind and scramble you like I did Anansi after I found him with a chorus fly.";
 			Emote_create(o_happy_tune,o_spider,-spr_w/2+16,spr_h/2-16);
 			o_happy_tune.image_xscale = -1;
 			case_switch_120();

@@ -45,7 +45,7 @@ if(currentState == cutSceneStates.Active)
 		case 4: //Letter pt2
 		
 		if(instance_exists(o_letter))
-			dB.myText = "This is a ceremony very important for our tribe, and we would like you to take part in it as a special guest.";
+			dB.myText = "This is a very important ceremony for our tribe, and we would like you to take part in it as a special guest.";
 			case_switch_120();	
 			
 			break;

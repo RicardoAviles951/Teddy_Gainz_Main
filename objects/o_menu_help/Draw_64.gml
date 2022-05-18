@@ -1,11 +1,38 @@
-/// @description Insert description here
-// You can write your code in this editor
-/*
-var guiW = display_get_width();
+var guiW = display_get_gui_width();
 var guiH = display_get_gui_height();
 
+var txt_pad = 32;
 
-draw_set_color(c_red);
-draw_set_font(f_main_menu);
+draw_set_font(f_main_menu9);
 draw_set_halign(fa_left);
-draw_text_ext_transformed_color(0,guiH*23/24,"USE W & S to move selections. Use ENTER to select.",16,20000,.5,.5,0,c_red,c_red,c_red,c_red,1);
+draw_set_color(c_white);
+switch(global.room){
+case rooms.menu_room:
+//W key for UP
+draw_sprite_ext(s_key_W,0,guiW*1/8,guiH*11/12,.75,.75,0,c_white,1);
+draw_text(guiW*1/8+txt_pad,guiH*11/12,"UP");
+
+//S key for DOWN
+draw_sprite_ext(s_key_S,0,guiW*2/8,guiH*11/12,.75,.75,0,c_white,1);
+draw_text(guiW*2/8+txt_pad,guiH*11/12,"DOWN");
+
+//A key for LEFT
+draw_sprite_ext(s_key_A,0,guiW*3/8,guiH*11/12,.75,.75,0,c_white,1);
+draw_text(guiW*3/8+txt_pad,guiH*11/12,"LEFT");
+
+//D key for RIGHT
+draw_sprite_ext(s_key_D,0,guiW*4/8,guiH*11/12,.75,.75,0,c_white,1);
+draw_text(guiW*4/8+txt_pad,guiH*11/12,"RIGHT");
+
+//Enter key for SELECT
+draw_sprite_ext(s_key_enter,0,guiW*3/4,guiH*11/12,.75,.75,0,c_white,1);
+draw_text(guiW*3/4+txt_pad,guiH*11/12,"SELECT");
+break;
+
+case rooms.puzzleboss:
+//A key for LEFT
+draw_sprite_ext(s_key_A,0,guiW*.05,guiH*.95,.75,.75,0,c_white,1);
+draw_text(guiW*.05+txt_pad,guiH*.95,"MOVE LEFT");
+break;
+}
+
