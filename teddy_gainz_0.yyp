@@ -167,6 +167,7 @@
     {"id":{"name":"s_smallbug_strip4","path":"sprites/s_smallbug_strip4/s_smallbug_strip4.yy",},"order":1,},
     {"id":{"name":"o_cutscene_ending","path":"objects/o_cutscene_ending/o_cutscene_ending.yy",},"order":2,},
     {"id":{"name":"o_shocked_question","path":"objects/o_shocked_question/o_shocked_question.yy",},"order":11,},
+    {"id":{"name":"s_key_enterkey","path":"sprites/s_key_enterkey/s_key_enterkey.yy",},"order":16,},
     {"id":{"name":"s_clutter_walkingglobe","path":"sprites/s_clutter_walkingglobe/s_clutter_walkingglobe.yy",},"order":22,},
     {"id":{"name":"s_gate","path":"sprites/s_gate/s_gate.yy",},"order":23,},
     {"id":{"name":"o_checkpoint","path":"objects/o_checkpoint/o_checkpoint.yy",},"order":9,},
