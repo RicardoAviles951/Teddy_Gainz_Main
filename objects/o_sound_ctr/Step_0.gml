@@ -88,8 +88,16 @@ switch ( global.room ) {
 		audio_play_sound(snd_spookywind_ambient,2,true);
 		} break;	
 	case rooms.finalboss:
-	if(!audio_is_playing(snd_level3_music)){
-	audio_play_sound(snd_level3_music,1,true);	
+	if(!audio_is_playing(snd_level3_music))
+	{
+		audio_play_sound(snd_level3_music,1,true);	
+		if global.boss_state != boss.boss_death
+		{
+			if audio_sound_get_gain(snd_level3_music)<global.music
+				{
+					audio_sound_gain(snd_level3_music,global.music,2000);
+				}
+		}
 	}
 	break;
 	case rooms.cut_ending: if(!audio_is_playing(snd_boss_aftermath)){

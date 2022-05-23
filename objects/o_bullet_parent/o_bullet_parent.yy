@@ -1,19 +1,10 @@
 {
-  "spriteId": {
-    "name": "s_acid_spiral",
-    "path": "sprites/s_acid_spiral/s_acid_spiral.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "s_acid_spiral",
-    "path": "sprites/s_acid_spiral/s_acid_spiral.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_bullet_parent",
-    "path": "objects/o_bullet_parent/o_bullet_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +27,7 @@
     "path": "folders/Objects/Gameplay.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_acid_spiral",
+  "name": "o_bullet_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

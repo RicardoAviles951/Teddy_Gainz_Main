@@ -23,9 +23,6 @@ if(firing_delay <0) and global.boss_health == 3 {
 	}
 
 }
-if(keyboard_check_pressed(vk_down)){
-global.boss_health-=1;	
-}
 //show_debug_message("phase1:" + string(path_speed));
 //When the health is 2 the path ends and the phase 2 alarm is set.
 if(global.boss_health = 2 && alarm[0] = -1) {

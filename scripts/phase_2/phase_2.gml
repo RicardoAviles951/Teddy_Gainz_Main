@@ -42,11 +42,6 @@ switch( bullet_state )
 	} 
 	} break;
 }
-
-//Set the trigger event here: This would be the rocks falling.
-if(keyboard_check_pressed(vk_down)){
-global.boss_health-=1;	
-}
 //Sets the path for the boss. 
 if(global.boss_health == 2 && path_enabled == false && alarm[3] = -1 )
 {

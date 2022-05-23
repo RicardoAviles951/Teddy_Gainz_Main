@@ -28,10 +28,6 @@ var controlbullet = instance_create_layer(x,y,"Bullets", o_acid_spiral);
 controlbullet.direction = spiral;
 controlbullet.speed = 5;
 }
-//trigger event that causes the health to go down
-if(keyboard_check_pressed(vk_down)){
-global.boss_health-=1;	
-}
 if(global.boss_health == 0 && (alarm[6] = -1)) {
 	show_debug_message("PATH DESTROYED");
 	path_speed = 0;
@@ -40,4 +36,10 @@ if(global.boss_health == 0 && (alarm[6] = -1)) {
 	alarm[6] = 60;
 }
 }
+/*
 //if boss health = 0, play animation, alarm for instance destroy.
+//Dev use only
+//trigger event that causes the health to go down
+if(keyboard_check_pressed(vk_down)){
+global.boss_health-=1;	
+}
