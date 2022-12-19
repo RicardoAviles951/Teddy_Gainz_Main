@@ -82,3 +82,5 @@ global.cut_seen = false;
 
 global.death_cnt = 0;
 global.help = false;
+gpu_set_texfilter(false);
+window_center()

@@ -1,5 +1,5 @@
 particle_sys = part_system_create();
-part_sys_balloon = part_system_create_layer("particles",false);
+//part_sys_balloon = part_system_create_layer("particles",false);
 particle_type_dash_fade = part_type_create();
 particle_type_gdash_fade = part_type_create();
 particle_type_wind = part_type_create();

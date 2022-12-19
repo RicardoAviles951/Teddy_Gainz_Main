@@ -1,5 +1,7 @@
 /// @description 
 
+global.view_width = 1280
+global.view_height = 720
 display_set_gui_size(global.view_width, global.view_height);
 
 enum menu_page {

@@ -8,9 +8,9 @@ draw_set_valign(fa_center);
 draw_set_halign(fa_right);
 
 var x_top = (global.view_width*20/24);
-var y_top = (global.view_height*1/24) - 12;
+var y_top = (global.view_height*1/24);
 var x_down = (global.view_width*(20/24)+15);
-var y_down = (global.view_height*4/24)-32;
+var y_down = (global.view_height*4/24)-12;
 var c = c_black;
 var r = c_red;
 var g = c_purple;
