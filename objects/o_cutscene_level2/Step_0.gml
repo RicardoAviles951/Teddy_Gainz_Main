@@ -57,7 +57,7 @@ if(currentState == cutSceneStates.Active)
 		break;
 		case 8: 
 		dB.sprite = s_portrait_thicc;
-		dB.myText = "That... would actually be quite a sight, huh? Well, you can find that our yourself, matey.";
+		dB.myText = "That... would actually be quite a sight, huh? Well, you can find that out yourself, matey.";
 		case_switch_120();
 		break;
 		

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_clutter_cottoncandypink",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 96,
   "height": 96,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"29cf9acd-cac7-479e-a99a-e42d36149035","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29cf9acd-cac7-479e-a99a-e42d36149035","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},"LayerId":{"name":"d553b2e1-5791-4f60-b8d2-b847c4f9e96f","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_clutter_cottoncandypink","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},"resourceVersion":"1.0","name":"29cf9acd-cac7-479e-a99a-e42d36149035","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29cf9acd-cac7-479e-a99a-e42d36149035",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_clutter_cottoncandypink","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_clutter_cottoncandypink",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d4572281-c160-4c23-b752-67fe15a01fda","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29cf9acd-cac7-479e-a99a-e42d36149035","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_clutter_cottoncandypink","path":"sprites/s_clutter_cottoncandypink/s_clutter_cottoncandypink.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_clutter_cottoncandypink",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d553b2e1-5791-4f60-b8d2-b847c4f9e96f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d553b2e1-5791-4f60-b8d2-b847c4f9e96f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Clutter",
     "path": "folders/Sprites/Environment/Clutter.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_clutter_cottoncandypink",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

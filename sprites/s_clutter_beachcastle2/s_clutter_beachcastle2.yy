@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_clutter_beachcastle2",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 192,
   "height": 153,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"00413703-eb3f-4c88-801a-ec8eaa94b826","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"00413703-eb3f-4c88-801a-ec8eaa94b826","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},"LayerId":{"name":"24351037-dd1e-46aa-9c00-5a780a98fd53","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_clutter_beachcastle2","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},"resourceVersion":"1.0","name":"00413703-eb3f-4c88-801a-ec8eaa94b826","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00413703-eb3f-4c88-801a-ec8eaa94b826",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_clutter_beachcastle2","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_clutter_beachcastle2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"72cf4f87-6407-481c-8c54-0ad2429392d7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"00413703-eb3f-4c88-801a-ec8eaa94b826","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 153,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_clutter_beachcastle2","path":"sprites/s_clutter_beachcastle2/s_clutter_beachcastle2.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_clutter_beachcastle2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"24351037-dd1e-46aa-9c00-5a780a98fd53","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24351037-dd1e-46aa-9c00-5a780a98fd53","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Clutter",
     "path": "folders/Sprites/Environment/Clutter.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_clutter_beachcastle2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

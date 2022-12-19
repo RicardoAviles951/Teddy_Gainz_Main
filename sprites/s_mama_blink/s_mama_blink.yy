@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_mama_blink",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 80,
   "height": 128,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b2bbc0ad-381a-46d1-9cc8-aba19d8d86cd","path":"sprites/s_mama_blink/s_mama_blink.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2bbc0ad-381a-46d1-9cc8-aba19d8d86cd","path":"sprites/s_mama_blink/s_mama_blink.yy",},"LayerId":{"name":"e65c2962-cec9-49ed-9611-98da0e3d9f85","path":"sprites/s_mama_blink/s_mama_blink.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_mama_blink","path":"sprites/s_mama_blink/s_mama_blink.yy",},"resourceVersion":"1.0","name":"b2bbc0ad-381a-46d1-9cc8-aba19d8d86cd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eca9deba-7d70-4bb6-a33f-dcb011495981","path":"sprites/s_mama_blink/s_mama_blink.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eca9deba-7d70-4bb6-a33f-dcb011495981","path":"sprites/s_mama_blink/s_mama_blink.yy",},"LayerId":{"name":"e65c2962-cec9-49ed-9611-98da0e3d9f85","path":"sprites/s_mama_blink/s_mama_blink.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_mama_blink","path":"sprites/s_mama_blink/s_mama_blink.yy",},"resourceVersion":"1.0","name":"eca9deba-7d70-4bb6-a33f-dcb011495981","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2bbc0ad-381a-46d1-9cc8-aba19d8d86cd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eca9deba-7d70-4bb6-a33f-dcb011495981",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_mama_blink","path":"sprites/s_mama_blink/s_mama_blink.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_mama_blink",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"08b1005d-950d-4d67-961c-1a8bb04ade0d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2bbc0ad-381a-46d1-9cc8-aba19d8d86cd","path":"sprites/s_mama_blink/s_mama_blink.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c0b002fa-0189-4af9-a56c-cb0fe9edcf90","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eca9deba-7d70-4bb6-a33f-dcb011495981","path":"sprites/s_mama_blink/s_mama_blink.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_mama_blink","path":"sprites/s_mama_blink/s_mama_blink.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_mama_blink",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e65c2962-cec9-49ed-9611-98da0e3d9f85","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e65c2962-cec9-49ed-9611-98da0e3d9f85","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Mama",
     "path": "folders/Sprites/Character Sprites/Mama.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_mama_blink",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
